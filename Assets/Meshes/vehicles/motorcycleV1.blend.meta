@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 7b59a51ba025b0645afbb19e8ec8e978
+timeCreated: 1493622631
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Motorcycle
+    100002: Motorcycle_001
+    100004: Motorcycle_002
+    100006: Motorcycle_003
+    100008: Motorcycle_004
+    100010: Motorcycle_005
+    100012: Motorcycle_006
+    100014: Motorcycle_007
+    100016: Motorcycle_008
+    100018: Motorcycle_009
+    100020: Motorcycle_010
+    100022: Motorcycle_011
+    100024: Motorcycle_012
+    100026: Motorcycle_013
+    100028: Motorcycle_014
+    100030: Motorcycle_015
+    100032: //RootNode
+    100034: Wheel
+    100036: Wheel_001
+    100038: Wheel_Rim
+    100040: Wheel_Rim_001
+    400000: Motorcycle
+    400002: Motorcycle_001
+    400004: Motorcycle_002
+    400006: Motorcycle_003
+    400008: Motorcycle_004
+    400010: Motorcycle_005
+    400012: Motorcycle_006
+    400014: Motorcycle_007
+    400016: Motorcycle_008
+    400018: Motorcycle_009
+    400020: Motorcycle_010
+    400022: Motorcycle_011
+    400024: Motorcycle_012
+    400026: Motorcycle_013
+    400028: Motorcycle_014
+    400030: Motorcycle_015
+    400032: //RootNode
+    400034: Wheel
+    400036: Wheel_001
+    400038: Wheel_Rim
+    400040: Wheel_Rim_001
+    2300000: Motorcycle
+    2300002: Motorcycle_001
+    2300004: Motorcycle_002
+    2300006: Motorcycle_003
+    2300008: Motorcycle_004
+    2300010: Motorcycle_005
+    2300012: Motorcycle_006
+    2300014: Motorcycle_007
+    2300016: Motorcycle_008
+    2300018: Motorcycle_009
+    2300020: Motorcycle_010
+    2300022: Motorcycle_011
+    2300024: Motorcycle_012
+    2300026: Motorcycle_013
+    2300028: Motorcycle_014
+    2300030: Motorcycle_015
+    2300032: Wheel
+    2300034: Wheel_001
+    2300036: Wheel_Rim
+    2300038: Wheel_Rim_001
+    3300000: Motorcycle
+    3300002: Motorcycle_001
+    3300004: Motorcycle_002
+    3300006: Motorcycle_003
+    3300008: Motorcycle_004
+    3300010: Motorcycle_005
+    3300012: Motorcycle_006
+    3300014: Motorcycle_007
+    3300016: Motorcycle_008
+    3300018: Motorcycle_009
+    3300020: Motorcycle_010
+    3300022: Motorcycle_011
+    3300024: Motorcycle_012
+    3300026: Motorcycle_013
+    3300028: Motorcycle_014
+    3300030: Motorcycle_015
+    3300032: Wheel
+    3300034: Wheel_001
+    3300036: Wheel_Rim
+    3300038: Wheel_Rim_001
+    4300000: Wheel_Rim
+    4300002: Wheel
+    4300004: Motorcycle_015
+    4300006: Motorcycle_014
+    4300008: Motorcycle_013
+    4300010: Motorcycle_012
+    4300012: Motorcycle_011
+    4300014: Motorcycle_010
+    4300016: Motorcycle_009
+    4300018: Motorcycle_008
+    4300020: Motorcycle_007
+    4300022: Motorcycle_006
+    4300024: Motorcycle_005
+    4300026: Motorcycle_004
+    4300028: Motorcycle_003
+    4300030: Motorcycle_002
+    4300032: Motorcycle_001
+    4300034: Motorcycle
+    4300036: Wheel_001
+    4300038: Wheel_Rim_001
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

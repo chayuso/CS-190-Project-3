@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: ba20531a4763d5c45bd195eb628ce8b3
+timeCreated: 1493622801
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Spiderhelmet
+    100004: Spiderhelmet_001
+    100006: Spiderhelmet_002
+    100008: Spiderhelmet_003
+    100010: Spiderhelmet_004
+    100012: Spiderhelmet_005
+    100014: Spiderhelmet_006
+    100016: Spiderhelmet_007
+    100018: Spiderhelmet_008
+    100020: Spiderhelmet_009
+    100022: Spiderhelmet_010
+    100024: Spiderhelmet_011
+    100026: Spiderhelmet_012
+    100028: Spiderhelmet_013
+    400000: //RootNode
+    400002: Spiderhelmet
+    400004: Spiderhelmet_001
+    400006: Spiderhelmet_002
+    400008: Spiderhelmet_003
+    400010: Spiderhelmet_004
+    400012: Spiderhelmet_005
+    400014: Spiderhelmet_006
+    400016: Spiderhelmet_007
+    400018: Spiderhelmet_008
+    400020: Spiderhelmet_009
+    400022: Spiderhelmet_010
+    400024: Spiderhelmet_011
+    400026: Spiderhelmet_012
+    400028: Spiderhelmet_013
+    2300000: Spiderhelmet
+    2300002: Spiderhelmet_001
+    2300004: Spiderhelmet_002
+    2300006: Spiderhelmet_003
+    2300008: Spiderhelmet_004
+    2300010: Spiderhelmet_005
+    2300012: Spiderhelmet_006
+    2300014: Spiderhelmet_007
+    2300016: Spiderhelmet_008
+    2300018: Spiderhelmet_009
+    2300020: Spiderhelmet_010
+    2300022: Spiderhelmet_011
+    2300024: Spiderhelmet_012
+    2300026: Spiderhelmet_013
+    3300000: Spiderhelmet
+    3300002: Spiderhelmet_001
+    3300004: Spiderhelmet_002
+    3300006: Spiderhelmet_003
+    3300008: Spiderhelmet_004
+    3300010: Spiderhelmet_005
+    3300012: Spiderhelmet_006
+    3300014: Spiderhelmet_007
+    3300016: Spiderhelmet_008
+    3300018: Spiderhelmet_009
+    3300020: Spiderhelmet_010
+    3300022: Spiderhelmet_011
+    3300024: Spiderhelmet_012
+    3300026: Spiderhelmet_013
+    4300000: Spiderhelmet_013
+    4300002: Spiderhelmet_012
+    4300004: Spiderhelmet_011
+    4300006: Spiderhelmet_010
+    4300008: Spiderhelmet_009
+    4300010: Spiderhelmet_008
+    4300012: Spiderhelmet_007
+    4300014: Spiderhelmet_006
+    4300016: Spiderhelmet_005
+    4300018: Spiderhelmet_004
+    4300020: Spiderhelmet_003
+    4300022: Spiderhelmet_002
+    4300024: Spiderhelmet_001
+    4300026: Spiderhelmet
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

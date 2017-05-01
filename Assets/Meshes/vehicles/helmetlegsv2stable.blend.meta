@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 1f22dbd25d4945f4c9774985d5cb0dd3
+timeCreated: 1493622799
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: Base_001
+    100004: Base_002
+    100006: Doublediamond_000
+    100008: Doublediamond_001
+    100010: Doublediamond_002
+    100012: Doublediamond_003
+    100014: Doublediamond_004
+    100016: Doublediamond_005
+    100018: Doublediamond_006
+    100020: Doublediamond_007
+    100022: Doublediamond_008
+    100024: Doublediamond_009
+    100026: Doublediamond_010
+    100028: Doublediamond_011
+    100030: //RootNode
+    100032: Pyramid
+    100034: Pyramid_001
+    100036: Pyramid_002
+    100038: Pyramid_003
+    100040: Pyramid_004
+    100042: Spiderhelmet
+    100044: Spiderhelmet_001
+    100046: Spiderhelmet_002
+    100048: Spiderhelmet_003
+    100050: Spiderhelmet_004
+    100052: Spiderhelmet_005
+    100054: Spiderhelmet_006
+    100056: Spiderhelmet_007
+    100058: Spiderhelmet_008
+    100060: Spiderhelmet_009
+    100062: Spiderhelmet_010
+    100064: Spiderhelmet_011
+    100066: Spiderhelmet_012
+    100068: Spiderhelmet_013
+    400000: Base
+    400002: Base_001
+    400004: Base_002
+    400006: Doublediamond_000
+    400008: Doublediamond_001
+    400010: Doublediamond_002
+    400012: Doublediamond_003
+    400014: Doublediamond_004
+    400016: Doublediamond_005
+    400018: Doublediamond_006
+    400020: Doublediamond_007
+    400022: Doublediamond_008
+    400024: Doublediamond_009
+    400026: Doublediamond_010
+    400028: Doublediamond_011
+    400030: //RootNode
+    400032: Pyramid
+    400034: Pyramid_001
+    400036: Pyramid_002
+    400038: Pyramid_003
+    400040: Pyramid_004
+    400042: Spiderhelmet
+    400044: Spiderhelmet_001
+    400046: Spiderhelmet_002
+    400048: Spiderhelmet_003
+    400050: Spiderhelmet_004
+    400052: Spiderhelmet_005
+    400054: Spiderhelmet_006
+    400056: Spiderhelmet_007
+    400058: Spiderhelmet_008
+    400060: Spiderhelmet_009
+    400062: Spiderhelmet_010
+    400064: Spiderhelmet_011
+    400066: Spiderhelmet_012
+    400068: Spiderhelmet_013
+    2300000: Base
+    2300002: Base_001
+    2300004: Base_002
+    2300006: Doublediamond_000
+    2300008: Doublediamond_001
+    2300010: Doublediamond_002
+    2300012: Doublediamond_003
+    2300014: Doublediamond_004
+    2300016: Doublediamond_005
+    2300018: Doublediamond_006
+    2300020: Doublediamond_007
+    2300022: Doublediamond_008
+    2300024: Doublediamond_009
+    2300026: Doublediamond_010
+    2300028: Doublediamond_011
+    2300030: Pyramid
+    2300032: Pyramid_001
+    2300034: Pyramid_002
+    2300036: Pyramid_003
+    2300038: Pyramid_004
+    2300040: Spiderhelmet
+    2300042: Spiderhelmet_001
+    2300044: Spiderhelmet_002
+    2300046: Spiderhelmet_003
+    2300048: Spiderhelmet_004
+    2300050: Spiderhelmet_005
+    2300052: Spiderhelmet_006
+    2300054: Spiderhelmet_007
+    2300056: Spiderhelmet_008
+    2300058: Spiderhelmet_009
+    2300060: Spiderhelmet_010
+    2300062: Spiderhelmet_011
+    2300064: Spiderhelmet_012
+    2300066: Spiderhelmet_013
+    3300000: Base
+    3300002: Base_001
+    3300004: Base_002
+    3300006: Doublediamond_000
+    3300008: Doublediamond_001
+    3300010: Doublediamond_002
+    3300012: Doublediamond_003
+    3300014: Doublediamond_004
+    3300016: Doublediamond_005
+    3300018: Doublediamond_006
+    3300020: Doublediamond_007
+    3300022: Doublediamond_008
+    3300024: Doublediamond_009
+    3300026: Doublediamond_010
+    3300028: Doublediamond_011
+    3300030: Pyramid
+    3300032: Pyramid_001
+    3300034: Pyramid_002
+    3300036: Pyramid_003
+    3300038: Pyramid_004
+    3300040: Spiderhelmet
+    3300042: Spiderhelmet_001
+    3300044: Spiderhelmet_002
+    3300046: Spiderhelmet_003
+    3300048: Spiderhelmet_004
+    3300050: Spiderhelmet_005
+    3300052: Spiderhelmet_006
+    3300054: Spiderhelmet_007
+    3300056: Spiderhelmet_008
+    3300058: Spiderhelmet_009
+    3300060: Spiderhelmet_010
+    3300062: Spiderhelmet_011
+    3300064: Spiderhelmet_012
+    3300066: Spiderhelmet_013
+    4300000: Base_002
+    4300002: Base_001
+    4300004: Doublediamond_007
+    4300006: Doublediamond_005
+    4300008: Doublediamond_002
+    4300010: Pyramid
+    4300012: Base
+    4300014: Spiderhelmet_013
+    4300016: Spiderhelmet_012
+    4300018: Spiderhelmet_011
+    4300020: Spiderhelmet_010
+    4300022: Spiderhelmet_009
+    4300024: Spiderhelmet_008
+    4300026: Spiderhelmet_007
+    4300028: Spiderhelmet_006
+    4300030: Spiderhelmet_005
+    4300032: Spiderhelmet_004
+    4300034: Spiderhelmet_003
+    4300036: Spiderhelmet_002
+    4300038: Spiderhelmet_001
+    4300040: Spiderhelmet
+    4300042: Pyramid_001
+    4300044: Pyramid_002
+    4300046: Pyramid_003
+    4300048: Pyramid_004
+    4300050: Doublediamond_004
+    4300052: Doublediamond_000
+    4300054: Doublediamond_001
+    4300056: Doublediamond_003
+    4300058: Doublediamond_006
+    4300060: Doublediamond_008
+    4300062: Doublediamond_009
+    4300064: Doublediamond_010
+    4300066: Doublediamond_011
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
