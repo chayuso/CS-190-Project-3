@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4070979672	Play_Clock			\Default Work Unit\Play_Clock	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	397114721	Clock	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Clock_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Clock		1606164
+
