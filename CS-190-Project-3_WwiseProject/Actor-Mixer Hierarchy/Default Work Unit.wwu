@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="Clock" ID="{D9AF4DF3-F7E8-4A52-9154-327031D58A32}" ShortID="262974136" Type="SoundFX">
+					<PropertyList>
+						<Property Name="3DPositionSource" Type="int16" Value="0"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
@@ -18,6 +22,9 @@
 							<AudioFile>Clock.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{BCD3EB8C-6659-476C-95CA-D9074A38726D}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Clock" ID="{F5B29E37-80D9-4F46-B9C2-6EDC8FA3E03F}" Platform="Linked"/>
 					</ActiveSourceList>
