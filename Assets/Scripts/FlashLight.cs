@@ -22,9 +22,10 @@ public class FlashLight : MonoBehaviour {
                     Enemy.flashed = true;
                 }
             }
-            else if (Enemy != null)
+            else
             {
                 Enemy.flashed = false;
+
             }
         }
 	}

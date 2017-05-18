@@ -761,6 +761,7 @@
 								<Property Name="WetLevel" Type="Real32" Value="-30"/>
 							</PropertyList>
 						</Effect>
+						<Effect Name="New_iZotope_Hybrid_Reverb" ID="{C1E78C66-D4C4-4417-A529-C0742E39F06E}" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Wwise RoomVerb" ID="{D16E55BD-B819-4EBE-8C66-2CA5A5FE1653}" ShortID="6853472">
