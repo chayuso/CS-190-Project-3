@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Nick\CS-190-Project-3\CS-190-Project-3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Nick\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Nick\CS-190-Project-3\CS-190-Project-3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Nick\CS-190-Project-3\CS-190-Project-3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,12 +21,94 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2288928875" Name="Play_charging" ObjectPath="\Events\Default Work Unit\Play_charging"/>
 				<Event Id="4070979672" Name="Play_Clock" ObjectPath="\Events\Default Work Unit\Play_Clock"/>
+				<Event Id="1041647411" Name="Play_donecharging" ObjectPath="\Events\Default Work Unit\Play_donecharging"/>
+				<Event Id="2469469940" Name="Play_EerieBong" ObjectPath="\Events\Default Work Unit\Play_EerieBong"/>
+				<Event Id="815195158" Name="Play_EnemyDown" ObjectPath="\Events\Default Work Unit\Play_EnemyDown" MaxAttenuation="20.000000"/>
+				<Event Id="2601501412" Name="Play_EnemyHum" ObjectPath="\Events\Default Work Unit\Play_EnemyHum" MaxAttenuation="20.000000"/>
+				<Event Id="1454224076" Name="Play_flashing" ObjectPath="\Events\Default Work Unit\Play_flashing"/>
+				<Event Id="1880094678" Name="Play_Followed" ObjectPath="\Events\Default Work Unit\Play_Followed" MaxAttenuation="20.000000"/>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps"/>
+				<Event Id="2217683882" Name="Play_ImpactFlash" ObjectPath="\Events\Default Work Unit\Play_ImpactFlash"/>
+				<Event Id="428265965" Name="Play_LightOff" ObjectPath="\Events\Default Work Unit\Play_LightOff"/>
+				<Event Id="3153972001" Name="Play_LightOn" ObjectPath="\Events\Default Work Unit\Play_LightOn"/>
+				<Event Id="820030189" Name="Play_OminousNonDiagetic" ObjectPath="\Events\Default Work Unit\Play_OminousNonDiagetic"/>
+				<Event Id="1426838595" Name="Play_Stunned" ObjectPath="\Events\Default Work Unit\Play_Stunned"/>
+				<Event Id="1020223172" Name="Play_Wind" ObjectPath="\Events\Default Work Unit\Play_Wind"/>
+				<Event Id="2905710381" Name="Stop_charging" ObjectPath="\Events\Default Work Unit\Stop_charging" MaxAttenuation="0.000000"/>
+				<Event Id="817117930" Name="Stop_EerieBong" ObjectPath="\Events\Default Work Unit\Stop_EerieBong" MaxAttenuation="0.000000"/>
+				<Event Id="825412848" Name="Stop_EnemyDown" ObjectPath="\Events\Default Work Unit\Stop_EnemyDown" MaxAttenuation="0.000000"/>
+				<Event Id="3028417038" Name="Stop_EnemyHum" ObjectPath="\Events\Default Work Unit\Stop_EnemyHum" MaxAttenuation="0.000000"/>
+				<Event Id="2099850490" Name="Stop_flashing" ObjectPath="\Events\Default Work Unit\Stop_flashing" MaxAttenuation="0.000000"/>
+				<Event Id="124984804" Name="Stop_Followed" ObjectPath="\Events\Default Work Unit\Stop_Followed" MaxAttenuation="0.000000"/>
+				<Event Id="1130968039" Name="Stop_OminousNonDiagetic" ObjectPath="\Events\Default Work Unit\Stop_OminousNonDiagetic" MaxAttenuation="0.000000"/>
+				<Event Id="3173136834" Name="Stop_Wind" ObjectPath="\Events\Default Work Unit\Stop_Wind" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="32880256" Language="SFX">
+					<ShortName>WaterSizzle 6088_59_1.wav</ShortName>
+					<Path>SFX\WaterSizzle 6088_59_1_9E69E797.wem</Path>
+				</File>
+				<File Id="67596541" Language="SFX">
+					<ShortName>PulsingRoomAmbCycl MM040201.wav</ShortName>
+					<Path>SFX\PulsingRoomAmbCycl MM040201_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="129696658" Language="SFX">
+					<ShortName>266393__ceich93__gong12.wav</ShortName>
+					<Path>SFX\266393__ceich93__gong12_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="144868905" Language="SFX">
+					<ShortName>Wind 6036_46.wav</ShortName>
+					<Path>SFX\Wind 6036_46_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="200795268" Language="SFX">
+					<ShortName>donecharging.wav</ShortName>
+					<Path>SFX\donecharging_9E69E797.wem</Path>
+				</File>
+				<File Id="210487919" Language="SFX">
+					<ShortName>Camera 6074_50_2.wav</ShortName>
+					<Path>SFX\Camera 6074_50_2_9E69E797.wem</Path>
+				</File>
+				<File Id="210638620" Language="SFX">
+					<ShortName>humming.wav</ShortName>
+					<Path>SFX\humming_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="304349912" Language="SFX">
+					<ShortName>value pressure release.wav</ShortName>
+					<Path>SFX\value pressure release_9E69E797.wem</Path>
+				</File>
+				<File Id="312918563" Language="SFX">
+					<ShortName>Camera 6074_50_1.wav</ShortName>
+					<Path>SFX\Camera 6074_50_1_9E69E797.wem</Path>
+				</File>
+				<File Id="352673207" Language="SFX">
+					<ShortName>ELEC_Sizzle, Electrical_PE20_04_01.wav</ShortName>
+					<Path>SFX\ELEC_Sizzle, Electrical_PE20_04_01_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="397114721" Language="SFX">
 					<ShortName>Clock.wav</ShortName>
 					<Path>SFX\Clock_9E69E797.wem</Path>
+				</File>
+				<File Id="502733616" Language="SFX">
+					<ShortName>Warning Beep Single ButtonFuturisticCo MM014204.wav</ShortName>
+					<Path>SFX\Warning Beep Single ButtonFuturisticCo MM014204_9E69E797.wem</Path>
+				</File>
+				<File Id="574535115" Language="SFX">
+					<ShortName>FootstepsDeck 6016_78_3.wav</ShortName>
+					<Path>SFX\FootstepsDeck 6016_78_3_9E69E797.wem</Path>
+				</File>
+				<File Id="656500302" Language="SFX">
+					<ShortName>FootstepsDeck 6016_78_4.wav</ShortName>
+					<Path>SFX\FootstepsDeck 6016_78_4_9E69E797.wem</Path>
+				</File>
+				<File Id="1016385370" Language="SFX">
+					<ShortName>MX_Horror, Music_TUR02_96_01.wav</ShortName>
+					<Path>SFX\MX_Horror, Music_TUR02_96_01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1024189948" Language="SFX">
+					<ShortName>charging.wav</ShortName>
+					<Path>SFX\charging_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
