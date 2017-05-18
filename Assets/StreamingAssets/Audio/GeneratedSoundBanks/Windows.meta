@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Meshes/household/Materials.meta
+guid: b8437668e57993444b5f1ed1b44a5fa6
+folderAsset: yes
+timeCreated: 1495086752
+=======
 guid: e98d8c4eb8ae4364fb618d28acb98560
 folderAsset: yes
 timeCreated: 1495105219
+>>>>>>> refs/remotes/origin/cayuso:Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows.meta
 licenseType: Free
 DefaultImporter:
   userData: 
