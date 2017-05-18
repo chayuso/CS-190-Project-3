@@ -86,7 +86,10 @@
 						<ActiveSource Name="216250__rsilveira-88__frequency-impact-08" ID="{A018C4C1-38F7-4A27-9F47-CF7506685AD1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="266393__ceich93__gong12" ID="{E1FD55BA-0191-470E-B5DA-802F71D1DB42}" ShortID="275453022" Type="SoundFX">
+				<Sound Name="EerieBong" ID="{E1FD55BA-0191-470E-B5DA-802F71D1DB42}" ShortID="275453022" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
@@ -143,7 +146,7 @@
 						<ActiveSource Name="387539__metzik__impact" ID="{CE7DD972-A3B9-45DD-AC1B-9EB33A0DA7AD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="ANML_Tiger_US02_42_04" ID="{6772C527-B422-4766-B9F1-6748B5D13115}" ShortID="152946639" Type="SoundFX">
+				<Sound Name="Cat" ID="{6772C527-B422-4766-B9F1-6748B5D13115}" ShortID="152946639" Type="SoundFX">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
@@ -162,7 +165,14 @@
 						<ActiveSource Name="ANML_Tiger_US02_42_04" ID="{6E6CC940-2629-4890-ACF4-B92A19DF36C5}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Camera 6074_50_1" ID="{8329A687-586A-4444-B805-8A3778EAB591}" ShortID="259819037" Type="SoundFX">
+				<Sound Name="LightOn" ID="{8329A687-586A-4444-B805-8A3778EAB591}" ShortID="259819037" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
@@ -181,7 +191,14 @@
 						<ActiveSource Name="Camera 6074_50_1" ID="{9B0028AD-EA22-47C4-9388-534F1F44E809}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Camera 6074_50_2" ID="{2F192A1B-63CF-4D21-AB63-231BC5B171EB}" ShortID="534249838" Type="SoundFX">
+				<Sound Name="LightOff" ID="{2F192A1B-63CF-4D21-AB63-231BC5B171EB}" ShortID="534249838" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
@@ -390,7 +407,10 @@
 						<ActiveSource Name="HUMN_Human, Groan_AMA04_12_01" ID="{A8902226-FA00-4A4A-B090-CD4F66C7162D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="MX_Horror, Music_TUR02_96_01" ID="{3E3C86A4-F6FF-4447-B0D3-9ADB4E19900F}" ShortID="367225269" Type="SoundFX">
+				<Sound Name="OminousNonDiagetic" ID="{3E3C86A4-F6FF-4447-B0D3-9ADB4E19900F}" ShortID="367225269" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
@@ -447,8 +467,62 @@
 						<ActiveSource Name="TelephoneCellular 6068_65_3" ID="{0D3DCA21-9243-4B26-82AC-CF31541797B8}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="ELEC_Sizzle, Electrical_PE20_04_01" ID="{962A5237-1F06-4D86-A355-2BECA1DC1E1E}" ShortID="1066074617" Type="SoundFX">
+				<Sound Name="EnemyDown" ID="{962A5237-1F06-4D86-A355-2BECA1DC1E1E}" ShortID="1066074617" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{D09DD7CA-A809-4C87-B7ED-C6B20C6B27BB}" ShortID="857104308">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="20"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{73CCDAD2-985E-4881-A942-239A5F8B02EC}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>20</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
 						</Reference>
@@ -466,7 +540,7 @@
 						<ActiveSource Name="ELEC_Sizzle, Electrical_PE20_04_01" ID="{C2C1A756-0140-4762-9FDE-BAC75B024710}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Warning Beep Single ButtonFuturisticCo MM014204" ID="{2A604D86-BBA7-47D3-8D63-3FDE159228C0}" ShortID="707232240" Type="SoundFX">
+				<Sound Name="Stunned" ID="{2A604D86-BBA7-47D3-8D63-3FDE159228C0}" ShortID="707232240" Type="SoundFX">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
@@ -504,7 +578,7 @@
 						<ActiveSource Name="FanExhaust 6076_04" ID="{2AF2A093-69E6-4982-8876-0F2CA911BFC5}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="value pressure release" ID="{9330F96D-14DE-4E15-B572-706E6D8A7084}" ShortID="400126367" Type="SoundFX">
+				<Sound Name="flashing" ID="{9330F96D-14DE-4E15-B572-706E6D8A7084}" ShortID="400126367" Type="SoundFX">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
@@ -542,8 +616,62 @@
 						<ActiveSource Name="Camera Flash Charge Sound Effect" ID="{FD335183-3B7B-4DE8-8AE8-C3A8146FB505}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Light Humming Sound Effect" ID="{3FF19798-204D-4D6E-8579-EBCD81723C60}" ShortID="664214979" Type="SoundFX">
+				<Sound Name="EnemyHum" ID="{3FF19798-204D-4D6E-8579-EBCD81723C60}" ShortID="664214979" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{5E6F8057-8ED1-44DE-928A-37769C03F2AD}" ShortID="940146179">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="20"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{B10B41E8-7414-4F20-82F8-1F7009E65641}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>20</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
 						</Reference>
@@ -632,13 +760,76 @@
 							<Language>SFX</Language>
 							<AudioFile>DroneHorrorBGMetal MM018002.wav</AudioFile>
 						</AudioFileSource>
+						<AudioFileSource Name="charging" ID="{5DD32C76-8F71-4A99-9C00-592DC54127E7}" ShortID="1024189948">
+							<Language>SFX</Language>
+							<AudioFile>charging.wav</AudioFile>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="DroneHorrorBGMetal MM018002" ID="{6BEA92FC-702C-4383-91FC-07D41B5C97F3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="PulsingRoomAmbCycl MM040201" ID="{66CC1858-FD06-43BC-B3B6-1C66E2231970}" ShortID="90104151" Type="SoundFX">
+				<Sound Name="Followed" ID="{66CC1858-FD06-43BC-B3B6-1C66E2231970}" ShortID="90104151" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{4B174453-1EC4-4D4E-B7AD-BFA3ECB2340A}" ShortID="42944727">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="20"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{83091D4E-367C-4771-B6B0-3CDA9BCC46B3}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>20</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
 						</Reference>
@@ -694,7 +885,7 @@
 						<ActiveSource Name="VacuumDroneAlienSp MM059401" ID="{C59DF7F4-448E-43CE-8764-ABB83CF0D997}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="WaterSizzle 6088_59_1" ID="{6275F45C-2E98-45A9-AE05-243551AA9120}" ShortID="270863624" Type="SoundFX">
+				<Sound Name="ImpactFlash" ID="{6275F45C-2E98-45A9-AE05-243551AA9120}" ShortID="270863624" Type="SoundFX">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
@@ -713,6 +904,308 @@
 						<ActiveSource Name="WaterSizzle 6088_59_1" ID="{92535C68-0B7F-4AE2-9B9A-A06A32E6B0F3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Wind" ID="{7D6C4364-D4FB-4E66-B565-D32AAE7D4030}" ShortID="1041374882" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{91299BA1-AB0A-4569-9E86-25ACB64AB550}" ShortID="427350808">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{C54AD2BB-53AB-4A58-83F2-D142BB127E31}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wind 6036_46" ID="{7286FA87-5F06-4DEE-914D-3FC288A44F3A}" ShortID="144868905">
+							<Language>SFX</Language>
+							<AudioFile>Wind 6036_46.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wind 6036_46" ID="{7286FA87-5F06-4DEE-914D-3FC288A44F3A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="donecharging" ID="{D3E9DB65-7E92-4D4E-9A11-10BA2ABB2ACE}" ShortID="695322880" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="donecharging" ID="{D996FBDD-6236-47D4-8F06-997B542A8D00}" ShortID="200795268">
+							<Language>SFX</Language>
+							<AudioFile>donecharging.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="donecharging" ID="{D996FBDD-6236-47D4-8F06-997B542A8D00}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="charging" ID="{FD5D3400-035B-450C-90CC-6714789A13CC}" ShortID="492443766" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="charging" ID="{DA635F7D-89C3-48BC-8831-A15E75B22443}" ShortID="205385754">
+							<Language>SFX</Language>
+							<AudioFile>charging.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="1024189948"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="charging" ID="{DA635F7D-89C3-48BC-8831-A15E75B22443}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="humming" ID="{92676C09-C7C8-441C-84C4-5E6CBD3CB573}" ShortID="90986288" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{B0D729A0-77BC-41E0-A07E-38252317AA78}" ShortID="233024449">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="20"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{A971AECA-59FC-45B2-9F41-3FD8F8AB129B}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>20</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="humming" ID="{25ADCA96-210E-4460-A36E-DBB104D02551}" ShortID="210638620">
+							<Language>SFX</Language>
+							<AudioFile>humming.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="humming" ID="{25ADCA96-210E-4460-A36E-DBB104D02551}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FootstepsConcrete 6016_08_1" ID="{3276EA07-257B-4D6C-A89A-39D2E198556C}" ShortID="622823221" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FootstepsConcrete 6016_08_1" ID="{3F5BFDC2-775B-4546-8676-FEA59E2C5DF4}" ShortID="593443990">
+							<Language>SFX</Language>
+							<AudioFile>FootstepsConcrete 6016_08_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FootstepsConcrete 6016_08_1" ID="{3F5BFDC2-775B-4546-8676-FEA59E2C5DF4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FootstepsDeck 6016_79_2" ID="{7A57B23F-8AF3-4008-9AB8-3EA5ADCD83B8}" ShortID="1024483995" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FootstepsDeck 6016_79_2" ID="{002E09AD-6E39-4ED7-8308-D91B25AAB3C4}" ShortID="966381874">
+							<Language>SFX</Language>
+							<AudioFile>FootstepsDeck 6016_79_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FootstepsDeck 6016_79_2" ID="{002E09AD-6E39-4ED7-8308-D91B25AAB3C4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FootstepsWoodSoli 6017_52_1" ID="{8A2AC474-0568-4066-9B4F-D33954263785}" ShortID="900304565" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FootstepsWoodSoli 6017_52_1" ID="{3C6726CC-4B30-4DC6-9A2E-A7D8AEA49A06}" ShortID="156941349">
+							<Language>SFX</Language>
+							<AudioFile>FootstepsWoodSoli 6017_52_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FootstepsWoodSoli 6017_52_1" ID="{3C6726CC-4B30-4DC6-9A2E-A7D8AEA49A06}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Footsteps" ID="{4DDC11EB-064A-45F7-9B07-F34DC527214E}" ShortID="938886917">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FootstepsDeck 6016_78_3" ID="{5494C2E5-A7E1-4544-B62D-05696DD4820D}" ShortID="398908165" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsDeck 6016_78_3" ID="{820FDE22-443F-456E-9A43-DF69D5A36475}" ShortID="574535115">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsDeck 6016_78_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsDeck 6016_78_3" ID="{820FDE22-443F-456E-9A43-DF69D5A36475}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FootstepsDeck 6016_78_4" ID="{23081357-89F5-4D8B-994D-C914C2EE855F}" ShortID="284357199" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsDeck 6016_78_4" ID="{838CD75E-6B90-4931-842B-77E4D5255692}" ShortID="656500302">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsDeck 6016_78_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsDeck 6016_78_4" ID="{838CD75E-6B90-4931-842B-77E4D5255692}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="FootstepsDeck 6016_78_3" ID="{5494C2E5-A7E1-4544-B62D-05696DD4820D}"/>
+						<ItemRef Name="FootstepsDeck 6016_78_4" ID="{23081357-89F5-4D8B-994D-C914C2EE855F}"/>
+					</Playlist>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

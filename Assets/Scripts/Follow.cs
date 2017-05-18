@@ -13,6 +13,7 @@ public class Follow : MonoBehaviour {
     private static Quaternion InitRot;
     private int timeFlashed = 0;
     private int timeStunned = 0;
+    private bool lastFlashed = false;
     // Use this for initialization
     void Start () {
         GS = GameObject.Find("GameState").GetComponent<GameState>();
@@ -25,6 +26,15 @@ public class Follow : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate ()
     {
+        if (lastFlashed && !flashed)
+        {
+            GetComponent<LightOffTrigger>().Hit();
+            lastFlashed = flashed;
+        } else if (!lastFlashed && flashed)
+        {
+            GetComponent<LightOnTrigger>().Hit();
+            lastFlashed = flashed;
+        }
         if (flashed||stunned)
         {
             gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, gameObject.transform.position, Time.deltaTime * speedModifier);
@@ -47,7 +57,12 @@ public class Follow : MonoBehaviour {
     {
         if (col.name == "FPSController")
         {
+            GS.followed = true;
             following = true;
+            if (!stunned)
+            {
+                GetComponent<CustomTrigger>().Hit();
+            }
         }
 
     }
@@ -57,6 +72,7 @@ public class Follow : MonoBehaviour {
         if (col.name == "FPSController")
         {
             following = false;
+            GetComponent<StopCustomTrigger>().Hit();
         }
         /*if (col.name == colname)
         {
@@ -69,7 +85,11 @@ public class Follow : MonoBehaviour {
         while (true)
         {
             yield return new WaitForSeconds(1);
-            if (flashed && !stunned)
+            if (!flashed)
+            {
+                timeFlashed = 0;
+            }
+            else if (flashed && !stunned)
             {
                 timeFlashed++;
             }
@@ -77,6 +97,7 @@ public class Follow : MonoBehaviour {
             {
                 stunned = true;
                 timeFlashed = 0;
+                GetComponent<ChargingTrigger>().Hit();
             }
         }
     }
@@ -94,6 +115,11 @@ public class Follow : MonoBehaviour {
             {
                 stunned = false;
                 timeStunned = 0;
+                GetComponent<DoneChargingTrigger>().Hit();
+                if (following)
+                {
+                    GetComponent<CustomTrigger>().Hit();
+                }
             }
         }
     }
