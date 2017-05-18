@@ -447,6 +447,272 @@
 						<ActiveSource Name="TelephoneCellular 6068_65_3" ID="{0D3DCA21-9243-4B26-82AC-CF31541797B8}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="ELEC_Sizzle, Electrical_PE20_04_01" ID="{962A5237-1F06-4D86-A355-2BECA1DC1E1E}" ShortID="1066074617" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ELEC_Sizzle, Electrical_PE20_04_01" ID="{C2C1A756-0140-4762-9FDE-BAC75B024710}" ShortID="352673207">
+							<Language>SFX</Language>
+							<AudioFile>ELEC_Sizzle, Electrical_PE20_04_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ELEC_Sizzle, Electrical_PE20_04_01" ID="{C2C1A756-0140-4762-9FDE-BAC75B024710}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Warning Beep Single ButtonFuturisticCo MM014204" ID="{2A604D86-BBA7-47D3-8D63-3FDE159228C0}" ShortID="707232240" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Warning Beep Single ButtonFuturisticCo MM014204" ID="{B0B445EB-9FDA-4E8B-8761-39CB05598486}" ShortID="502733616">
+							<Language>SFX</Language>
+							<AudioFile>Warning Beep Single ButtonFuturisticCo MM014204.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Warning Beep Single ButtonFuturisticCo MM014204" ID="{B0B445EB-9FDA-4E8B-8761-39CB05598486}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FanExhaust 6076_04" ID="{94EA7D32-C3ED-42E4-BD25-210575E45E63}" ShortID="287443384" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FanExhaust 6076_04" ID="{2AF2A093-69E6-4982-8876-0F2CA911BFC5}" ShortID="291715955">
+							<Language>SFX</Language>
+							<AudioFile>FanExhaust 6076_04.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FanExhaust 6076_04" ID="{2AF2A093-69E6-4982-8876-0F2CA911BFC5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="value pressure release" ID="{9330F96D-14DE-4E15-B572-706E6D8A7084}" ShortID="400126367" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="value pressure release" ID="{79F0E35A-E421-4152-AC08-C4A6AC35DDB5}" ShortID="304349912">
+							<Language>SFX</Language>
+							<AudioFile>value pressure release.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="value pressure release" ID="{79F0E35A-E421-4152-AC08-C4A6AC35DDB5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Camera Flash Charge Sound Effect" ID="{9D810F35-752E-451E-B914-AC8F319E398A}" ShortID="862443744" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Camera Flash Charge Sound Effect" ID="{FD335183-3B7B-4DE8-8AE8-C3A8146FB505}" ShortID="352877093">
+							<Language>SFX</Language>
+							<AudioFile>Camera Flash Charge Sound Effect.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Camera Flash Charge Sound Effect" ID="{FD335183-3B7B-4DE8-8AE8-C3A8146FB505}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Light Humming Sound Effect" ID="{3FF19798-204D-4D6E-8579-EBCD81723C60}" ShortID="664214979" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Light Humming Sound Effect" ID="{D0A8164C-CAE8-4528-9489-F5171165984A}" ShortID="22782851">
+							<Language>SFX</Language>
+							<AudioFile>Light Humming Sound Effect.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Light Humming Sound Effect" ID="{D0A8164C-CAE8-4528-9489-F5171165984A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="StrobeFlash 6068_04_1" ID="{637D252A-9F35-4D4D-8E78-E6E6AB919DD0}" ShortID="806230256" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="StrobeFlash 6068_04_1" ID="{E766E52F-2D13-47AB-9036-DF5D681CC3D4}" ShortID="1061710594">
+							<Language>SFX</Language>
+							<AudioFile>StrobeFlash 6068_04_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="StrobeFlash 6068_04_1" ID="{E766E52F-2D13-47AB-9036-DF5D681CC3D4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AmbDangerSomething MM012001" ID="{A677169A-6965-4B9D-8F47-4F8378B663E2}" ShortID="322424630" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AmbDangerSomething MM012001" ID="{9E23482E-209A-4E35-9AAC-1F49521B4DD0}" ShortID="547284189">
+							<Language>SFX</Language>
+							<AudioFile>AmbDangerSomething MM012001.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AmbDangerSomething MM012001" ID="{9E23482E-209A-4E35-9AAC-1F49521B4DD0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AnimalCreature 6073_20_2" ID="{73369CA8-0A55-49CF-90C6-91751E8C8207}" ShortID="389777841" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AnimalCreature 6073_20_2" ID="{81569DFB-02EE-4250-A06F-92147549B1EC}" ShortID="685375363">
+							<Language>SFX</Language>
+							<AudioFile>AnimalCreature 6073_20_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AnimalCreature 6073_20_2" ID="{81569DFB-02EE-4250-A06F-92147549B1EC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DroneHorrorBGMetal MM018002" ID="{EF8A8B37-F65E-4A54-A7A7-8A4237A132F8}" ShortID="945312805" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DroneHorrorBGMetal MM018002" ID="{6BEA92FC-702C-4383-91FC-07D41B5C97F3}" ShortID="1015265531">
+							<Language>SFX</Language>
+							<AudioFile>DroneHorrorBGMetal MM018002.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DroneHorrorBGMetal MM018002" ID="{6BEA92FC-702C-4383-91FC-07D41B5C97F3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PulsingRoomAmbCycl MM040201" ID="{66CC1858-FD06-43BC-B3B6-1C66E2231970}" ShortID="90104151" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PulsingRoomAmbCycl MM040201" ID="{B872D92A-B9A0-4023-A367-0047D91FF545}" ShortID="67596541">
+							<Language>SFX</Language>
+							<AudioFile>PulsingRoomAmbCycl MM040201.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PulsingRoomAmbCycl MM040201" ID="{B872D92A-B9A0-4023-A367-0047D91FF545}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SciFi 6086_08" ID="{3C60E724-1F4F-43B8-BF19-BC5E956CCB80}" ShortID="686780599" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SciFi 6086_08" ID="{A62B08A5-E943-4BE5-8AFF-912605B64636}" ShortID="719883343">
+							<Language>SFX</Language>
+							<AudioFile>SciFi 6086_08.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SciFi 6086_08" ID="{A62B08A5-E943-4BE5-8AFF-912605B64636}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="VacuumDroneAlienSp MM059401" ID="{A67653E2-E4C3-4EE2-98B4-5CEB54A8E973}" ShortID="562300464" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VacuumDroneAlienSp MM059401" ID="{C59DF7F4-448E-43CE-8764-ABB83CF0D997}" ShortID="1049917621">
+							<Language>SFX</Language>
+							<AudioFile>VacuumDroneAlienSp MM059401.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VacuumDroneAlienSp MM059401" ID="{C59DF7F4-448E-43CE-8764-ABB83CF0D997}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WaterSizzle 6088_59_1" ID="{6275F45C-2E98-45A9-AE05-243551AA9120}" ShortID="270863624" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WaterSizzle 6088_59_1" ID="{92535C68-0B7F-4AE2-9B9A-A06A32E6B0F3}" ShortID="32880256">
+							<Language>SFX</Language>
+							<AudioFile>WaterSizzle 6088_59_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WaterSizzle 6088_59_1" ID="{92535C68-0B7F-4AE2-9B9A-A06A32E6B0F3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
