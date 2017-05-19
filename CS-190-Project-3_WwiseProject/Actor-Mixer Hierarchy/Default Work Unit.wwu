@@ -89,6 +89,11 @@
 				<Sound Name="EerieBong" ID="{E1FD55BA-0191-470E-B5DA-802F71D1DB42}" ShortID="275453022" Type="SoundFX">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -909,7 +914,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
