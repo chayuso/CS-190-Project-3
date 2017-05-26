@@ -31,31 +31,37 @@ public class FlashLight : MonoBehaviour {
 	}
     void OnTriggerEnter(Collider col)
     {
-        if (col.name.Length>=5)
+        if (col is BoxCollider)
         {
-            if (col.name.Substring(0,5) == "Enemy")
+            if (col.name.Length >= 5)
             {
-                if (colname == "")
+                if (col.name.Substring(0, 5) == "Enemy")
                 {
-                    colname = col.name;
+                    if (colname == "")
+                    {
+                        colname = col.name;
+                    }
+                    Enemy = col.gameObject.GetComponent<Follow>();
                 }
-                Enemy = col.gameObject.GetComponent<Follow>();
             }
         }
     }
     void OnTriggerExit(Collider col)
     {
-        if (col.name.Length >= 5)
+        if (col is BoxCollider)
         {
-            if (col.name.Substring(0, 5) == "Enemy")
+            if (col.name.Length >= 5)
             {
-                if (colname!= "")
+                if (col.name.Substring(0, 5) == "Enemy")
                 {
-                    if (col.name == colname)
+                    if (colname != "")
                     {
-                        Enemy.flashed = false;
-                        colname = "";
-                        Enemy = null;
+                        if (col.name == colname)
+                        {
+                            Enemy.flashed = false;
+                            colname = "";
+                            Enemy = null;
+                        }
                     }
                 }
             }
