@@ -1,16 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
     private GameState GS;
     public GameObject FPC;
     public bool flashing = false;
-    public int timeFlashed = 0;
+    public int batteryPower = 5;
+    public int lastBatteryPower = 5;
     public int timeRecharged = 0;
     public bool RechargeNeeded = false;
     public bool Charging = false;
     public Vector3 ChargingPosition;
+    public Image batRed;
+    public Image batOrange;
+    public Image batYellow;
+    public Image batGreen;
+    public Image batDarkGreen;
     // Use this for initialization
     void Start () {
         GS = GameObject.Find("GameState").GetComponent<GameState>();
@@ -19,8 +26,8 @@ public class PlayerController : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
-        if (Input.GetKeyDown(KeyCode.F) && !RechargeNeeded)
+	void FixedUpdate () {
+        if (Input.GetKeyDown(KeyCode.F)&&batteryPower > 0 && !Charging)
         {
             GS.flashlightOn = flashing = !GS.flashlightOn;
             if (flashing)
@@ -32,13 +39,13 @@ public class PlayerController : MonoBehaviour {
                 GetComponent<LightOffTrigger>().Hit();
             }
         }
-        if (Input.GetKeyDown(KeyCode.R) && RechargeNeeded)
+        if (Input.GetKeyDown(KeyCode.R) && batteryPower < 5 && !flashing)
         {
             Charging = true;
             ChargingPosition = GS.Player.transform.position;
             GetComponent<ChargingTrigger>().Hit();
         }
-        else if (Input.GetKeyUp(KeyCode.R) && RechargeNeeded)
+        else if (Input.GetKeyUp(KeyCode.R))
         {
             Charging = false;
             GetComponent<StoppedChargingTrigger>().Hit();
@@ -47,24 +54,66 @@ public class PlayerController : MonoBehaviour {
         {
             GS.Player.transform.position = ChargingPosition;
         }
+        batteryGraphic();
+    }
+    void batteryGraphic()
+    {
+        if (lastBatteryPower != batteryPower)
+        {
+            batDarkGreen.enabled = false;
+            batGreen.enabled = false;
+            batYellow.enabled = false;
+            batOrange.enabled = false;
+            batRed.enabled = false;
+            if (batteryPower == 5)
+            {
+                batDarkGreen.enabled = true;
+                batGreen.enabled = true;
+                batYellow.enabled = true;
+                batOrange.enabled = true;
+                batRed.enabled = true;
+            }
+            if (batteryPower == 4)
+            {
+                batGreen.enabled = true;
+                batYellow.enabled = true;
+                batOrange.enabled = true;
+                batRed.enabled = true;
+            }
+            else if (batteryPower == 3)
+            {
+                batYellow.enabled = true;
+                batOrange.enabled = true;
+                batRed.enabled = true;
+            }
+            else if (batteryPower == 2)
+            {
+                batOrange.enabled = true;
+                batRed.enabled = true;
+            }
+            else if (batteryPower == 1)
+            {
+                batRed.enabled = true;
+            }
+            lastBatteryPower = batteryPower;
+        }
     }
     IEnumerator TimeFlashingRate()
     {
         while (true)
         {
             yield return new WaitForSeconds(1);
-            if (flashing)
+            if (flashing && batteryPower > 0 && !Charging)// && !RechargeNeeded)
             {
-                timeFlashed++;
+                batteryPower--;
             }
-            if (timeFlashed >= 5)
+            if (batteryPower <= 0)
             {
                 GS.flashlightOn = false;
                 flashing = false;
                 RechargeNeeded = true;
-                timeFlashed = 0;
                 GetComponent<LightOffTrigger>().Hit();
-                GetComponent<DoneChargingTrigger>().Hit();
+                //GetComponent<DoneChargingTrigger>().Hit();
             }
         }
     }
@@ -73,17 +122,16 @@ public class PlayerController : MonoBehaviour {
         while (true)
         {
             yield return new WaitForSeconds(1);
-            if (RechargeNeeded && Charging)
+            if (Charging && !flashing && batteryPower<5)
             {
-                timeRecharged++;
+                batteryPower++;
             }
-            if (timeRecharged >= 5)
+            if (batteryPower >= 5)
             {
                 GetComponent<StoppedChargingTrigger>().Hit();
                 RechargeNeeded = false;
                 Charging = false;
-                timeRecharged = 0;
-                GetComponent<DoneChargingTrigger>().Hit();
+                //GetComponent<DoneChargingTrigger>().Hit();
             }
         }
     }
