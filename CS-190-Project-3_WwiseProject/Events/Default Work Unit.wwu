@@ -256,6 +256,205 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_ClosetoKey_J" ID="{B7FED5F4-9159-4668-B32D-75365C5E1C6D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BAE7E79A-BE5E-4E99-B4FC-EE4C60CAC092}" ShortID="387178599" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{94596987-DED7-4E61-BFFC-BB87A785BE4B}" Global="false">
+									<ObjectRef Name="Shining Key" ID="{01FFA0EB-C240-4780-B311-C48294AD1D37}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UseKey_J" ID="{24CDC325-F233-482A-8DC0-B6133624507E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{809D6AD9-6ADE-4786-967A-755669D49BA4}" ShortID="498305150" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{53DAA574-450C-408B-8368-C692B8A7EB57}" Global="false">
+									<ObjectRef Name="Key Sound" ID="{205B2BE2-14B1-425C-B7ED-0EAB3FBA6950}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BumpIntoMetal_J" ID="{378112CD-1ADB-4BFA-8525-62871C64632B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5CC7A9FD-509D-4853-9777-784DEEBD6B0C}" ShortID="285496521" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AC889150-6275-487F-A8D8-381836F92E50}" Global="false">
+									<ObjectRef Name="Quick Metal Bumb" ID="{AC0CE79B-76DD-4CFD-8D59-D23BD73EC56D}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LeavesRustling_J" ID="{CA36D9CE-3E8F-4954-810E-BFCAD50E8D2C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{259BC5C8-8593-47EE-8982-1A816DFABC77}" ShortID="1004137154" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0B816775-5811-4E59-A6D4-F3F32CE2F63B}" Global="false">
+									<ObjectRef Name="Another Leaf Rustling" ID="{7FCE8119-374A-4967-AA3A-AE9ED1F84E38}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ConcreteSteps_J" ID="{F59B42F7-C1C6-4A65-991A-0BC2E55F9C7B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E687B9F0-4876-467E-AF35-4D2956819F5C}" ShortID="323388188" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C6742D89-A571-42DC-A817-25BFCC381EE9}" Global="false">
+									<ObjectRef Name="Concrete Steps Walking Short" ID="{E89270F0-DE8C-4998-B746-2F7A791039FD}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ConcreteSteps_J" ID="{5B8AF9EA-798E-4530-B20E-9FEB794BBA23}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{CE632586-B90B-4F84-8EE7-C63CE94E44AB}" ShortID="625967021" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A8531334-86A9-4059-B394-2286E7AC670B}" Global="false">
+									<ObjectRef Name="Concrete Steps Walking Short" ID="{E89270F0-DE8C-4998-B746-2F7A791039FD}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CarHonk_J" ID="{C1F7BA9F-E856-4AE4-8F08-337DCB3951FA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{AB0007F4-1405-4DBA-AA03-EE6C7A2DC519}" ShortID="853953286" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5545BDA9-7417-444B-9CD8-A3160329CF74}" Global="false">
+									<ObjectRef Name="Inside Car Sound" ID="{D28B06DE-BFA4-44AD-87D5-870BF8839FA3}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_CarHonk_J" ID="{86D701A6-0B7D-4AE6-A352-CC0D29DD583B}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{2A981675-BC5B-4FA5-B3CA-45155ED04FC8}" ShortID="703584722" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A3B22464-2C75-4EEE-B019-9617A3432C4A}" Global="false">
+									<ObjectRef Name="Inside Car Sound" ID="{D28B06DE-BFA4-44AD-87D5-870BF8839FA3}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MachineHum_J" ID="{BD9EEA0C-DD3B-4E07-97B0-A0D344753740}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4318813A-6267-4D6E-B2FA-0AEDEDDCF5E8}" ShortID="644944605" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7E7E0DF1-0253-4E87-A306-5ACBDEC3FB11}" Global="false">
+									<ObjectRef Name="Machinery Hum" ID="{A51ADBF7-D326-4262-8BA5-6FE20D1D1702}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MachineHum_J" ID="{D7E6E4FC-5CE2-401A-A4B9-A0E32630CA2F}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{44013073-6191-4039-8D9A-648392A06C25}" ShortID="504554447" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3E042D65-451B-4818-9F12-E613C41DA856}" Global="false">
+									<ObjectRef Name="Machinery Hum" ID="{A51ADBF7-D326-4262-8BA5-6FE20D1D1702}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WalkthroughWater_J" ID="{EC365DBC-D4A1-4C24-B8C8-A2FCC359550D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6C146355-55C4-43A3-A2CE-03B3681F2C4D}" ShortID="86351142" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CA1DD067-69E5-4B72-AE5D-6D729DDE3903}" Global="false">
+									<ObjectRef Name="Walking Through Water" ID="{F7B4357E-8314-45F4-B87A-059406E8C1FF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_WalkthroughWater_J" ID="{1783A4FE-ADF9-45FB-A659-4C61F0B25DEF}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{5CA95069-29B4-47F9-A757-2BDDEE0305CF}" ShortID="279310249" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9AD717A7-A13E-4E0D-9129-C16740578655}" Global="false">
+									<ObjectRef Name="Walking Through Water" ID="{F7B4357E-8314-45F4-B87A-059406E8C1FF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="New Virtual Folder" ID="{01461DD3-90B9-4FA2-B71E-5F73CDFCE14E}" ShortID="381475929"/>
+				<Event Name="Play_StreetlightHum_J" ID="{13932206-6D2B-45D2-90D9-E3479B72F6B2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{34CDD71F-E98C-418C-8640-C1D6F1170DAC}" ShortID="813257648" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2FE18055-AE0D-4380-A290-BE579728742D}" Global="false">
+									<ObjectRef Name="Streetlight Hum" ID="{5B60F917-35D4-472A-BB5D-FCEB8E4F7080}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_StreetlightHum_J" ID="{CA968567-1162-462F-8639-70165BA2C614}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{EBE36704-7BA2-4EAB-A4F2-36FB657D24DD}" ShortID="974941512" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{27412C89-3FDD-438D-AF9F-EBDEDB97423A}" Global="false">
+									<ObjectRef Name="Streetlight Hum" ID="{5B60F917-35D4-472A-BB5D-FCEB8E4F7080}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Key_Sound" ID="{E957221B-55D7-430D-9A6F-11F1C5D8505C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A81017C2-CCD2-4626-B67B-CFF09A26B986}" ShortID="614564869" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{63008D75-091B-4C17-B5F3-797D804C0DF4}" Global="false">
+									<ObjectRef Name="Key Sound" ID="{205B2BE2-14B1-425C-B7ED-0EAB3FBA6950}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bumping_into_more_metal" ID="{94AAD84D-55E6-4A96-9C9B-3A328DF26EFE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{29DFB971-6D53-4B67-A593-E9E3E1582102}" ShortID="25818391" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C74A9A68-98B4-4CFB-AF5E-2A86B8FA8752}" Global="false">
+									<ObjectRef Name="Bumping into more metal" ID="{B2116A5E-4F8A-460C-A7BC-613BDF97A6FF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bumping_into_metal" ID="{38E1A01B-7AC2-45CC-BAC6-A0E6FA21B2C1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8D0C6772-BB9F-4456-B7B2-4E7B89CB71ED}" ShortID="628145500" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2DD56B7A-C190-4C22-AB3A-F75FF165167D}" Global="false">
+									<ObjectRef Name="Bumping into metal" ID="{EA49ADD3-F29E-4041-BFD7-1FB82C6BDE5D}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_bumpigGeneric" ID="{1EA7F061-BA13-4BDA-996F-ED80CEBBFB88}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7234D314-B541-47EF-B6DC-B29CA7732ABD}" ShortID="490718143" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7A0EFC66-D2C2-445E-B9DB-AA821D75003B}" Global="false">
+									<ObjectRef Name="bumpigGeneric" ID="{A65C923E-4F4A-4700-BDDE-762E6D8BC76E}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

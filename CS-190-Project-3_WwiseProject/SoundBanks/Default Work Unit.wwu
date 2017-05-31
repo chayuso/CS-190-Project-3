@@ -9,6 +9,7 @@
 						<ObjectRef Name="Play_EnemyDown" ID="{BB06C583-39AA-4134-B254-FE517634DC88}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Wind" ID="{C68CCB08-952B-417B-B13B-F7B6EA195904}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_charging" ID="{15B0DD7F-71BA-42A4-9573-5EADB4A3875A}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Key_Sound" ID="{E957221B-55D7-430D-9A6F-11F1C5D8505C}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wind" ID="{975D0756-5932-4403-B586-CEC907EF0E8F}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_OminousNonDiagetic" ID="{E3E9F29B-033B-4466-8CC1-788C4942C443}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Stunned" ID="{26582F0A-CA50-44F1-8DE9-CC6540EFE5C8}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
@@ -16,6 +17,8 @@
 						<ObjectRef Name="Stop_EerieBong" ID="{6B9684BA-0D6A-454E-B83F-A122E6E424A0}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_flashing" ID="{27DB7E16-FDD8-4580-9D68-E587D35760E8}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Clock" ID="{BF8757CC-EBB5-4598-8C29-6194439FBBEB}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Bumping_into_metal" ID="{38E1A01B-7AC2-45CC-BAC6-A0E6FA21B2C1}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_ClosetoKey_J" ID="{B7FED5F4-9159-4668-B32D-75365C5E1C6D}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_LightOn" ID="{F4C121C5-E6C2-4715-BC6E-2FFE8AA8F16C}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_OminousNonDiagetic" ID="{231302C2-27F4-4789-9941-424158730DC6}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_flashing" ID="{2768808D-46D4-481A-B8F0-76A4A2D56FDD}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
@@ -23,9 +26,12 @@
 						<ObjectRef Name="Stop_EnemyHum" ID="{C2BA9453-51AC-4839-9509-995375524415}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Footsteps" ID="{EA33B3AC-0445-489D-8274-A3A2111C5C0A}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ImpactFlash" ID="{E497DBD5-AF26-4A7C-B4FD-CA8D5B462E12}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Bumping_into_more_metal" ID="{94AAD84D-55E6-4A96-9C9B-3A328DF26EFE}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_charging" ID="{7B0EE0CD-B114-4AB5-948F-D259DAD39D76}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_LightOff" ID="{8DA5EA65-E1E4-4B6B-A7F1-CCA8DA07185F}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Followed" ID="{492F0EA2-33D3-4B98-851A-744A61779ECD}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_bumpigGeneric" ID="{1EA7F061-BA13-4BDA-996F-ED80CEBBFB88}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_BumpIntoMetal_J" ID="{378112CD-1ADB-4BFA-8525-62871C64632B}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_EnemyHum" ID="{92FA7118-A3B5-4F1B-9E20-8FC46BFB99BD}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_EnemyDown" ID="{1E708CAE-639A-4F73-A7AA-944BFF8C27DF}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	124984804	Stop_Followed			\Default Work Unit\Stop_Followed	
 	428265965	Play_LightOff			\Default Work Unit\Play_LightOff	
+	472866126	Play_BumpIntoMetal_J			\Default Work Unit\Play_BumpIntoMetal_J	
+	643514549	Play_bumpigGeneric			\Default Work Unit\Play_bumpigGeneric	
 	815195158	Play_EnemyDown			\Default Work Unit\Play_EnemyDown	
 	817117930	Stop_EerieBong			\Default Work Unit\Stop_EerieBong	
 	820030189	Play_OminousNonDiagetic			\Default Work Unit\Play_OminousNonDiagetic	
@@ -9,6 +11,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1041647411	Play_donecharging			\Default Work Unit\Play_donecharging	
 	1130968039	Stop_OminousNonDiagetic			\Default Work Unit\Stop_OminousNonDiagetic	
 	1426838595	Play_Stunned			\Default Work Unit\Play_Stunned	
+	1451241785	Play_ClosetoKey_J			\Default Work Unit\Play_ClosetoKey_J	
 	1454224076	Play_flashing			\Default Work Unit\Play_flashing	
 	1880094678	Play_Followed			\Default Work Unit\Play_Followed	
 	2099850490	Stop_flashing			\Default Work Unit\Stop_flashing	
@@ -16,14 +19,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	2288928875	Play_charging			\Default Work Unit\Play_charging	
 	2469469940	Play_EerieBong			\Default Work Unit\Play_EerieBong	
 	2601501412	Play_EnemyHum			\Default Work Unit\Play_EnemyHum	
+	2831410887	Play_Key_Sound			\Default Work Unit\Play_Key_Sound	
 	2905710381	Stop_charging			\Default Work Unit\Stop_charging	
 	3028417038	Stop_EnemyHum			\Default Work Unit\Stop_EnemyHum	
 	3153972001	Play_LightOn			\Default Work Unit\Play_LightOn	
 	3173136834	Stop_Wind			\Default Work Unit\Stop_Wind	
+	3664163537	Play_Bumping_into_more_metal			\Default Work Unit\Play_Bumping_into_more_metal	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+	3875074487	Play_Bumping_into_metal			\Default Work Unit\Play_Bumping_into_metal	
 	4070979672	Play_Clock			\Default Work Unit\Play_Clock	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	26796666	Key Sound	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Sound Effect Folder\Key Sound_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound Effect Folder\Key Sound		311360
 	32880256	ImpactFlash	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\WaterSizzle 6088_59_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImpactFlash		872512
 	67596541	Followed	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\PulsingRoomAmbCycl MM040201_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Followed		9486400
 	129696658	EerieBong	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\266393__ceich93__gong12_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\EerieBong		1043948
@@ -33,11 +40,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	210638620	humming	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\humming_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\humming		1722488
 	304349912	flashing	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\value pressure release_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\flashing		12013632
 	312918563	LightOn	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Camera 6074_50_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightOn		12352
+	320582916	Shining Key	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Sound Effect Folder\Shining Key_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound Effect Folder\Shining Key		442432
 	352673207	EnemyDown	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\ELEC_Sizzle, Electrical_PE20_04_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyDown		5359680
 	397114721	Clock	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Clock_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Clock		1606164
+	483059594	Bumping into more metal	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Sound Effect Folder\Bumping into more metal_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound Effect Folder\Bumping into more metal		430144
 	502733616	Stunned	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Warning Beep Single ButtonFuturisticCo MM014204_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stunned		368704
 	574535115	FootstepsDeck 6016_78_3	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\FootstepsDeck 6016_78_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootstepsDeck 6016_78_3		161856
 	656500302	FootstepsDeck 6016_78_4	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\FootstepsDeck 6016_78_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootstepsDeck 6016_78_4		176192
+	793360457	Quick Metal Bumb	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Sound Effect Folder\Quick Metal Bumb_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\bumpigGeneric\Quick Metal Bumb		59456
+	973667805	Bumping into metal	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Sound Effect Folder\Bumping into metal_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound Effect Folder\Bumping into metal		231488
 	1016385370	OminousNonDiagetic	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\MX_Horror, Music_TUR02_96_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\OminousNonDiagetic		11733056
 	1024189948	charging	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\charging_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\charging		1112332
 
