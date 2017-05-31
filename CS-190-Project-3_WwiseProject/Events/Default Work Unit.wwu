@@ -411,6 +411,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Key_Sound" ID="{E957221B-55D7-430D-9A6F-11F1C5D8505C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A81017C2-CCD2-4626-B67B-CFF09A26B986}" ShortID="614564869" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{63008D75-091B-4C17-B5F3-797D804C0DF4}" Global="false">
+									<ObjectRef Name="Key Sound" ID="{205B2BE2-14B1-425C-B7ED-0EAB3FBA6950}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bumping_into_more_metal" ID="{94AAD84D-55E6-4A96-9C9B-3A328DF26EFE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{29DFB971-6D53-4B67-A593-E9E3E1582102}" ShortID="25818391" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C74A9A68-98B4-4CFB-AF5E-2A86B8FA8752}" Global="false">
+									<ObjectRef Name="Bumping into more metal" ID="{B2116A5E-4F8A-460C-A7BC-613BDF97A6FF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bumping_into_metal" ID="{38E1A01B-7AC2-45CC-BAC6-A0E6FA21B2C1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8D0C6772-BB9F-4456-B7B2-4E7B89CB71ED}" ShortID="628145500" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2DD56B7A-C190-4C22-AB3A-F75FF165167D}" Global="false">
+									<ObjectRef Name="Bumping into metal" ID="{EA49ADD3-F29E-4041-BFD7-1FB82C6BDE5D}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_bumpigGeneric" ID="{1EA7F061-BA13-4BDA-996F-ED80CEBBFB88}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7234D314-B541-47EF-B6DC-B29CA7732ABD}" ShortID="490718143" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7A0EFC66-D2C2-445E-B9DB-AA821D75003B}" Global="false">
+									<ObjectRef Name="bumpigGeneric" ID="{A65C923E-4F4A-4700-BDDE-762E6D8BC76E}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

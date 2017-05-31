@@ -13,8 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BUMPIGGENERIC = 643514549U;
+        static const AkUniqueID PLAY_BUMPING_INTO_METAL = 3875074487U;
+        static const AkUniqueID PLAY_BUMPING_INTO_MORE_METAL = 3664163537U;
+        static const AkUniqueID PLAY_BUMPINTOMETAL_J = 472866126U;
         static const AkUniqueID PLAY_CHARGING = 2288928875U;
         static const AkUniqueID PLAY_CLOCK = 4070979672U;
+        static const AkUniqueID PLAY_CLOSETOKEY_J = 1451241785U;
         static const AkUniqueID PLAY_DONECHARGING = 1041647411U;
         static const AkUniqueID PLAY_EERIEBONG = 2469469940U;
         static const AkUniqueID PLAY_ENEMYDOWN = 815195158U;
@@ -23,6 +28,7 @@ namespace AK
         static const AkUniqueID PLAY_FOLLOWED = 1880094678U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_IMPACTFLASH = 2217683882U;
+        static const AkUniqueID PLAY_KEY_SOUND = 2831410887U;
         static const AkUniqueID PLAY_LIGHTOFF = 428265965U;
         static const AkUniqueID PLAY_LIGHTON = 3153972001U;
         static const AkUniqueID PLAY_OMINOUSNONDIAGETIC = 820030189U;
