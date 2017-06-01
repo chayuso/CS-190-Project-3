@@ -26,6 +26,7 @@ public class PickUp : MonoBehaviour {
     {
         Key.GetComponent<MeshRenderer>().enabled = false;
         gameObject.GetComponent<BoxCollider>().enabled = false;
+        GetComponent<CustomTrigger>().Hit();
         ++GS.keysPickedUp;
     }
 }
