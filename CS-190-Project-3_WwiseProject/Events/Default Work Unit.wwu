@@ -455,6 +455,314 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_BedJump01" ID="{48FC6E54-1224-4A59-AA9C-C28443FE123B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E03A6EC8-3C55-40F4-B237-A95C9C881E98}" ShortID="65201665" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BD4F03CF-A1D2-4089-9AEE-6AD23B79ABEE}" Global="false">
+									<ObjectRef Name="BedJump01" ID="{43F9BE8C-0358-4AA5-A541-FCAFF0A28B78}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BedJump02" ID="{E9FF8027-3416-428F-8409-FC20B3874821}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6CB8806A-B9B4-4A1B-BF5B-00BE52127F4A}" ShortID="615474463" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8091D9F9-DE09-4CC0-8A1C-0A43D66323F8}" Global="false">
+									<ObjectRef Name="BedJump02" ID="{2EBB4C61-C698-4AFD-8D61-650A66234862}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ClockTickLong01" ID="{D7E984DB-D692-45BE-A108-690C91658C17}">
+					<ChildrenList>
+						<Action Name="Play" ID="{312EABF0-3E2D-4B3E-87D3-62D827DD19F0}" ShortID="622169403" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{99B7AD66-2608-425B-B515-F055CB216827}" Global="false">
+									<ObjectRef Name="ClockTickLong01" ID="{5D46F25B-15EF-49CD-A0C4-2CE4D9511846}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HitWood01" ID="{BED3985B-26FF-4290-97ED-6DAC2D7B39A1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4598C601-C268-45F4-819A-9A86153A2F93}" ShortID="954675357" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0E43260C-AC06-4C7F-BC3C-8081842B1BDA}" Global="false">
+									<ObjectRef Name="HitWood01" ID="{46EE18BC-A7C3-4A82-9720-E89CC5FB6E5A}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HitWood02" ID="{938A9C3A-EA17-4EA9-84D2-C615BB8D300E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BFA31D72-5502-4955-9ACE-ED40124D4677}" ShortID="737463203" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9F6026CC-7860-45E0-8DC9-9AED3F59A8FB}" Global="false">
+									<ObjectRef Name="HitWood02" ID="{8CC6E5FF-8F27-41B5-88CA-992E05D54C0B}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HitWood03" ID="{C7B879F5-0EBE-443D-9F37-6A6D76989A52}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FF571C43-5FF2-4FF2-8D12-394E90BA5163}" ShortID="659335648" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F6A49681-9FD6-4F06-B2D3-E07AD60666E4}" Global="false">
+									<ObjectRef Name="HitWood03" ID="{18D8B587-DFD8-4222-A956-2BBA26563271}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PlasticHit01" ID="{24D36AFB-4DDF-4899-8F99-D25D8313ABD2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A4BA5FA9-4C9E-457C-95D1-630094F5A123}" ShortID="556675374" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BD960D98-9E5A-4559-A4D2-33C04B2D728D}" Global="false">
+									<ObjectRef Name="PlasticHit01" ID="{39B4F173-7085-44BF-9F30-DDE2340D4189}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RattlingDoor01" ID="{84A67B75-5D6A-4C68-BD0D-5D1D8D1CE96C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E4B394AF-4E13-461B-ACD9-B5F62671A315}" ShortID="298860767" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C586DFFC-B15D-4485-99DD-7577B19CF3B8}" Global="false">
+									<ObjectRef Name="RattlingDoor01" ID="{417C5B0B-3EB6-4BBF-B5BA-54401AE4BEAF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RattlingDoor02" ID="{547D39DE-D53C-47D4-9783-E4C6942F0731}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1B739FB2-6DFB-4D3A-98F6-B9486B62E960}" ShortID="697434455" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{00BD2579-69A3-4EEC-8478-1774FF65A77F}" Global="false">
+									<ObjectRef Name="RattlingDoor02" ID="{0FA45F5E-B5DF-4291-BE71-03E6FE6B2A68}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RefrigeratorDoorClose" ID="{1730FDEA-07B6-43CF-9ED5-D541C90AB3A8}">
+					<ChildrenList>
+						<Action Name="Play" ID="{150C8238-CCEC-4793-A2EB-0433DA0A92CD}" ShortID="655864216" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FFDC3B07-1048-4318-ADBE-C26B9B93324E}" Global="false">
+									<ObjectRef Name="RefrigeratorDoorClose" ID="{DC089708-BB07-4AD5-ABA3-82468C66708D}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RefrigeratorDoorOpen" ID="{FE44F26F-8122-41BA-AC14-8C3E03EDE051}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DBE074A2-13E0-45C1-B947-569A583D6DC8}" ShortID="610042824" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A31FE66A-4F5A-456B-8ED7-5C5CCCAEC68B}" Global="false">
+									<ObjectRef Name="RefrigeratorDoorOpen" ID="{3C4C4391-B2EA-44ED-8F95-E08BF53DEFC4}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TelevisionStatic01" ID="{411D96F6-2F8A-4859-BFAE-5238F4F86E43}">
+					<ChildrenList>
+						<Action Name="Play" ID="{BE52B468-AC7A-4385-9483-71948FE2F6BA}" ShortID="720679060" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C553FAF4-E3D9-43D1-B9B4-01402B5F8604}" Global="false">
+									<ObjectRef Name="TelevisionStatic01" ID="{A10B29F4-06C5-4769-96EA-57311D145594}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TelevisionTurnOff" ID="{6E82067F-2D0B-429A-A938-1B903751D44E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DE5FFA9A-E37C-4B7D-9A08-4E818E80B9C4}" ShortID="190982389" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E8C18709-4112-49E1-8B5D-F0185D6E2DA7}" Global="false">
+									<ObjectRef Name="TelevisionTurnOff" ID="{683B5A28-B1F0-4A12-ADB1-E891E06C12F2}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TelevisionTurnOn" ID="{87BCCA43-F51B-4D21-B44E-FC1EE0B6B118}">
+					<ChildrenList>
+						<Action Name="Play" ID="{50B6C737-CF21-458E-A4BD-138B3C0E95D4}" ShortID="465728455" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DFCA4C89-5339-4BA4-86C8-69B02D6E9B88}" Global="false">
+									<ObjectRef Name="TelevisionTurnOn" ID="{6CBB515E-ECDC-4A84-BD59-D1B1ACBF8C8E}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_BedJump01" ID="{4EC14308-3171-43EA-95EC-6459D955BAA1}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{50DCAD39-0406-4231-AF97-8E96B424F601}" ShortID="936428529" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{66808471-094E-49BB-820E-3DFEE8DFC346}" Global="false">
+									<ObjectRef Name="BedJump01" ID="{43F9BE8C-0358-4AA5-A541-FCAFF0A28B78}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_BedJump02" ID="{CAB4A0A5-80BB-420C-AC74-F30712A525A1}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{3ECA5B95-BB87-4E68-9CEE-8B095ACCA396}" ShortID="621717014" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{86B7B22F-B3F4-4C8D-84D1-24331F55B37C}" Global="false">
+									<ObjectRef Name="BedJump02" ID="{2EBB4C61-C698-4AFD-8D61-650A66234862}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ClockTickLong01" ID="{211DB0D4-A596-4513-B5C2-3A57BB05E292}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{BCB537B5-B1A5-4AAE-87EB-2AA7F6423DCF}" ShortID="696190253" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0EDA4F98-681D-4950-9A82-0171DDEC25DC}" Global="false">
+									<ObjectRef Name="ClockTickLong01" ID="{5D46F25B-15EF-49CD-A0C4-2CE4D9511846}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_HitWood01" ID="{8D91841E-E068-45D4-9C66-21B71B57D770}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{45305490-5034-4F6A-8038-D7F4876A9ACC}" ShortID="707146697" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{28A66097-563E-4487-97B8-BC057403D3A4}" Global="false">
+									<ObjectRef Name="HitWood01" ID="{46EE18BC-A7C3-4A82-9720-E89CC5FB6E5A}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_HitWood02" ID="{2D70CCEA-6AB5-4276-A307-8893BC29DA79}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{D0C2DD8D-9553-4BA1-9845-512FC7CB2E24}" ShortID="435941066" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E8E87603-7F14-4A90-B57F-339E9CB7A470}" Global="false">
+									<ObjectRef Name="HitWood02" ID="{8CC6E5FF-8F27-41B5-88CA-992E05D54C0B}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_HitWood03" ID="{D1C1CA1B-82DC-4D4D-9646-79AF4BC7A8F8}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{2A4C1599-499D-438D-AF85-412A749CDE7B}" ShortID="806130681" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C752A164-48A8-4616-9626-D51A9CC599EA}" Global="false">
+									<ObjectRef Name="HitWood03" ID="{18D8B587-DFD8-4222-A956-2BBA26563271}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_PlasticHit01" ID="{D65A5596-9069-4E85-9659-317D23E882C6}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{30BEB7C8-2E26-438D-99F7-EAE58D71867F}" ShortID="703473824" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1620E37B-238D-449D-94A3-8C66FE4E714A}" Global="false">
+									<ObjectRef Name="PlasticHit01" ID="{39B4F173-7085-44BF-9F30-DDE2340D4189}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_RattlingDoor01" ID="{C973F78B-C820-4C59-859B-7E252F2BDE46}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{8457A235-9127-4874-9478-CA5588145B28}" ShortID="636185230" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{811E6BB1-98E2-4565-AAA2-0AF120F6463E}" Global="false">
+									<ObjectRef Name="RattlingDoor01" ID="{417C5B0B-3EB6-4BBF-B5BA-54401AE4BEAF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_RattlingDoor02" ID="{285A8258-12BE-4193-8B90-9D186D22CCCB}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{EAA4488E-D7B2-49E4-95E7-7AAB989B96F3}" ShortID="544011444" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2DE663DC-6975-4AFB-B1DD-C995E24C3D5F}" Global="false">
+									<ObjectRef Name="RattlingDoor02" ID="{0FA45F5E-B5DF-4291-BE71-03E6FE6B2A68}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_RefrigeratorDoorClose" ID="{9DB8EC4E-3A51-41F8-8093-D11165113691}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{7C3D6DCC-4E6C-41C7-8606-86E19008580F}" ShortID="786275145" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E3B54C66-3F18-4DE4-B1C6-B731F63C967C}" Global="false">
+									<ObjectRef Name="RefrigeratorDoorClose" ID="{DC089708-BB07-4AD5-ABA3-82468C66708D}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_RefrigeratorDoorOpen" ID="{36BC7304-E3B1-419E-AB4C-4F8C41495858}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{E06FB7E9-BBA2-4EDF-919D-3C7F87CF8EB2}" ShortID="31577910" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3DCE0958-74FA-45D7-918A-811FCABC77D1}" Global="false">
+									<ObjectRef Name="RefrigeratorDoorOpen" ID="{3C4C4391-B2EA-44ED-8F95-E08BF53DEFC4}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_TelevisionStatic01" ID="{FBC8B0C8-D5F8-47EA-A236-A00E53E4DFF0}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{A1D0EB6C-BF6B-4C39-94EA-442FE3E1D859}" ShortID="793854347" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EC2C67F8-9516-4208-A7ED-C32A65429987}" Global="false">
+									<ObjectRef Name="TelevisionStatic01" ID="{A10B29F4-06C5-4769-96EA-57311D145594}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_TelevisionTurnOff" ID="{E0FAD5A6-E697-4BAD-8AF6-23361204869E}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{1F97DD0B-D674-43F9-87C3-BB8450633884}" ShortID="856197031" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DD199CC4-70A8-4DBE-B596-F54C57394688}" Global="false">
+									<ObjectRef Name="TelevisionTurnOff" ID="{683B5A28-B1F0-4A12-ADB1-E891E06C12F2}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_TelevisionTurnOn" ID="{D054A312-CE11-48EF-9AA7-7178A9604C3D}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{904A4CB4-06F7-4DA5-8D7A-C133895ED39E}" ShortID="849316549" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{54E7A7F1-9809-4EAF-8AF2-CCB913025251}" Global="false">
+									<ObjectRef Name="TelevisionTurnOn" ID="{6CBB515E-ECDC-4A84-BD59-D1B1ACBF8C8E}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
