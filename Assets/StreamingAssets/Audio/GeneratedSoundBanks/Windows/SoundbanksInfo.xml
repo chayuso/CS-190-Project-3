@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>D:\Bark\Code\UnityProjects\CS190Proj3\CS-190-Project-3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Bark\Code\UnityProjects\CS190Proj3\CS-190-Project-3_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Bark\Code\UnityProjects\CS190Proj3\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Bark\Code\UnityProjects\CS190Proj3\CS-190-Project-3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -29,7 +29,7 @@
 				<Event Id="472866126" Name="Play_BumpIntoMetal_J" ObjectPath="\Events\Default Work Unit\Play_BumpIntoMetal_J" MaxAttenuation="10.000000"/>
 				<Event Id="2288928875" Name="Play_charging" ObjectPath="\Events\Default Work Unit\Play_charging"/>
 				<Event Id="4070979672" Name="Play_Clock" ObjectPath="\Events\Default Work Unit\Play_Clock"/>
-				<Event Id="1722151496" Name="Play_ClockTickLong01" ObjectPath="\Events\Default Work Unit\Play_ClockTickLong01" MaxAttenuation="40.000000"/>
+				<Event Id="1722151496" Name="Play_ClockTickLong01" ObjectPath="\Events\Default Work Unit\Play_ClockTickLong01" MaxAttenuation="10.000000"/>
 				<Event Id="1451241785" Name="Play_ClosetoKey_J" ObjectPath="\Events\Default Work Unit\Play_ClosetoKey_J" MaxAttenuation="20.000000"/>
 				<Event Id="1041647411" Name="Play_donecharging" ObjectPath="\Events\Default Work Unit\Play_donecharging"/>
 				<Event Id="2469469940" Name="Play_EerieBong" ObjectPath="\Events\Default Work Unit\Play_EerieBong"/>
@@ -52,7 +52,7 @@
 				<Event Id="88869668" Name="Play_RefrigeratorDoorClose" ObjectPath="\Events\Default Work Unit\Play_RefrigeratorDoorClose"/>
 				<Event Id="237322144" Name="Play_RefrigeratorDoorOpen" ObjectPath="\Events\Default Work Unit\Play_RefrigeratorDoorOpen"/>
 				<Event Id="1426838595" Name="Play_Stunned" ObjectPath="\Events\Default Work Unit\Play_Stunned"/>
-				<Event Id="3900134525" Name="Play_TelevisionStatic01" ObjectPath="\Events\Default Work Unit\Play_TelevisionStatic01" MaxAttenuation="6.000000"/>
+				<Event Id="3900134525" Name="Play_TelevisionStatic01" ObjectPath="\Events\Default Work Unit\Play_TelevisionStatic01" MaxAttenuation="7.000000"/>
 				<Event Id="302992406" Name="Play_TelevisionTurnOff" ObjectPath="\Events\Default Work Unit\Play_TelevisionTurnOff"/>
 				<Event Id="3285256152" Name="Play_TelevisionTurnOn" ObjectPath="\Events\Default Work Unit\Play_TelevisionTurnOn"/>
 				<Event Id="1020223172" Name="Play_Wind" ObjectPath="\Events\Default Work Unit\Play_Wind"/>
@@ -150,7 +150,7 @@
 				</File>
 				<File Id="443660168" Language="SFX">
 					<ShortName>Home\ClockTickLong01.wav</ShortName>
-					<Path>SFX\Home\ClockTickLong01_9E69E797.wem</Path>
+					<Path>SFX\Home\ClockTickLong01_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="483059594" Language="SFX">
 					<ShortName>Sound Effect Folder\Bumping into more metal.wav</ShortName>
