@@ -45,6 +45,7 @@ public class FinalDoor : MonoBehaviour {
         if (GS.keysPickedUp >=6)
         {
             ToggleASM.SetTrigger("Toggle");
+            GetComponent<CustomTrigger>().Hit();
         }
     }
 }

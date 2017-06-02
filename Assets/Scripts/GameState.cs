@@ -12,6 +12,7 @@ public class GameState : MonoBehaviour {
     public bool lastFollowedCheck = false;
     public Follow[] Followers;
     public int keysPickedUp = 0;
+    public bool isEnding = false;
     private static Vector3 PlayerInitPos;
     private static Quaternion PlayerInitRot;
     private float lastX;
@@ -64,7 +65,11 @@ public class GameState : MonoBehaviour {
                 }
             }
         }
-	}
+        if (isEnding)
+        {
+            GetComponent<StoppedChargingTrigger>().Hit();
+        }
+    }
     public void ResetPlayerPosition()
     {
         Player.transform.position = PlayerInitPos;
