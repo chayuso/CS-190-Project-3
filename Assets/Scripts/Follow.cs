@@ -39,9 +39,13 @@ public class Follow : MonoBehaviour {
         {
             gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, gameObject.transform.position, Time.deltaTime * speedModifier);
         }
-        else if (following)
+        else if (following && !GS.isEnding)
         {
             gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, GS.Player.transform.position, Time.deltaTime*speedModifier);
+        }
+        if (GS.isEnding)
+        {
+            GetComponent<StopCustomTrigger>().Hit();
         }
 	}
     void OnCollisionEnter(Collision col)

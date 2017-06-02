@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Juston\Documents\School Life\Irvine Junior Year Academic\Spring Quarter\CS 190\Project 3\CS-190-Project-3\CS-190-Project-3_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Juston\Documents\School Life\Irvine Junior Year Academic\Spring Quarter\CS 190\Project 3\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Juston\Documents\School Life\Irvine Junior Year Academic\Spring Quarter\CS 190\Project 3\CS-190-Project-3\CS-190-Project-3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Nick\CS-190-Project-3\CS-190-Project-3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Nick\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Nick\CS-190-Project-3\CS-190-Project-3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Juston\Documents\School Life\Irvine Junior Year Academic\Spring Quarter\CS 190\Project 3\CS-190-Project-3\CS-190-Project-3_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Nick\CS-190-Project-3\CS-190-Project-3_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,204 +21,12 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2532343566" Name="Play_BedJump01" ObjectPath="\Events\Default Work Unit\Play_BedJump01"/>
-				<Event Id="2532343565" Name="Play_BedJump02" ObjectPath="\Events\Default Work Unit\Play_BedJump02"/>
-				<Event Id="643514549" Name="Play_bumpigGeneric" ObjectPath="\Events\Default Work Unit\Play_bumpigGeneric" MaxAttenuation="10.000000"/>
-				<Event Id="3875074487" Name="Play_Bumping_into_metal" ObjectPath="\Events\Default Work Unit\Play_Bumping_into_metal" MaxAttenuation="10.000000"/>
-				<Event Id="3664163537" Name="Play_Bumping_into_more_metal" ObjectPath="\Events\Default Work Unit\Play_Bumping_into_more_metal" MaxAttenuation="10.000000"/>
-				<Event Id="472866126" Name="Play_BumpIntoMetal_J" ObjectPath="\Events\Default Work Unit\Play_BumpIntoMetal_J" MaxAttenuation="10.000000"/>
-				<Event Id="2288928875" Name="Play_charging" ObjectPath="\Events\Default Work Unit\Play_charging"/>
 				<Event Id="4070979672" Name="Play_Clock" ObjectPath="\Events\Default Work Unit\Play_Clock"/>
-				<Event Id="1722151496" Name="Play_ClockTickLong01" ObjectPath="\Events\Default Work Unit\Play_ClockTickLong01" MaxAttenuation="10.000000"/>
-				<Event Id="1451241785" Name="Play_ClosetoKey_J" ObjectPath="\Events\Default Work Unit\Play_ClosetoKey_J" MaxAttenuation="20.000000"/>
-				<Event Id="1041647411" Name="Play_donecharging" ObjectPath="\Events\Default Work Unit\Play_donecharging"/>
-				<Event Id="2469469940" Name="Play_EerieBong" ObjectPath="\Events\Default Work Unit\Play_EerieBong"/>
-				<Event Id="815195158" Name="Play_EnemyDown" ObjectPath="\Events\Default Work Unit\Play_EnemyDown" MaxAttenuation="20.000000"/>
-				<Event Id="2601501412" Name="Play_EnemyHum" ObjectPath="\Events\Default Work Unit\Play_EnemyHum" MaxAttenuation="20.000000"/>
-				<Event Id="1454224076" Name="Play_flashing" ObjectPath="\Events\Default Work Unit\Play_flashing"/>
-				<Event Id="1880094678" Name="Play_Followed" ObjectPath="\Events\Default Work Unit\Play_Followed" MaxAttenuation="20.000000"/>
-				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps"/>
-				<Event Id="3473712307" Name="Play_HitWood01" ObjectPath="\Events\Default Work Unit\Play_HitWood01"/>
-				<Event Id="3473712304" Name="Play_HitWood02" ObjectPath="\Events\Default Work Unit\Play_HitWood02"/>
-				<Event Id="3473712305" Name="Play_HitWood03" ObjectPath="\Events\Default Work Unit\Play_HitWood03"/>
-				<Event Id="2217683882" Name="Play_ImpactFlash" ObjectPath="\Events\Default Work Unit\Play_ImpactFlash"/>
-				<Event Id="2831410887" Name="Play_Key_Sound" ObjectPath="\Events\Default Work Unit\Play_Key_Sound" MaxAttenuation="10.000000"/>
-				<Event Id="428265965" Name="Play_LightOff" ObjectPath="\Events\Default Work Unit\Play_LightOff"/>
-				<Event Id="3153972001" Name="Play_LightOn" ObjectPath="\Events\Default Work Unit\Play_LightOn"/>
-				<Event Id="820030189" Name="Play_OminousNonDiagetic" ObjectPath="\Events\Default Work Unit\Play_OminousNonDiagetic"/>
-				<Event Id="2707625888" Name="Play_PlasticHit01" ObjectPath="\Events\Default Work Unit\Play_PlasticHit01"/>
-				<Event Id="1006243796" Name="Play_RattlingDoor01" ObjectPath="\Events\Default Work Unit\Play_RattlingDoor01"/>
-				<Event Id="1006243799" Name="Play_RattlingDoor02" ObjectPath="\Events\Default Work Unit\Play_RattlingDoor02"/>
-				<Event Id="88869668" Name="Play_RefrigeratorDoorClose" ObjectPath="\Events\Default Work Unit\Play_RefrigeratorDoorClose"/>
-				<Event Id="237322144" Name="Play_RefrigeratorDoorOpen" ObjectPath="\Events\Default Work Unit\Play_RefrigeratorDoorOpen"/>
-				<Event Id="1426838595" Name="Play_Stunned" ObjectPath="\Events\Default Work Unit\Play_Stunned"/>
-				<Event Id="3900134525" Name="Play_TelevisionStatic01" ObjectPath="\Events\Default Work Unit\Play_TelevisionStatic01" MaxAttenuation="7.000000"/>
-				<Event Id="302992406" Name="Play_TelevisionTurnOff" ObjectPath="\Events\Default Work Unit\Play_TelevisionTurnOff"/>
-				<Event Id="3285256152" Name="Play_TelevisionTurnOn" ObjectPath="\Events\Default Work Unit\Play_TelevisionTurnOn"/>
-				<Event Id="1020223172" Name="Play_Wind" ObjectPath="\Events\Default Work Unit\Play_Wind"/>
-				<Event Id="534882000" Name="Stop_BedJump01" ObjectPath="\Events\Default Work Unit\Stop_BedJump01" MaxAttenuation="0.000000"/>
-				<Event Id="534882003" Name="Stop_BedJump02" ObjectPath="\Events\Default Work Unit\Stop_BedJump02" MaxAttenuation="0.000000"/>
-				<Event Id="2905710381" Name="Stop_charging" ObjectPath="\Events\Default Work Unit\Stop_charging" MaxAttenuation="0.000000"/>
-				<Event Id="3857198574" Name="Stop_ClockTickLong01" ObjectPath="\Events\Default Work Unit\Stop_ClockTickLong01" MaxAttenuation="0.000000"/>
-				<Event Id="817117930" Name="Stop_EerieBong" ObjectPath="\Events\Default Work Unit\Stop_EerieBong" MaxAttenuation="0.000000"/>
-				<Event Id="825412848" Name="Stop_EnemyDown" ObjectPath="\Events\Default Work Unit\Stop_EnemyDown" MaxAttenuation="0.000000"/>
-				<Event Id="3028417038" Name="Stop_EnemyHum" ObjectPath="\Events\Default Work Unit\Stop_EnemyHum" MaxAttenuation="0.000000"/>
-				<Event Id="2099850490" Name="Stop_flashing" ObjectPath="\Events\Default Work Unit\Stop_flashing" MaxAttenuation="0.000000"/>
-				<Event Id="124984804" Name="Stop_Followed" ObjectPath="\Events\Default Work Unit\Stop_Followed" MaxAttenuation="0.000000"/>
-				<Event Id="1329530865" Name="Stop_HitWood01" ObjectPath="\Events\Default Work Unit\Stop_HitWood01" MaxAttenuation="0.000000"/>
-				<Event Id="1329530866" Name="Stop_HitWood02" ObjectPath="\Events\Default Work Unit\Stop_HitWood02" MaxAttenuation="0.000000"/>
-				<Event Id="1329530867" Name="Stop_HitWood03" ObjectPath="\Events\Default Work Unit\Stop_HitWood03" MaxAttenuation="0.000000"/>
-				<Event Id="1130968039" Name="Stop_OminousNonDiagetic" ObjectPath="\Events\Default Work Unit\Stop_OminousNonDiagetic" MaxAttenuation="0.000000"/>
-				<Event Id="2998494526" Name="Stop_PlasticHit01" ObjectPath="\Events\Default Work Unit\Stop_PlasticHit01" MaxAttenuation="0.000000"/>
-				<Event Id="1629322602" Name="Stop_RattlingDoor01" ObjectPath="\Events\Default Work Unit\Stop_RattlingDoor01" MaxAttenuation="0.000000"/>
-				<Event Id="1629322601" Name="Stop_RattlingDoor02" ObjectPath="\Events\Default Work Unit\Stop_RattlingDoor02" MaxAttenuation="0.000000"/>
-				<Event Id="2160423578" Name="Stop_RefrigeratorDoorClose" ObjectPath="\Events\Default Work Unit\Stop_RefrigeratorDoorClose" MaxAttenuation="0.000000"/>
-				<Event Id="1467672478" Name="Stop_RefrigeratorDoorOpen" ObjectPath="\Events\Default Work Unit\Stop_RefrigeratorDoorOpen" MaxAttenuation="0.000000"/>
-				<Event Id="2827139811" Name="Stop_TelevisionStatic01" ObjectPath="\Events\Default Work Unit\Stop_TelevisionStatic01" MaxAttenuation="0.000000"/>
-				<Event Id="2304801796" Name="Stop_TelevisionTurnOff" ObjectPath="\Events\Default Work Unit\Stop_TelevisionTurnOff" MaxAttenuation="0.000000"/>
-				<Event Id="3828176734" Name="Stop_TelevisionTurnOn" ObjectPath="\Events\Default Work Unit\Stop_TelevisionTurnOn" MaxAttenuation="0.000000"/>
-				<Event Id="3173136834" Name="Stop_Wind" ObjectPath="\Events\Default Work Unit\Stop_Wind" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="8955661" Language="SFX">
-					<ShortName>Home\HitWood01.wav</ShortName>
-					<Path>SFX\Home\HitWood01_9E69E797.wem</Path>
-				</File>
-				<File Id="26796666" Language="SFX">
-					<ShortName>Sound Effect Folder\Key Sound.wav</ShortName>
-					<Path>SFX\Sound Effect Folder\Key Sound_9E69E797.wem</Path>
-				</File>
-				<File Id="27332809" Language="SFX">
-					<ShortName>Home\BedJump01.wav</ShortName>
-					<Path>SFX\Home\BedJump01_9E69E797.wem</Path>
-				</File>
-				<File Id="32880256" Language="SFX">
-					<ShortName>WaterSizzle 6088_59_1.wav</ShortName>
-					<Path>SFX\WaterSizzle 6088_59_1_9E69E797.wem</Path>
-				</File>
-				<File Id="67596541" Language="SFX">
-					<ShortName>PulsingRoomAmbCycl MM040201.wav</ShortName>
-					<Path>SFX\PulsingRoomAmbCycl MM040201_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="129696658" Language="SFX">
-					<ShortName>266393__ceich93__gong12.wav</ShortName>
-					<Path>SFX\266393__ceich93__gong12_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="144868905" Language="SFX">
-					<ShortName>Wind 6036_46.wav</ShortName>
-					<Path>SFX\Wind 6036_46_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="157998416" Language="SFX">
-					<ShortName>Home\HitWood02.wav</ShortName>
-					<Path>SFX\Home\HitWood02_9E69E797.wem</Path>
-				</File>
-				<File Id="200795268" Language="SFX">
-					<ShortName>donecharging.wav</ShortName>
-					<Path>SFX\donecharging_9E69E797.wem</Path>
-				</File>
-				<File Id="210487919" Language="SFX">
-					<ShortName>Camera 6074_50_2.wav</ShortName>
-					<Path>SFX\Camera 6074_50_2_9E69E797.wem</Path>
-				</File>
-				<File Id="210638620" Language="SFX">
-					<ShortName>humming.wav</ShortName>
-					<Path>SFX\humming_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="294233973" Language="SFX">
-					<ShortName>Home\PlasticHit01.wav</ShortName>
-					<Path>SFX\Home\PlasticHit01_9E69E797.wem</Path>
-				</File>
-				<File Id="304349912" Language="SFX">
-					<ShortName>value pressure release.wav</ShortName>
-					<Path>SFX\value pressure release_9E69E797.wem</Path>
-				</File>
-				<File Id="312918563" Language="SFX">
-					<ShortName>Camera 6074_50_1.wav</ShortName>
-					<Path>SFX\Camera 6074_50_1_9E69E797.wem</Path>
-				</File>
-				<File Id="320582916" Language="SFX">
-					<ShortName>Sound Effect Folder\Shining Key.wav</ShortName>
-					<Path>SFX\Sound Effect Folder\Shining Key_9E69E797.wem</Path>
-				</File>
-				<File Id="352673207" Language="SFX">
-					<ShortName>ELEC_Sizzle, Electrical_PE20_04_01.wav</ShortName>
-					<Path>SFX\ELEC_Sizzle, Electrical_PE20_04_01_4B8CC0C5.wem</Path>
-				</File>
 				<File Id="397114721" Language="SFX">
 					<ShortName>Clock.wav</ShortName>
 					<Path>SFX\Clock_9E69E797.wem</Path>
-				</File>
-				<File Id="443660168" Language="SFX">
-					<ShortName>Home\ClockTickLong01.wav</ShortName>
-					<Path>SFX\Home\ClockTickLong01_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="483059594" Language="SFX">
-					<ShortName>Sound Effect Folder\Bumping into more metal.wav</ShortName>
-					<Path>SFX\Sound Effect Folder\Bumping into more metal_9E69E797.wem</Path>
-				</File>
-				<File Id="484572021" Language="SFX">
-					<ShortName>Home\RefrigeratorDoorClose.wav</ShortName>
-					<Path>SFX\Home\RefrigeratorDoorClose_9E69E797.wem</Path>
-				</File>
-				<File Id="494481526" Language="SFX">
-					<ShortName>Home\RattlingDoor01.wav</ShortName>
-					<Path>SFX\Home\RattlingDoor01_9E69E797.wem</Path>
-				</File>
-				<File Id="502733616" Language="SFX">
-					<ShortName>Warning Beep Single ButtonFuturisticCo MM014204.wav</ShortName>
-					<Path>SFX\Warning Beep Single ButtonFuturisticCo MM014204_9E69E797.wem</Path>
-				</File>
-				<File Id="516486189" Language="SFX">
-					<ShortName>Home\HitWood03.wav</ShortName>
-					<Path>SFX\Home\HitWood03_9E69E797.wem</Path>
-				</File>
-				<File Id="574535115" Language="SFX">
-					<ShortName>FootstepsDeck 6016_78_3.wav</ShortName>
-					<Path>SFX\FootstepsDeck 6016_78_3_9E69E797.wem</Path>
-				</File>
-				<File Id="656500302" Language="SFX">
-					<ShortName>FootstepsDeck 6016_78_4.wav</ShortName>
-					<Path>SFX\FootstepsDeck 6016_78_4_9E69E797.wem</Path>
-				</File>
-				<File Id="760914568" Language="SFX">
-					<ShortName>Home\RattlingDoor02.wav</ShortName>
-					<Path>SFX\Home\RattlingDoor02_9E69E797.wem</Path>
-				</File>
-				<File Id="775756108" Language="SFX">
-					<ShortName>Home\TelevisionTurnOn.wav</ShortName>
-					<Path>SFX\Home\TelevisionTurnOn_9E69E797.wem</Path>
-				</File>
-				<File Id="793360457" Language="SFX">
-					<ShortName>Sound Effect Folder\Quick Metal Bumb.wav</ShortName>
-					<Path>SFX\Sound Effect Folder\Quick Metal Bumb_9E69E797.wem</Path>
-				</File>
-				<File Id="866602135" Language="SFX">
-					<ShortName>Home\TelevisionStatic01.wav</ShortName>
-					<Path>SFX\Home\TelevisionStatic01_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="876341023" Language="SFX">
-					<ShortName>Home\RefrigeratorDoorOpen.wav</ShortName>
-					<Path>SFX\Home\RefrigeratorDoorOpen_9E69E797.wem</Path>
-				</File>
-				<File Id="897405886" Language="SFX">
-					<ShortName>Home\TelevisionTurnOff.wav</ShortName>
-					<Path>SFX\Home\TelevisionTurnOff_9E69E797.wem</Path>
-				</File>
-				<File Id="973667805" Language="SFX">
-					<ShortName>Sound Effect Folder\Bumping into metal.wav</ShortName>
-					<Path>SFX\Sound Effect Folder\Bumping into metal_9E69E797.wem</Path>
-				</File>
-				<File Id="1016385370" Language="SFX">
-					<ShortName>MX_Horror, Music_TUR02_96_01.wav</ShortName>
-					<Path>SFX\MX_Horror, Music_TUR02_96_01_4B8CC0C5.wem</Path>
-				</File>
-				<File Id="1024189948" Language="SFX">
-					<ShortName>charging.wav</ShortName>
-					<Path>SFX\charging_9E69E797.wem</Path>
-				</File>
-				<File Id="1031192982" Language="SFX">
-					<ShortName>Home\BedJump02.wav</ShortName>
-					<Path>SFX\Home\BedJump02_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
