@@ -7,6 +7,7 @@ public class Ending : MonoBehaviour {
     private GameState GS;
     private Vector3 FinalPosition;
     public Text Interact;
+    private bool playedEnding = false;
     // Use this for initialization
     void Start()
     {
@@ -29,7 +30,11 @@ public class Ending : MonoBehaviour {
             Interact.text = "You've escaped the dome!";
             Interact.color = Color.grey;
             Interact.enabled = true;
-            GetComponent<CustomTrigger>().Hit();
+            if (!playedEnding)
+            {
+                GetComponent<CustomTrigger>().Hit();
+                playedEnding = true;
+            }
         }
 
     }
