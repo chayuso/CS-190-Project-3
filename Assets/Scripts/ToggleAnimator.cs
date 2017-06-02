@@ -21,5 +21,6 @@ public class ToggleAnimator : MonoBehaviour {
     public void OnMouseDown()
     {
         ToggleASM.SetTrigger("Toggle");
+        GetComponent<CustomTrigger>().Hit();
     }
 }
