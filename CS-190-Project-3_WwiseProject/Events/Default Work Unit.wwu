@@ -972,6 +972,72 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_TVStatic_J" ID="{77CB7F69-1F84-4F42-ACA3-09508E559C8A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1B78BA83-41C5-4D1E-8E9B-550FF56BDC99}" ShortID="350872956" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4B4CAAE4-9447-45F6-A752-3AE42DB276DC}" Global="false">
+									<ObjectRef Name="TV Static" ID="{2E63677B-94BE-4CF9-9AD3-621BAC1DDCF5}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_TVStatic_J" ID="{89CEC783-44E3-4419-B1A7-5CC618108894}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{BD70E7AE-5606-43E3-85D9-85CB4113C022}" ShortID="899552282" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{284747D0-F41A-4860-A5E0-5F730324119D}" Global="false">
+									<ObjectRef Name="TV Static" ID="{2E63677B-94BE-4CF9-9AD3-621BAC1DDCF5}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SodaFizz_J" ID="{FAAF4AE1-08AF-4089-A605-9EAAECEB2034}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4DDE3197-7525-4C3F-ADBC-600A6A884C76}" ShortID="673073045" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B61EC2F2-603B-43EA-8A44-DAB989E0498B}" Global="false">
+									<ObjectRef Name="Soda Bubbling" ID="{8816F409-30ED-45C0-BC1D-A6AA36953ABA}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SodaFizz_J" ID="{7B1FE504-EAEB-404B-892A-5C119AD818CC}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{B4E5103A-B6E3-4730-9F6C-619477B5A649}" ShortID="586558256" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{653EDFD2-F74F-4CBE-A21E-A1330B83627C}" Global="false">
+									<ObjectRef Name="Soda Bubbling" ID="{8816F409-30ED-45C0-BC1D-A6AA36953ABA}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FryingOil_J" ID="{212EC34B-4BE7-4CFD-AE31-9A7A79895510}">
+					<ChildrenList>
+						<Action Name="Play" ID="{81136492-90E2-4FB0-9DFB-E54018E5FC2B}" ShortID="1060368736" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1D2CB564-66F5-4943-A4D1-3662A4E789D4}" Global="false">
+									<ObjectRef Name="Frying Oil" ID="{10429A0B-FCE2-434F-8E99-C94A8F451A6F}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_FryingOil_J" ID="{7ED9DD1C-6F37-4281-99A8-FECBB406E0B1}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{75CB7E76-5ABB-4792-A529-5D564D69A674}" ShortID="741909416" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{51373AFE-9F16-4F9D-AF1F-C6D5C42FA5C8}" Global="false">
+									<ObjectRef Name="Frying Oil" ID="{10429A0B-FCE2-434F-8E99-C94A8F451A6F}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
