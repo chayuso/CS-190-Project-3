@@ -1038,6 +1038,72 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_AlienChirp_J" ID="{1FD79039-3D83-4B67-BCD6-2447FC6E83D3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5E867FA2-1AF7-4816-A80D-D3D65091F4FF}" ShortID="709101758" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7537DC66-69D6-40F1-A73C-6260AA1E7D15}" Global="false">
+									<ObjectRef Name="Alien Chirp" ID="{D94D30FE-F8AD-4DDC-93F5-56A7E1BB965E}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AlienChirp_J" ID="{D4EB5AA0-8748-4041-85EA-B09C1B8CB6C1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{61C857C5-7E9E-4656-84D8-2D1F4B92E20A}" ShortID="691288487" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4A6E32E8-EDDC-46F6-AFE6-69698E050B6B}" Global="false">
+									<ObjectRef Name="Alien Chirp" ID="{D94D30FE-F8AD-4DDC-93F5-56A7E1BB965E}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SlowShipHum_J" ID="{7F7D60AA-3737-41AD-B10B-14FF12281E00}">
+					<ChildrenList>
+						<Action Name="Play" ID="{10C6B93B-E0BD-4380-8E51-C3ABA34283CC}" ShortID="125554466" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{56CA9DAE-DC97-4A10-85D3-38B8C54B2DA3}" Global="false">
+									<ObjectRef Name="Slow Ship Hum" ID="{EDFB33A9-F91A-4025-A040-20D7F380C15A}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SlowShipHum_J" ID="{12C6860B-2FCA-4B86-8381-CDCAB688D56C}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{63550507-BEDA-4AB0-BB2D-34D2B76C3B31}" ShortID="164999565" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AEB0FABA-FB67-4069-B544-5429F51941F5}" Global="false">
+									<ObjectRef Name="Slow Ship Hum" ID="{EDFB33A9-F91A-4025-A040-20D7F380C15A}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AlienHum_J" ID="{71CE694F-41B2-4EAC-AB36-E5756145BFC1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A1031F57-BDE9-47E2-A920-CEE95F2C868F}" ShortID="642935503" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{86B9E3F3-0F6A-434C-A6EC-1D319BC07241}" Global="false">
+									<ObjectRef Name="Slow Alien Hum" ID="{74439E20-CF08-4BDC-86EC-14CFD098E88B}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AlienHum_J" ID="{15458C1A-B5A4-41D1-B991-44886A2F5278}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{E2CCF9CA-3907-492A-8BE1-27489205D611}" ShortID="197415418" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2D781ED6-7465-4333-AB8B-AD43F2A5AAA1}" Global="false">
+									<ObjectRef Name="Slow Alien Hum" ID="{74439E20-CF08-4BDC-86EC-14CFD098E88B}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
