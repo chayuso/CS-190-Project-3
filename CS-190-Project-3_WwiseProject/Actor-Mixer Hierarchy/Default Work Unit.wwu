@@ -3480,6 +3480,120 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="TV Static" ID="{2E63677B-94BE-4CF9-9AD3-621BAC1DDCF5}" ShortID="88356065" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TV Static" ID="{DF6CB036-B739-4493-B68A-D87D21DCA4AC}" ShortID="222015285">
+							<Language>SFX</Language>
+							<AudioFile>TV Static.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TV Static" ID="{DF6CB036-B739-4493-B68A-D87D21DCA4AC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Frying Oil" ID="{10429A0B-FCE2-434F-8E99-C94A8F451A6F}" ShortID="1051782085" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Frying Oil" ID="{78015AD1-FFBC-4F87-95D8-BFCCAA33D0F6}" ShortID="874853675">
+							<Language>SFX</Language>
+							<AudioFile>Frying Oil.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Frying Oil" ID="{78015AD1-FFBC-4F87-95D8-BFCCAA33D0F6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Soda Bubbling" ID="{8816F409-30ED-45C0-BC1D-A6AA36953ABA}" ShortID="690266837" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Soda Bubbling" ID="{8F366892-14EA-4ED3-BD7C-1F78D43AE99E}" ShortID="452967175">
+							<Language>SFX</Language>
+							<AudioFile>Soda Bubbling.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Soda Bubbling" ID="{8F366892-14EA-4ED3-BD7C-1F78D43AE99E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Alien Chirp" ID="{D94D30FE-F8AD-4DDC-93F5-56A7E1BB965E}" ShortID="913788285" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Alien Chirp" ID="{118E4DC6-456B-499E-A7AA-ABFEED332DEF}" ShortID="708073822">
+							<Language>SFX</Language>
+							<AudioFile>Alien Chirp.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Alien Chirp" ID="{118E4DC6-456B-499E-A7AA-ABFEED332DEF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Slow Alien Hum" ID="{74439E20-CF08-4BDC-86EC-14CFD098E88B}" ShortID="600682239" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Slow Alien Hum" ID="{02761023-0D06-4BDE-BC99-D5C991A96E22}" ShortID="368762942">
+							<Language>SFX</Language>
+							<AudioFile>Slow Alien Hum.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Slow Alien Hum" ID="{02761023-0D06-4BDE-BC99-D5C991A96E22}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Slow Ship Hum" ID="{EDFB33A9-F91A-4025-A040-20D7F380C15A}" ShortID="761653021" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Slow Ship Hum" ID="{FF0F28CC-BF4F-4F0C-981F-5F000D19F7B8}" ShortID="1003295091">
+							<Language>SFX</Language>
+							<AudioFile>Slow Ship Hum.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Slow Ship Hum" ID="{FF0F28CC-BF4F-4F0C-981F-5F000D19F7B8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
