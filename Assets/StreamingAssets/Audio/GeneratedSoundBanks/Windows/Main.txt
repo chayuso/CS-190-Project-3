@@ -88,6 +88,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3966836975	Stop_Droning			\Default Work Unit\Stop_Droning	
 	4070979672	Play_Clock			\Default Work Unit\Play_Clock	
 
+Effect plug-ins	ID	Name	Type				Notes
+	1431265797	Monsterize	Wwise Pitch Shifter			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3020158	heartbeat	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\heartbeat_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\heartbeat		381276
 	8955661	HitWood01	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Home\HitWood01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound Effect Folder\Home\HitWood01		114752
