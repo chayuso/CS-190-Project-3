@@ -1104,6 +1104,176 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_BumpReverb_J" ID="{FF57C775-3A30-48F5-B57A-1BC6280D5AF5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DCB809EC-BF37-463B-9E3C-DED0C67247AC}" ShortID="498731687" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{72A943F0-8FE9-4AC1-8B16-ACC5D39658ED}" Global="false">
+									<ObjectRef Name="bumpigGeneric_Reverb" ID="{B00CC184-96BA-418B-B7A1-31930191A001}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BigThudReverb_J" ID="{567C9496-C684-498F-A84A-5540E6E1EDA5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8FA5B4BD-E902-407B-A9A9-A7A487CB7A32}" ShortID="106625877" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{42E3A277-EBC4-43B8-9D31-511E0A9310AA}" Global="false">
+									<ObjectRef Name="metal_thud_Reverb" ID="{DDBF662A-5C18-488F-89ED-67CCA9A89854}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_StepReverb_J" ID="{EDD84D03-2C22-4B64-88A7-EB3DC717548C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{84E0F158-C188-41AE-8A34-69C95CCA2723}" ShortID="98846358" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2592F244-78BB-40D3-85FC-4BBEA7AEBD2A}" Global="false">
+									<ObjectRef Name="Footsteps_Reverb" ID="{D8BE9F83-0754-4F7C-ABB3-05F395B2B16C}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ChargingReverb_J" ID="{727D6DE7-44FD-4DB0-A1AF-32D0A77FDAB2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0B44AF35-D881-4BE5-9415-CF23CA40F345}" ShortID="210091630" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C50511C3-9EB1-4A5D-99A2-25880A83BC82}" Global="false">
+									<ObjectRef Name="charging_reverb" ID="{9535EC32-BBB6-4A29-8375-978F35F06B92}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ConcreteSteps2_J" ID="{720E78A2-99D0-4D47-B585-E692744DB1F2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{34EBAE7D-AE63-42C8-8B97-BD11AA525B07}" ShortID="307919861" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C074A917-1601-4E1C-99BA-43E60C0D7EE3}" Global="false">
+									<ObjectRef Name="FootstepsConcrete 6016_04_1" ID="{716CD1F1-FC31-4D3A-B679-08C682FFF945}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ConcreteSteps2_J" ID="{3CC24226-3C79-4E6F-9E70-D017C7027615}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{4E3D7A3E-4B95-4CA6-8ABF-70054D5E3337}" ShortID="199787559" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8CCECDF8-A6AD-4CBB-9D25-C56874563F64}" Global="false">
+									<ObjectRef Name="FootstepsConcrete 6016_04_1" ID="{716CD1F1-FC31-4D3A-B679-08C682FFF945}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ConcreteSteps2Reverb_J" ID="{14628DA9-AFB6-4F59-9A27-5C6D1EF3D380}">
+					<ChildrenList>
+						<Action Name="Play" ID="{48FC04F3-C4C4-444F-A73F-BA3F6F36CC9F}" ShortID="857525911" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A68D71CC-FF1E-4688-BB47-379F9360DB32}" Global="false">
+									<ObjectRef Name="FootstepsConcrete Reverb" ID="{25F59191-2482-496E-B7A6-C0A6EA343833}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ConcreteSteps2Reverb_J" ID="{6894298A-A009-4634-95E2-35F10439B0C2}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{B020A947-8832-4301-8834-E84B973D229B}" ShortID="1062618520" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8766BF62-A754-4E23-8852-1B6B42938321}" Global="false">
+									<ObjectRef Name="FootstepsConcrete Reverb" ID="{25F59191-2482-496E-B7A6-C0A6EA343833}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MetalSounds2_J" ID="{D4F75C15-9EE0-49CD-BC98-EA43A058959A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{23BE8C95-70C0-43E6-851D-23C4FB30843E}" ShortID="471596037" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2AFE5EB3-D5D5-4C94-A3FF-3D27E935BDE3}" Global="false">
+									<ObjectRef Name="Metal_Sounds_2" ID="{9D7C4D88-8B77-469B-9949-98F4A812B58F}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MetalSounds2_J" ID="{2FCB47AA-30DB-49C3-B2AC-01756476C8BE}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{0EC95832-9946-4750-B495-D0BE0DA45740}" ShortID="1030239270" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F65923A2-B6E6-4BDB-879C-91250017C4AF}" Global="false">
+									<ObjectRef Name="Metal_Sounds_2" ID="{9D7C4D88-8B77-469B-9949-98F4A812B58F}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MetalSoundsReverb_J" ID="{BDFE381A-8C3D-4C44-9B68-C0A260A7FE24}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A97A505B-8BBE-461C-8653-BCFA8F10FE43}" ShortID="331021314" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{88D2A14E-C1BA-4FC1-B05B-9079E39C2EB1}" Global="false">
+									<ObjectRef Name="Metal_Sounds_2_Reverb" ID="{1C7D9C44-89C7-41AA-ABF6-C4AA24DA5246}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MetalSoundsReverb_J" ID="{55FF4EB7-60AF-4808-B5E2-A81DFAC88BFB}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{823566AE-8E68-4202-A57B-E458975C2E1B}" ShortID="423484241" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D4774704-D7ED-4B9F-8B3B-D0B06373686A}" Global="false">
+									<ObjectRef Name="Metal_Sounds_2_Reverb" ID="{1C7D9C44-89C7-41AA-ABF6-C4AA24DA5246}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GlassSmash_J" ID="{37915614-D782-471E-A9DA-5E6299E1901F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3286B14B-AB89-401C-8183-8A5FBFEE7ED3}" ShortID="767861901" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D23A69FA-CF3B-40C6-BD33-A76BBC999EE5}" Global="false">
+									<ObjectRef Name="GlassSmash" ID="{4E90C61D-AE7C-4A39-B4FB-479287990B25}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GlassSmash_J" ID="{49E6081C-C663-45D8-962E-50DEE4E4EB81}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{DB0A8D43-FC94-45B7-A279-7223725E0E78}" ShortID="911964311" Type="Stop" Scope="All" Global="false"/>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GlassReverb_J" ID="{60B506B2-EA57-4B01-9EFF-D15929B68084}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B1B58922-F5E4-4B9E-ADC8-D65BED2579F0}" ShortID="109699279" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{86F63811-7AA7-4920-AAA5-FA139AFDE7B7}" Global="false">
+									<ObjectRef Name="GlassSmash_Reverb" ID="{27D5050C-8395-4439-9C86-E4C81D9430F0}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GlassReverb_J" ID="{C5182ECC-1BC8-4FC6-BCCD-4045340B7179}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{281488ED-E7FA-46F1-9CFC-3DCAD29E76E5}" ShortID="337551099" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{86156FCC-4811-481C-AA70-637D84E67E56}" Global="false">
+									<ObjectRef Name="GlassSmash_Reverb" ID="{27D5050C-8395-4439-9C86-E4C81D9430F0}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
