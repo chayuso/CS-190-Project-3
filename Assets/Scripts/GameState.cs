@@ -13,6 +13,7 @@ public class GameState : MonoBehaviour {
     public Follow[] Followers;
     public int keysPickedUp = 0;
     public bool isEnding = false;
+    public bool windOn = true;
     private static Vector3 PlayerInitPos;
     private static Quaternion PlayerInitRot;
     private float lastX;
@@ -35,7 +36,7 @@ public class GameState : MonoBehaviour {
             lastZ = Player.transform.position.z;
             gameObject.GetComponent<LightOnTrigger>().Hit();
 
-        } else if ((lastZ < Player.transform.position.z - 2.5 || lastX > Player.transform.position.x + 2.5))
+        } else if ((lastZ < Player.transform.position.z - 2.5 || lastZ > Player.transform.position.z + 2.5))
         {
             lastX = Player.transform.position.x;
             lastZ = Player.transform.position.z;
