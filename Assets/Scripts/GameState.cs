@@ -28,19 +28,32 @@ public class GameState : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        textKeys.text = "Keys Collected: "+keysPickedUp.ToString();
+        textKeys.text = "Keys Collected: "+keysPickedUp.ToString()+"/6";
         //**************************Work In-Progress
         if ((lastX < Player.transform.position.x - 2.5 || lastX > Player.transform.position.x + 2.5))
         {
             lastX = Player.transform.position.x;
             lastZ = Player.transform.position.z;
-            gameObject.GetComponent<LightOnTrigger>().Hit();
-
+            if (windOn)
+            {
+                Player.gameObject.GetComponent<LightOnTrigger>().Hit();
+            }
+            else
+            {
+                Player.gameObject.GetComponent<LightOffTrigger>().Hit();
+            }
         } else if ((lastZ < Player.transform.position.z - 2.5 || lastZ > Player.transform.position.z + 2.5))
         {
             lastX = Player.transform.position.x;
             lastZ = Player.transform.position.z;
-            gameObject.GetComponent<LightOnTrigger>().Hit();
+            if (windOn)
+            {
+                Player.gameObject.GetComponent<LightOnTrigger>().Hit();
+            }
+            else
+            {
+                Player.gameObject.GetComponent<LightOffTrigger>().Hit();
+            }
 
         }
         //**************************

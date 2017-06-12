@@ -4584,6 +4584,897 @@
 						<ItemRef Name="GlassSmash 6051_47_2" ID="{5B8EC07C-DE26-46C9-86C1-09F499C1CA94}"/>
 					</Playlist>
 				</RandomSequenceContainer>
+				<Folder Name="WareHouseSteps" ID="{7F2CA200-8F54-42C0-A96C-0C600DAA38C2}" ShortID="691190921">
+					<ChildrenList>
+						<RandomSequenceContainer Name="WareHouseSteps" ID="{DCB1AEFB-DE9E-4D67-84A6-1435CA6C63AA}" ShortID="30805241">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{A72D2985-0227-42F7-9503-308F17747C79}" ShortID="913560782">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="20"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{FDFC7592-1C54-4C4C-B77C-D10D1B967F5B}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>20</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="w0" ID="{8E5EB1FA-0D02-4605-A24B-5D17613F48F9}" ShortID="881723876" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w0" ID="{8F00EF75-52BE-471D-866E-2F872CBBC4F2}" ShortID="953405067">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w0.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w0" ID="{8F00EF75-52BE-471D-866E-2F872CBBC4F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w1" ID="{8E6D7E9B-53A9-44FA-AF2E-B5E33761B969}" ShortID="903246533" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w1" ID="{B9C33314-418F-475E-854F-B16F87F50871}" ShortID="164122187">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w1" ID="{B9C33314-418F-475E-854F-B16F87F50871}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w2" ID="{E65E86B5-4AC3-4CAC-9B36-19A46D2A2DAE}" ShortID="235843970" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w2" ID="{D2316AD1-853E-4837-AF21-97822AE8E978}" ShortID="893891016">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w2" ID="{D2316AD1-853E-4837-AF21-97822AE8E978}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w3" ID="{72155F2A-0287-412E-B51D-CD4FDDE346F7}" ShortID="818185808" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w3" ID="{6FDC5BE3-682D-4123-A9C2-346B08EEA065}" ShortID="534846576">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w3" ID="{6FDC5BE3-682D-4123-A9C2-346B08EEA065}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w4" ID="{1C0310C3-687A-40BF-9005-AEEBB6C7B6AA}" ShortID="541034186" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w4" ID="{DF5CBBCE-FC6D-4F20-8E4D-AFC07E0B6DC7}" ShortID="469391142">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w4" ID="{DF5CBBCE-FC6D-4F20-8E4D-AFC07E0B6DC7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w5" ID="{5117C734-C289-452D-A94A-4F31CDB2F1A8}" ShortID="371630200" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w5" ID="{FC2E99F1-9868-4D08-B7DE-AD1DAD677B55}" ShortID="213857948">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w5" ID="{FC2E99F1-9868-4D08-B7DE-AD1DAD677B55}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w6" ID="{F4DB5C73-647B-48E3-A259-925D3B61629B}" ShortID="798223083" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w6" ID="{79535191-34CE-4601-804A-E946D302850A}" ShortID="300690316">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w6" ID="{79535191-34CE-4601-804A-E946D302850A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w7" ID="{2818BBD5-0A02-4812-9615-0B76568FDB10}" ShortID="540762310" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w7" ID="{4F753DAA-B7D1-462A-89EE-44E9EAA47CE6}" ShortID="1053417617">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w7" ID="{4F753DAA-B7D1-462A-89EE-44E9EAA47CE6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w8" ID="{D3288A96-D42E-440C-81A7-7320ED349498}" ShortID="551235299" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w8" ID="{C217BF03-9ECD-4F86-873B-25C7A272A092}" ShortID="7688351">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w8" ID="{C217BF03-9ECD-4F86-873B-25C7A272A092}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w9" ID="{03C10723-82E0-47C9-A011-887D0298AE4A}" ShortID="421256384" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w9" ID="{CCD7F246-3576-401F-82FA-BCD0BA7E24A2}" ShortID="925489393">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w9.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w9" ID="{CCD7F246-3576-401F-82FA-BCD0BA7E24A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w10" ID="{2885D9E4-8D80-41E8-95D6-76CE1E37B167}" ShortID="788027926" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w10" ID="{091B6A79-F703-44DF-858F-999AAF602D6B}" ShortID="723678164">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w10.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w10" ID="{091B6A79-F703-44DF-858F-999AAF602D6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w11" ID="{BDD4250D-0E9F-487E-BE73-826D10760C6A}" ShortID="421810614" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w11" ID="{2DCA4AD0-83A7-41B9-8D9F-3AF8C9D92CB9}" ShortID="326222013">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w11.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w11" ID="{2DCA4AD0-83A7-41B9-8D9F-3AF8C9D92CB9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w12" ID="{06F959E3-C0E7-4FE6-8BFD-D2DBAF7ED9C2}" ShortID="344258518" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w12" ID="{0ADB605E-3A0C-484D-A2D2-5F882D918FC2}" ShortID="113131432">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w12.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w12" ID="{0ADB605E-3A0C-484D-A2D2-5F882D918FC2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w13" ID="{DCE1F258-E17B-42F3-9A7C-1008FC1B875D}" ShortID="240827877" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w13" ID="{8CAAE106-7FCE-4C90-8D2C-AF91849A8A9F}" ShortID="578412248">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w13.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w13" ID="{8CAAE106-7FCE-4C90-8D2C-AF91849A8A9F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w14" ID="{B9D0D46A-410E-49B4-A31D-23EEAE943CA5}" ShortID="179048886" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w14" ID="{42250514-447E-44FB-AC1F-EB8C82C52D38}" ShortID="506024977">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w14.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w14" ID="{42250514-447E-44FB-AC1F-EB8C82C52D38}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w15" ID="{30FC03A9-7E13-4A7B-9704-309545D0DD90}" ShortID="836206451" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w15" ID="{116840DD-468C-4FDE-BCD4-49CB1A671D1D}" ShortID="449190931">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w15.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w15" ID="{116840DD-468C-4FDE-BCD4-49CB1A671D1D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w16" ID="{05360732-81FF-4847-BBFE-14EA0FFF9565}" ShortID="906378185" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w16" ID="{F3A95D3E-35B9-496A-AF44-5EBED7108259}" ShortID="801996495">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w16.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w16" ID="{F3A95D3E-35B9-496A-AF44-5EBED7108259}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w17" ID="{21C95A9E-9B3F-4759-A93E-63B2FF753C2F}" ShortID="199793289" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w17" ID="{E0FCD402-F918-4E2D-8C1E-030F47CE4A88}" ShortID="259596119">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w17.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w17" ID="{E0FCD402-F918-4E2D-8C1E-030F47CE4A88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w18" ID="{52BB0A63-C69B-4AE1-8B24-8AFEF57B4430}" ShortID="42251236" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w18" ID="{47E5C573-C6A6-4EF3-975C-573BC8898665}" ShortID="936383185">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w18.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w18" ID="{47E5C573-C6A6-4EF3-975C-573BC8898665}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w19" ID="{E4C5AAB5-079C-491C-83CB-AA2855E38743}" ShortID="891605452" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w19" ID="{614C6269-EF0D-4E3B-B77A-8F3E4A428639}" ShortID="455212146">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w19.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w19" ID="{614C6269-EF0D-4E3B-B77A-8F3E4A428639}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w20" ID="{146EEB7A-3867-4BF2-9CD8-517970E53A7F}" ShortID="168094291" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w20" ID="{BE07C52C-154E-48C2-8E63-6ADDC79CB1C5}" ShortID="272174511">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w20.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w20" ID="{BE07C52C-154E-48C2-8E63-6ADDC79CB1C5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w21" ID="{37440610-18C5-457B-B105-D6DC90839FF9}" ShortID="96103590" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w21" ID="{B4C17EFC-0BCC-4FAD-8B8E-D43FC0EDD0C8}" ShortID="927362619">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w21.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w21" ID="{B4C17EFC-0BCC-4FAD-8B8E-D43FC0EDD0C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w22" ID="{81E799BE-5C06-4EB6-B402-5DE312F03B58}" ShortID="308906888" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w22" ID="{A6ABE4C4-7D38-4568-A654-3CE17A7353AF}" ShortID="223582678">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w22.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w22" ID="{A6ABE4C4-7D38-4568-A654-3CE17A7353AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w23" ID="{3A7EC480-8D23-4FFC-9E06-626BDCDA2CB0}" ShortID="1022133938" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w23" ID="{6B2363B3-99C1-4E56-B43A-D405CD476A01}" ShortID="715237591">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w23.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w23" ID="{6B2363B3-99C1-4E56-B43A-D405CD476A01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w24" ID="{314CE831-C68E-4C7B-97AD-F8F3A3145115}" ShortID="464655234" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w24" ID="{2F67FEEF-E4C8-4B79-A0E1-7762BEA67469}" ShortID="311262251">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w24.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w24" ID="{2F67FEEF-E4C8-4B79-A0E1-7762BEA67469}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w25" ID="{90476EFB-4B8A-40A0-8BC4-44955E245B8B}" ShortID="850632087" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w25" ID="{A9150F0A-BD02-46BA-8B1A-C59C6F7B598C}" ShortID="83558804">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w25.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w25" ID="{A9150F0A-BD02-46BA-8B1A-C59C6F7B598C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w26" ID="{6D5F9397-817B-487B-AB8C-C7949F53A0AD}" ShortID="96602980" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w26" ID="{ED57EDA3-025C-4528-A18E-CC98751C1489}" ShortID="598932688">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w26.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w26" ID="{ED57EDA3-025C-4528-A18E-CC98751C1489}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w27" ID="{9DC4431E-CABC-4FE7-B518-CD295D1FAA3F}" ShortID="840997248" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w27" ID="{B90DE4E8-EC5E-4EA3-A5A4-01525D5DD9F6}" ShortID="921218140">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w27.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w27" ID="{B90DE4E8-EC5E-4EA3-A5A4-01525D5DD9F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w28" ID="{994921A5-E334-474A-BCB2-EE4EAE8B441D}" ShortID="949600680" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w28" ID="{983307C5-2938-4ACD-814F-B10EC211EE0E}" ShortID="200124148">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w28.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w28" ID="{983307C5-2938-4ACD-814F-B10EC211EE0E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w29" ID="{6F85B827-3BCB-4E0E-9715-C526455404DE}" ShortID="472667391" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w29" ID="{597E41A0-D227-403A-8DBF-405BF6B324AF}" ShortID="718180520">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w29.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w29" ID="{597E41A0-D227-403A-8DBF-405BF6B324AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w30" ID="{1527D45F-7797-4195-8DCF-E6E343587A2C}" ShortID="1037005702" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w30" ID="{14970A12-D17C-4B19-A19F-7EAE0A90B7DD}" ShortID="489690">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w30.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w30" ID="{14970A12-D17C-4B19-A19F-7EAE0A90B7DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w31" ID="{477CF5C2-2E95-433E-9373-0CEE647C3F37}" ShortID="927633630" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w31" ID="{76ECC39D-997A-4115-8FE9-4CC000508686}" ShortID="170822832">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w31.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w31" ID="{76ECC39D-997A-4115-8FE9-4CC000508686}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w32" ID="{73FA3165-C582-4931-82EB-26D1F7238A2B}" ShortID="260432100" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w32" ID="{8F11F55C-5162-49E3-850F-D03A3A1F296D}" ShortID="462323072">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w32.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w32" ID="{8F11F55C-5162-49E3-850F-D03A3A1F296D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w33" ID="{8FD0AECA-BCA4-4A71-AF29-F068E07C1DDC}" ShortID="465270599" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w33" ID="{4A8FC2C4-4601-4620-9DE8-DFDD7D2C8194}" ShortID="517110065">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w33.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w33" ID="{4A8FC2C4-4601-4620-9DE8-DFDD7D2C8194}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w34" ID="{3961C7DC-A36F-4E8A-8B85-8551869C1EA9}" ShortID="191005034" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w34" ID="{2260B7F1-43D7-45CB-A3D8-22C3F0106801}" ShortID="402591182">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w34.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w34" ID="{2260B7F1-43D7-45CB-A3D8-22C3F0106801}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w35" ID="{6F08F799-F409-45EF-8AFA-A92910EBCA99}" ShortID="684445962" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w35" ID="{D3C53F03-9EDE-49A5-8369-3467BD795838}" ShortID="1052286171">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w35.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w35" ID="{D3C53F03-9EDE-49A5-8369-3467BD795838}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w36" ID="{0E717328-157D-423E-A68D-8047EE27C614}" ShortID="730303234" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w36" ID="{80DAD84C-6B04-4E61-80E5-55DC6639831B}" ShortID="692050800">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w36.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w36" ID="{80DAD84C-6B04-4E61-80E5-55DC6639831B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w37" ID="{31A1325B-6715-4166-BB6F-02344BA4FFBB}" ShortID="501191125" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w37" ID="{03594AFB-13C8-43FA-A25B-4827E62B3C36}" ShortID="699999160">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w37.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w37" ID="{03594AFB-13C8-43FA-A25B-4827E62B3C36}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w38" ID="{D0A6E598-478E-43F3-888B-3529DA2F57B1}" ShortID="815988382" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w38" ID="{DF29C016-9ABB-4D2E-B517-60E2734782AC}" ShortID="315212422">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w38.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w38" ID="{DF29C016-9ABB-4D2E-B517-60E2734782AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w39" ID="{43EF4081-00D7-4963-A53C-99E8A5FFAA45}" ShortID="939144804" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w39" ID="{D3C23BB4-3D20-49F7-9708-FCA0B83B4B4C}" ShortID="681746522">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w39.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w39" ID="{D3C23BB4-3D20-49F7-9708-FCA0B83B4B4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w40" ID="{1CC0E398-ABA6-4847-9F2D-F71666D2B7C0}" ShortID="705227001" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w40" ID="{63E0FC76-E1D8-4241-92CE-607D2F0E36A5}" ShortID="223497611">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w40.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w40" ID="{63E0FC76-E1D8-4241-92CE-607D2F0E36A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w41" ID="{F5C547F5-04D9-406D-B43A-F350CBF4FDAE}" ShortID="352849800" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w41" ID="{41AE0CB7-E045-4C4B-864D-3C3FEF03677A}" ShortID="558333128">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w41.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w41" ID="{41AE0CB7-E045-4C4B-864D-3C3FEF03677A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="w42" ID="{A7783929-3E2A-4743-A28B-CCA9E22F9AC6}" ShortID="1014713701" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="w42" ID="{645E2D4B-E21F-4E5E-BDF3-70C721CA9EB5}" ShortID="1059193618">
+											<Language>SFX</Language>
+											<AudioFile>WareHouseSteps\w42.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="w42" ID="{645E2D4B-E21F-4E5E-BDF3-70C721CA9EB5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
