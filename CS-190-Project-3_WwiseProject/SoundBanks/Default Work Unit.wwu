@@ -39,6 +39,7 @@
 						<ObjectRef Name="Stop_ClockTickLong01" ID="{211DB0D4-A596-4513-B5C2-3A57BB05E292}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_ConcreteSteps_J" ID="{5B8AF9EA-798E-4530-B20E-9FEB794BBA23}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_EerieBong" ID="{6B9684BA-0D6A-454E-B83F-A122E6E424A0}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_WareHouseSteps" ID="{D9037705-86DF-4553-B805-5CC89A1EC106}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_WoodHitting" ID="{0917E3CB-6E7F-455F-8DBC-DBF582DABD86}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_flashing" ID="{27DB7E16-FDD8-4580-9D68-E587D35760E8}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Clock" ID="{BF8757CC-EBB5-4598-8C29-6194439FBBEB}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>

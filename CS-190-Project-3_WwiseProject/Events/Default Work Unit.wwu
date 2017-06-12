@@ -1296,6 +1296,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_WareHouseSteps" ID="{D9037705-86DF-4553-B805-5CC89A1EC106}">
+					<ChildrenList>
+						<Action Name="Play" ID="{88F11E43-B7A0-4E2F-A14A-2126BB794A42}" ShortID="896410885" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{65B0F41B-66A7-48E5-8274-3E45483852AE}" Global="false">
+									<ObjectRef Name="WareHouseSteps" ID="{DCB1AEFB-DE9E-4D67-84A6-1435CA6C63AA}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

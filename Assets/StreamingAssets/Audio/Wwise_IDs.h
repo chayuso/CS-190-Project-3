@@ -84,6 +84,7 @@ namespace AK
         static const AkUniqueID PLAY_TVSTATIC_J = 2671581025U;
         static const AkUniqueID PLAY_USEKEY_J = 1173913055U;
         static const AkUniqueID PLAY_WALKTHROUGHWATER_J = 107445758U;
+        static const AkUniqueID PLAY_WAREHOUSESTEPS = 2753449932U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
         static const AkUniqueID PLAY_WOODHITTING = 511164180U;
         static const AkUniqueID RESUME_WIND = 1342489257U;

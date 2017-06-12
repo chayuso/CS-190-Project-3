@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
         if (Input.GetKeyDown(KeyCode.F)&&batteryPower > 0 && !Charging)
         {
             GS.flashlightOn = flashing = !GS.flashlightOn;
@@ -109,10 +109,13 @@ public class PlayerController : MonoBehaviour {
             }
             if (batteryPower <= 0)
             {
+                if (flashing)
+                {
+                    GetComponent<LightOffTrigger>().Hit();
+                }
                 GS.flashlightOn = false;
                 flashing = false;
                 RechargeNeeded = true;
-                GetComponent<LightOffTrigger>().Hit();
                 //GetComponent<DoneChargingTrigger>().Hit();
             }
         }
