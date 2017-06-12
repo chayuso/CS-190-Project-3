@@ -5475,6 +5475,759 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="LeaveSteps" ID="{E65F1E78-8221-4342-85D8-16C6D5E7016C}" ShortID="105725159">
+					<ChildrenList>
+						<RandomSequenceContainer Name="LeafSteps" ID="{C072B185-6DA7-49D2-84E4-D487B2BDE50A}" ShortID="761793753">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{62677F5C-AE15-4D25-BB3C-B827FEF1BA2C}" ShortID="644319027">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="20"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{F464729D-1280-4F90-9000-6F5125B278E3}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>20</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="q1" ID="{B8C8E48B-050B-4A8D-B865-6DE11DE8BAC9}" ShortID="314110043" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q1" ID="{9B0F9DBC-9100-4711-BE42-6B8E881BA4B0}" ShortID="857767508">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q1" ID="{9B0F9DBC-9100-4711-BE42-6B8E881BA4B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q2" ID="{3F6637CC-1717-481E-BE6B-BDFA806928A6}" ShortID="879932251" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q2" ID="{5B916A49-B624-4423-9320-B52DCD350BE4}" ShortID="271472419">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q2" ID="{5B916A49-B624-4423-9320-B52DCD350BE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q3" ID="{4B02198B-0C4A-44B6-ABA0-16D9D13695E7}" ShortID="951020950" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q3" ID="{FE728941-EDC4-4072-9874-32B402C3F00C}" ShortID="131283220">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q3" ID="{FE728941-EDC4-4072-9874-32B402C3F00C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q4" ID="{ECF45A47-6487-4862-9316-C4AE0B10A824}" ShortID="538693871" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q4" ID="{B4720E82-6398-429F-9281-0AA079E46590}" ShortID="850773750">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q4" ID="{B4720E82-6398-429F-9281-0AA079E46590}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q5" ID="{D41A0C8A-FC10-4365-9FDA-DCF0F4A884B6}" ShortID="319525381" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q5" ID="{CFD9F27D-DE8A-431A-8228-1FE4FFA0BCCC}" ShortID="240437779">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q5" ID="{CFD9F27D-DE8A-431A-8228-1FE4FFA0BCCC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q6" ID="{2FD07FE0-572C-43A5-9414-0293E04EB5D3}" ShortID="939084269" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q6" ID="{A003CEC4-5A62-4A3F-80A1-ED4B0B8BBA87}" ShortID="881892874">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q6" ID="{A003CEC4-5A62-4A3F-80A1-ED4B0B8BBA87}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q7" ID="{98CA506C-6A0D-47D3-92B6-DF0AD19FF5E0}" ShortID="244171186" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q7" ID="{57E964A4-21F2-4C5D-8874-BD878B55428C}" ShortID="497143441">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q7" ID="{57E964A4-21F2-4C5D-8874-BD878B55428C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q8" ID="{A7BB75A8-BDB9-455D-A6C4-182F4F6B8BF9}" ShortID="769599366" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q8" ID="{EC264A1C-2B1E-456A-BA92-3489ED00BC9A}" ShortID="525161021">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q8" ID="{EC264A1C-2B1E-456A-BA92-3489ED00BC9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q9" ID="{B7138884-342D-443A-B0AE-7D23E29FAA27}" ShortID="270809889" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q9" ID="{154003ED-BEF1-4784-8C71-1907E648AD61}" ShortID="291184048">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q9.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q9" ID="{154003ED-BEF1-4784-8C71-1907E648AD61}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q10" ID="{6F53D531-1C74-44F3-9049-24D109FE30DD}" ShortID="487078917" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q10" ID="{F59BA26D-0F32-4AB8-8D69-731664283716}" ShortID="63695315">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q10.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q10" ID="{F59BA26D-0F32-4AB8-8D69-731664283716}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q11" ID="{AEA054FC-9BDF-4D1A-B62A-8C0979EE27DA}" ShortID="171925724" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q11" ID="{F95F4538-C793-40C2-B818-142453C1CACF}" ShortID="809727951">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q11.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q11" ID="{F95F4538-C793-40C2-B818-142453C1CACF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q12" ID="{963B88B7-067B-4180-A914-089F2743731E}" ShortID="463580" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q12" ID="{E8A248D3-391D-4F39-8BE2-7CDCEC14682E}" ShortID="864953331">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q12.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q12" ID="{E8A248D3-391D-4F39-8BE2-7CDCEC14682E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q13" ID="{8E4959ED-3543-4D20-B731-9F9723AE51AE}" ShortID="380768886" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q13" ID="{B82F307F-B219-416A-B1A4-143F2342E50A}" ShortID="81918746">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q13.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q13" ID="{B82F307F-B219-416A-B1A4-143F2342E50A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q14" ID="{E08C8D5E-F79F-4E6F-950E-9F1762452DB2}" ShortID="633012972" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q14" ID="{CBF44709-B624-494B-974D-4AB71AB81B9B}" ShortID="294681278">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q14.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q14" ID="{CBF44709-B624-494B-974D-4AB71AB81B9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q15" ID="{EFCBC383-8DBD-49B6-AFD8-E9B1B70E4D1B}" ShortID="147006791" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q15" ID="{A2AC6EB6-C795-4FE5-A42E-CF386F4A1B50}" ShortID="1012103397">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q15.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q15" ID="{A2AC6EB6-C795-4FE5-A42E-CF386F4A1B50}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q16" ID="{494B51BE-A1B8-454E-AE9B-E822D0EDA307}" ShortID="277276337" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q16" ID="{57C2F4CC-1B9F-469E-9362-AA8A209B1979}" ShortID="314675817">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q16.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q16" ID="{57C2F4CC-1B9F-469E-9362-AA8A209B1979}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q17" ID="{CC23F244-516E-41AB-976B-C47D32B769FB}" ShortID="505014756" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q17" ID="{5BDEB3F8-0DBA-4D32-A24D-E4F9BC42F608}" ShortID="209284784">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q17.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q17" ID="{5BDEB3F8-0DBA-4D32-A24D-E4F9BC42F608}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q18" ID="{C17B85F9-4AFB-4AD0-A9FB-D3FC4413385F}" ShortID="509288416" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q18" ID="{A47F9495-B990-49C9-96E5-96C49826B4EB}" ShortID="423930318">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q18.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q18" ID="{A47F9495-B990-49C9-96E5-96C49826B4EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q19" ID="{0AD75286-4E6C-467D-BCE8-FA3C46111907}" ShortID="498727709" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q19" ID="{C95CD9D9-8FC2-43FB-837A-5164AEBF8A5E}" ShortID="725145594">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q19.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q19" ID="{C95CD9D9-8FC2-43FB-837A-5164AEBF8A5E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q20" ID="{637225FF-0EDC-4F6B-920C-58CE14DDC406}" ShortID="932632106" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q20" ID="{F9273C40-E83D-4DCC-B382-63BB6A9B1148}" ShortID="720098087">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q20.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q20" ID="{F9273C40-E83D-4DCC-B382-63BB6A9B1148}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q21" ID="{8F960D73-A5C7-4D6E-93DE-98C7D9B212EA}" ShortID="322701775" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q21" ID="{D5CCF22F-0653-4DC3-9E3E-0919E8FEDA28}" ShortID="501679587">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q21.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q21" ID="{D5CCF22F-0653-4DC3-9E3E-0919E8FEDA28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q22" ID="{E939AF48-15A4-4931-BA2F-ECF95BDCAF5E}" ShortID="66130687" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q22" ID="{9FA694DA-F47B-499E-9980-47BCCEF38D11}" ShortID="441718405">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q22.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q22" ID="{9FA694DA-F47B-499E-9980-47BCCEF38D11}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q23" ID="{3B90E961-3F28-422E-AFAD-890E7FC79EB0}" ShortID="512984783" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q23" ID="{B1A7B1E1-A0B9-4AC7-9A5C-96C4B72EC8F0}" ShortID="474637246">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q23.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q23" ID="{B1A7B1E1-A0B9-4AC7-9A5C-96C4B72EC8F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q24" ID="{1CBAEC60-B195-4735-82C0-B2D79D094217}" ShortID="244675707" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q24" ID="{23896134-D361-44AB-8E8D-B7FE5190BAEA}" ShortID="1032035168">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q24.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q24" ID="{23896134-D361-44AB-8E8D-B7FE5190BAEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q25" ID="{0062191F-8232-4933-BA69-78E812933C98}" ShortID="759649351" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q25" ID="{1AC79B96-E949-4BBC-BD85-58A7EA059262}" ShortID="504951754">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q25.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q25" ID="{1AC79B96-E949-4BBC-BD85-58A7EA059262}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q26" ID="{16099C8B-92B7-4EC9-BF4E-B07917F555D5}" ShortID="322300689" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q26" ID="{028E4488-8FE9-4414-ABE3-102D8DA6CA2F}" ShortID="1014039792">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q26.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q26" ID="{028E4488-8FE9-4414-ABE3-102D8DA6CA2F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q27" ID="{A0DC64DF-F819-422A-804E-36117EF7B5E4}" ShortID="1018458620" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q27" ID="{1ACE5445-77B8-4CD0-8F8B-A43E9EE0D5B7}" ShortID="895724913">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q27.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q27" ID="{1ACE5445-77B8-4CD0-8F8B-A43E9EE0D5B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q28" ID="{B2D1C7C4-D601-41AE-9876-7B979CA7BEFF}" ShortID="968193471" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q28" ID="{88C95DBB-5B25-409F-AB56-96665BA65938}" ShortID="998364583">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q28.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q28" ID="{88C95DBB-5B25-409F-AB56-96665BA65938}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q29" ID="{DB4F1405-7516-4FAA-824C-D1799045411E}" ShortID="44455889" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q29" ID="{5C09B09B-8301-403C-882F-3443DC71AC8B}" ShortID="44325687">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q29.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q29" ID="{5C09B09B-8301-403C-882F-3443DC71AC8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q30" ID="{B0131923-AB3D-48F5-8772-13AD238A8E9D}" ShortID="577394635" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q30" ID="{8AA9CD43-3451-4362-93E2-588F4B4E43DF}" ShortID="113380478">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q30.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q30" ID="{8AA9CD43-3451-4362-93E2-588F4B4E43DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q31" ID="{771B9662-019B-46F5-95D5-34692B8A8670}" ShortID="35110714" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q31" ID="{FEC10A78-1C43-4A55-B70F-973B0DB5E4BA}" ShortID="872103813">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q31.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q31" ID="{FEC10A78-1C43-4A55-B70F-973B0DB5E4BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q32" ID="{2354D80C-B7C8-4131-AA9C-498606E76831}" ShortID="709253365" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q32" ID="{3DDBB5BE-1E5F-4C41-8A2D-848F4CD2088E}" ShortID="1060995898">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q32.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q32" ID="{3DDBB5BE-1E5F-4C41-8A2D-848F4CD2088E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q33" ID="{0FEF2699-2784-4A8E-B3C0-A3DEA7760A64}" ShortID="486679538" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q33" ID="{39A59F4A-B7F5-4E46-9AB4-7608C2859226}" ShortID="629683905">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q33.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q33" ID="{39A59F4A-B7F5-4E46-9AB4-7608C2859226}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q34" ID="{E5BD399A-880D-41C9-A493-59E7BF0C7AF6}" ShortID="607544995" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q34" ID="{EC5517F6-E8F5-438C-84E2-B565E95102B7}" ShortID="42276291">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q34.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q34" ID="{EC5517F6-E8F5-438C-84E2-B565E95102B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q35" ID="{405186DF-F911-4891-AF2E-45B5323CB106}" ShortID="371343543" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q35" ID="{824E54DF-819A-4C16-AAF1-C0649DBF8062}" ShortID="250323881">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q35.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q35" ID="{824E54DF-819A-4C16-AAF1-C0649DBF8062}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="q36" ID="{F666D99A-7943-49E0-9BD8-7235EABDA741}" ShortID="74245399" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F8557450-48B9-4151-957B-C15DC6320B47}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D2A42421-F514-4430-8043-2D7E97BCFD21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="q36" ID="{6278C66B-AC01-421D-B414-6698597018C7}" ShortID="251802326">
+											<Language>SFX</Language>
+											<AudioFile>LeaveSteps\q36.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="q36" ID="{6278C66B-AC01-421D-B414-6698597018C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

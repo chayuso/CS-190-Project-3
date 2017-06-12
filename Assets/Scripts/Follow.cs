@@ -57,7 +57,6 @@ public class Follow : MonoBehaviour {
             if (!GS.windOn)
             {
                 GS.gameObject.GetComponent<LightOffTrigger>().Hit();
-                GS.windOn = true;
             }
         }
     }

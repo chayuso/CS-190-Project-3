@@ -63,6 +63,7 @@
 				<Event Id="2217683882" Name="Play_ImpactFlash" ObjectPath="\Events\Default Work Unit\Play_ImpactFlash"/>
 				<Event Id="2831410887" Name="Play_Key_Sound" ObjectPath="\Events\Default Work Unit\Play_Key_Sound" MaxAttenuation="10.000000"/>
 				<Event Id="1257583551" Name="Play_KeySparkle" ObjectPath="\Events\Default Work Unit\Play_KeySparkle"/>
+				<Event Id="1941216179" Name="Play_LeafSteps" ObjectPath="\Events\Default Work Unit\Play_LeafSteps" MaxAttenuation="20.000000"/>
 				<Event Id="43403835" Name="Play_LeavesRustling_J" ObjectPath="\Events\Default Work Unit\Play_LeavesRustling_J"/>
 				<Event Id="428265965" Name="Play_LightOff" ObjectPath="\Events\Default Work Unit\Play_LightOff"/>
 				<Event Id="3153972001" Name="Play_LightOn" ObjectPath="\Events\Default Work Unit\Play_LightOn"/>
@@ -174,9 +175,25 @@
 					<ShortName>Lighter Metal 6015_39_2.wav</ShortName>
 					<Path>SFX\Lighter Metal 6015_39_2_9E69E797.wem</Path>
 				</File>
+				<File Id="42276291" Language="SFX">
+					<ShortName>LeaveSteps\q34.wav</ShortName>
+					<Path>SFX\LeaveSteps\q34_9E69E797.wem</Path>
+				</File>
+				<File Id="44325687" Language="SFX">
+					<ShortName>LeaveSteps\q29.wav</ShortName>
+					<Path>SFX\LeaveSteps\q29_9E69E797.wem</Path>
+				</File>
+				<File Id="63695315" Language="SFX">
+					<ShortName>LeaveSteps\q10.wav</ShortName>
+					<Path>SFX\LeaveSteps\q10_9E69E797.wem</Path>
+				</File>
 				<File Id="67596541" Language="SFX">
 					<ShortName>PulsingRoomAmbCycl MM040201.wav</ShortName>
 					<Path>SFX\PulsingRoomAmbCycl MM040201_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="81918746" Language="SFX">
+					<ShortName>LeaveSteps\q13.wav</ShortName>
+					<Path>SFX\LeaveSteps\q13_9E69E797.wem</Path>
 				</File>
 				<File Id="83558804" Language="SFX">
 					<ShortName>WareHouseSteps\w25.wav</ShortName>
@@ -186,6 +203,10 @@
 					<ShortName>WareHouseSteps\w12.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w12_9E69E797.wem</Path>
 				</File>
+				<File Id="113380478" Language="SFX">
+					<ShortName>LeaveSteps\q30.wav</ShortName>
+					<Path>SFX\LeaveSteps\q30_9E69E797.wem</Path>
+				</File>
 				<File Id="127904361" Language="SFX">
 					<ShortName>387539__metzik__impact.wav</ShortName>
 					<Path>SFX\387539__metzik__impact_9E69E797.wem</Path>
@@ -193,6 +214,10 @@
 				<File Id="129696658" Language="SFX">
 					<ShortName>266393__ceich93__gong12.wav</ShortName>
 					<Path>SFX\266393__ceich93__gong12_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="131283220" Language="SFX">
+					<ShortName>LeaveSteps\q3.wav</ShortName>
+					<Path>SFX\LeaveSteps\q3_9E69E797.wem</Path>
 				</File>
 				<File Id="144868905" Language="SFX">
 					<ShortName>Wind 6036_46.wav</ShortName>
@@ -222,6 +247,10 @@
 					<ShortName>donecharging.wav</ShortName>
 					<Path>SFX\donecharging_9E69E797.wem</Path>
 				</File>
+				<File Id="209284784" Language="SFX">
+					<ShortName>LeaveSteps\q17.wav</ShortName>
+					<Path>SFX\LeaveSteps\q17_9E69E797.wem</Path>
+				</File>
 				<File Id="210487919" Language="SFX">
 					<ShortName>Camera 6074_50_2.wav</ShortName>
 					<Path>SFX\Camera 6074_50_2_9E69E797.wem</Path>
@@ -246,9 +275,21 @@
 					<ShortName>WareHouseSteps\w22.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w22_9E69E797.wem</Path>
 				</File>
+				<File Id="240437779" Language="SFX">
+					<ShortName>LeaveSteps\q5.wav</ShortName>
+					<Path>SFX\LeaveSteps\q5_9E69E797.wem</Path>
+				</File>
 				<File Id="240703807" Language="SFX">
 					<ShortName>219476__jarredgibb__button-05.wav</ShortName>
 					<Path>SFX\219476__jarredgibb__button-05_9E69E797.wem</Path>
+				</File>
+				<File Id="250323881" Language="SFX">
+					<ShortName>LeaveSteps\q35.wav</ShortName>
+					<Path>SFX\LeaveSteps\q35_9E69E797.wem</Path>
+				</File>
+				<File Id="251802326" Language="SFX">
+					<ShortName>LeaveSteps\q36.wav</ShortName>
+					<Path>SFX\LeaveSteps\q36_9E69E797.wem</Path>
 				</File>
 				<File Id="259596119" Language="SFX">
 					<ShortName>WareHouseSteps\w17.wav</ShortName>
@@ -258,13 +299,25 @@
 					<ShortName>GlassSmash 6051_52_3.wav</ShortName>
 					<Path>SFX\GlassSmash 6051_52_3_9E69E797.wem</Path>
 				</File>
+				<File Id="271472419" Language="SFX">
+					<ShortName>LeaveSteps\q2.wav</ShortName>
+					<Path>SFX\LeaveSteps\q2_9E69E797.wem</Path>
+				</File>
 				<File Id="272174511" Language="SFX">
 					<ShortName>WareHouseSteps\w20.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w20_9E69E797.wem</Path>
 				</File>
+				<File Id="291184048" Language="SFX">
+					<ShortName>LeaveSteps\q9.wav</ShortName>
+					<Path>SFX\LeaveSteps\q9_9E69E797.wem</Path>
+				</File>
 				<File Id="294233973" Language="SFX">
 					<ShortName>Home\PlasticHit01.wav</ShortName>
 					<Path>SFX\Home\PlasticHit01_9E69E797.wem</Path>
+				</File>
+				<File Id="294681278" Language="SFX">
+					<ShortName>LeaveSteps\q14.wav</ShortName>
+					<Path>SFX\LeaveSteps\q14_9E69E797.wem</Path>
 				</File>
 				<File Id="298985576" Language="SFX">
 					<ShortName>Sound Effect Folder\Another Leaf Rustling.wav</ShortName>
@@ -293,6 +346,10 @@
 				<File Id="312918563" Language="SFX">
 					<ShortName>Camera 6074_50_1.wav</ShortName>
 					<Path>SFX\Camera 6074_50_1_9E69E797.wem</Path>
+				</File>
+				<File Id="314675817" Language="SFX">
+					<ShortName>LeaveSteps\q16.wav</ShortName>
+					<Path>SFX\LeaveSteps\q16_9E69E797.wem</Path>
 				</File>
 				<File Id="315212422" Language="SFX">
 					<ShortName>WareHouseSteps\w38.wav</ShortName>
@@ -330,6 +387,14 @@
 					<ShortName>351408__newagesoup__gleam-glow-sfx-chime.wav</ShortName>
 					<Path>SFX\351408__newagesoup__gleam-glow-sfx-chime_9E69E797.wem</Path>
 				</File>
+				<File Id="423930318" Language="SFX">
+					<ShortName>LeaveSteps\q18.wav</ShortName>
+					<Path>SFX\LeaveSteps\q18_9E69E797.wem</Path>
+				</File>
+				<File Id="441718405" Language="SFX">
+					<ShortName>LeaveSteps\q22.wav</ShortName>
+					<Path>SFX\LeaveSteps\q22_9E69E797.wem</Path>
+				</File>
 				<File Id="443660168" Language="SFX">
 					<ShortName>Home\ClockTickLong01.wav</ShortName>
 					<Path>SFX\Home\ClockTickLong01_4B8CC0C5.wem</Path>
@@ -354,6 +419,10 @@
 					<ShortName>WareHouseSteps\w4.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w4_9E69E797.wem</Path>
 				</File>
+				<File Id="474637246" Language="SFX">
+					<ShortName>LeaveSteps\q23.wav</ShortName>
+					<Path>SFX\LeaveSteps\q23_9E69E797.wem</Path>
+				</File>
 				<File Id="476150613" Language="SFX">
 					<ShortName>Filter FX Drum Loop.wav</ShortName>
 					<Path>SFX\Filter FX Drum Loop_4B8CC0C5.wem</Path>
@@ -370,9 +439,21 @@
 					<ShortName>Home\RattlingDoor01.wav</ShortName>
 					<Path>SFX\Home\RattlingDoor01_9E69E797.wem</Path>
 				</File>
+				<File Id="497143441" Language="SFX">
+					<ShortName>LeaveSteps\q7.wav</ShortName>
+					<Path>SFX\LeaveSteps\q7_9E69E797.wem</Path>
+				</File>
+				<File Id="501679587" Language="SFX">
+					<ShortName>LeaveSteps\q21.wav</ShortName>
+					<Path>SFX\LeaveSteps\q21_9E69E797.wem</Path>
+				</File>
 				<File Id="502733616" Language="SFX">
 					<ShortName>Warning Beep Single ButtonFuturisticCo MM014204.wav</ShortName>
 					<Path>SFX\Warning Beep Single ButtonFuturisticCo MM014204_9E69E797.wem</Path>
+				</File>
+				<File Id="504951754" Language="SFX">
+					<ShortName>LeaveSteps\q25.wav</ShortName>
+					<Path>SFX\LeaveSteps\q25_9E69E797.wem</Path>
 				</File>
 				<File Id="506024977" Language="SFX">
 					<ShortName>WareHouseSteps\w14.wav</ShortName>
@@ -385,6 +466,10 @@
 				<File Id="517110065" Language="SFX">
 					<ShortName>WareHouseSteps\w33.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w33_9E69E797.wem</Path>
+				</File>
+				<File Id="525161021" Language="SFX">
+					<ShortName>LeaveSteps\q8.wav</ShortName>
+					<Path>SFX\LeaveSteps\q8_9E69E797.wem</Path>
 				</File>
 				<File Id="534846576" Language="SFX">
 					<ShortName>WareHouseSteps\w3.wav</ShortName>
@@ -430,6 +515,10 @@
 					<ShortName>381773__stumpbutt__retro-collect-item-sfx.wav</ShortName>
 					<Path>SFX\381773__stumpbutt__retro-collect-item-sfx_9E69E797.wem</Path>
 				</File>
+				<File Id="629683905" Language="SFX">
+					<ShortName>LeaveSteps\q33.wav</ShortName>
+					<Path>SFX\LeaveSteps\q33_9E69E797.wem</Path>
+				</File>
 				<File Id="639452491" Language="SFX">
 					<ShortName>Tuning Fork.wav</ShortName>
 					<Path>SFX\Tuning Fork_4B8CC0C5.wem</Path>
@@ -466,6 +555,10 @@
 					<ShortName>WareHouseSteps\w29.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w29_9E69E797.wem</Path>
 				</File>
+				<File Id="720098087" Language="SFX">
+					<ShortName>LeaveSteps\q20.wav</ShortName>
+					<Path>SFX\LeaveSteps\q20_9E69E797.wem</Path>
+				</File>
 				<File Id="723105582" Language="SFX">
 					<ShortName>no type bell pluck.wav</ShortName>
 					<Path>SFX\no type bell pluck_9E69E797.wem</Path>
@@ -473,6 +566,10 @@
 				<File Id="723678164" Language="SFX">
 					<ShortName>WareHouseSteps\w10.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w10_9E69E797.wem</Path>
+				</File>
+				<File Id="725145594" Language="SFX">
+					<ShortName>LeaveSteps\q19.wav</ShortName>
+					<Path>SFX\LeaveSteps\q19_9E69E797.wem</Path>
 				</File>
 				<File Id="760914568" Language="SFX">
 					<ShortName>Home\RattlingDoor02.wav</ShortName>
@@ -490,17 +587,37 @@
 					<ShortName>WareHouseSteps\w16.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w16_9E69E797.wem</Path>
 				</File>
+				<File Id="809727951" Language="SFX">
+					<ShortName>LeaveSteps\q11.wav</ShortName>
+					<Path>SFX\LeaveSteps\q11_9E69E797.wem</Path>
+				</File>
 				<File Id="814810045" Language="SFX">
 					<ShortName>GlassSmash 6051_47_2.wav</ShortName>
 					<Path>SFX\GlassSmash 6051_47_2_9E69E797.wem</Path>
+				</File>
+				<File Id="850773750" Language="SFX">
+					<ShortName>LeaveSteps\q4.wav</ShortName>
+					<Path>SFX\LeaveSteps\q4_9E69E797.wem</Path>
 				</File>
 				<File Id="857340171" Language="SFX">
 					<ShortName>GlassSmash 6051_47_1.wav</ShortName>
 					<Path>SFX\GlassSmash 6051_47_1_9E69E797.wem</Path>
 				</File>
+				<File Id="857767508" Language="SFX">
+					<ShortName>LeaveSteps\q1.wav</ShortName>
+					<Path>SFX\LeaveSteps\q1_9E69E797.wem</Path>
+				</File>
+				<File Id="864953331" Language="SFX">
+					<ShortName>LeaveSteps\q12.wav</ShortName>
+					<Path>SFX\LeaveSteps\q12_9E69E797.wem</Path>
+				</File>
 				<File Id="866602135" Language="SFX">
 					<ShortName>Home\TelevisionStatic01.wav</ShortName>
 					<Path>SFX\Home\TelevisionStatic01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="872103813" Language="SFX">
+					<ShortName>LeaveSteps\q31.wav</ShortName>
+					<Path>SFX\LeaveSteps\q31_9E69E797.wem</Path>
 				</File>
 				<File Id="874853675" Language="SFX">
 					<ShortName>Frying Oil.wav</ShortName>
@@ -510,9 +627,17 @@
 					<ShortName>Home\RefrigeratorDoorOpen.wav</ShortName>
 					<Path>SFX\Home\RefrigeratorDoorOpen_9E69E797.wem</Path>
 				</File>
+				<File Id="881892874" Language="SFX">
+					<ShortName>LeaveSteps\q6.wav</ShortName>
+					<Path>SFX\LeaveSteps\q6_9E69E797.wem</Path>
+				</File>
 				<File Id="893891016" Language="SFX">
 					<ShortName>WareHouseSteps\w2.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w2_9E69E797.wem</Path>
+				</File>
+				<File Id="895724913" Language="SFX">
+					<ShortName>LeaveSteps\q27.wav</ShortName>
+					<Path>SFX\LeaveSteps\q27_9E69E797.wem</Path>
 				</File>
 				<File Id="897405886" Language="SFX">
 					<ShortName>Home\TelevisionTurnOff.wav</ShortName>
@@ -546,6 +671,10 @@
 					<ShortName>Sound Effect Folder\Bumping into metal.wav</ShortName>
 					<Path>SFX\Sound Effect Folder\Bumping into metal_9E69E797.wem</Path>
 				</File>
+				<File Id="998364583" Language="SFX">
+					<ShortName>LeaveSteps\q28.wav</ShortName>
+					<Path>SFX\LeaveSteps\q28_9E69E797.wem</Path>
+				</File>
 				<File Id="1003295091" Language="SFX">
 					<ShortName>Slow Ship Hum.wav</ShortName>
 					<Path>SFX\Slow Ship Hum_9E69E797.wem</Path>
@@ -553,6 +682,14 @@
 				<File Id="1011064047" Language="SFX">
 					<ShortName>Sound Effect Folder\Inside Car Sound.wav</ShortName>
 					<Path>SFX\Sound Effect Folder\Inside Car Sound_9E69E797.wem</Path>
+				</File>
+				<File Id="1012103397" Language="SFX">
+					<ShortName>LeaveSteps\q15.wav</ShortName>
+					<Path>SFX\LeaveSteps\q15_9E69E797.wem</Path>
+				</File>
+				<File Id="1014039792" Language="SFX">
+					<ShortName>LeaveSteps\q26.wav</ShortName>
+					<Path>SFX\LeaveSteps\q26_9E69E797.wem</Path>
 				</File>
 				<File Id="1016385370" Language="SFX">
 					<ShortName>MX_Horror, Music_TUR02_96_01.wav</ShortName>
@@ -566,6 +703,10 @@
 					<ShortName>Home\BedJump02.wav</ShortName>
 					<Path>SFX\Home\BedJump02_9E69E797.wem</Path>
 				</File>
+				<File Id="1032035168" Language="SFX">
+					<ShortName>LeaveSteps\q24.wav</ShortName>
+					<Path>SFX\LeaveSteps\q24_9E69E797.wem</Path>
+				</File>
 				<File Id="1052286171" Language="SFX">
 					<ShortName>WareHouseSteps\w35.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w35_9E69E797.wem</Path>
@@ -577,6 +718,10 @@
 				<File Id="1059193618" Language="SFX">
 					<ShortName>WareHouseSteps\w42.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w42_9E69E797.wem</Path>
+				</File>
+				<File Id="1060995898" Language="SFX">
+					<ShortName>LeaveSteps\q32.wav</ShortName>
+					<Path>SFX\LeaveSteps\q32_9E69E797.wem</Path>
 				</File>
 				<File Id="1061710594" Language="SFX">
 					<ShortName>StrobeFlash 6068_04_1.wav</ShortName>

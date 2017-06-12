@@ -55,6 +55,7 @@ namespace AK
         static const AkUniqueID PLAY_IMPACTFLASH = 2217683882U;
         static const AkUniqueID PLAY_KEY_SOUND = 2831410887U;
         static const AkUniqueID PLAY_KEYSPARKLE = 1257583551U;
+        static const AkUniqueID PLAY_LEAFSTEPS = 1941216179U;
         static const AkUniqueID PLAY_LEAVESRUSTLING_J = 43403835U;
         static const AkUniqueID PLAY_LIGHTOFF = 428265965U;
         static const AkUniqueID PLAY_LIGHTON = 3153972001U;
