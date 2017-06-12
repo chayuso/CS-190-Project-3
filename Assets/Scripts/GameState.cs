@@ -1,14 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class GameState : MonoBehaviour {
     public GameObject Player;
     public GameObject Flashlight;
+    public Text textKeys;
     public bool flashlightOn = false;
     public bool followed = false;
     public bool lastFollowedCheck = false;
     public Follow[] Followers;
+    public int keysPickedUp = 0;
+    public bool isEnding = false;
+    public bool windOn = true;
     private static Vector3 PlayerInitPos;
     private static Quaternion PlayerInitRot;
     private float lastX;
@@ -23,6 +28,7 @@ public class GameState : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+        textKeys.text = "Keys Collected: "+keysPickedUp.ToString();
         //**************************Work In-Progress
         if ((lastX < Player.transform.position.x - 2.5 || lastX > Player.transform.position.x + 2.5))
         {
@@ -30,7 +36,7 @@ public class GameState : MonoBehaviour {
             lastZ = Player.transform.position.z;
             gameObject.GetComponent<LightOnTrigger>().Hit();
 
-        } else if ((lastZ < Player.transform.position.z - 2.5 || lastX > Player.transform.position.x + 2.5))
+        } else if ((lastZ < Player.transform.position.z - 2.5 || lastZ > Player.transform.position.z + 2.5))
         {
             lastX = Player.transform.position.x;
             lastZ = Player.transform.position.z;
@@ -60,8 +66,11 @@ public class GameState : MonoBehaviour {
                 }
             }
         }
-	}
-
+        if (isEnding)
+        {
+            GetComponent<StoppedChargingTrigger>().Hit();
+        }
+    }
     public void ResetPlayerPosition()
     {
         Player.transform.position = PlayerInitPos;
