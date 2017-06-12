@@ -54,6 +54,11 @@ public class Follow : MonoBehaviour {
         if (colname == "FPSController")
         {
             GS.ResetPlayerPosition();
+            if (!GS.windOn)
+            {
+                GS.gameObject.GetComponent<LightOffTrigger>().Hit();
+                GS.windOn = true;
+            }
         }
     }
 

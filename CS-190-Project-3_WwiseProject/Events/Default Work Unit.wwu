@@ -1274,6 +1274,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Pause_Wind" ID="{8D621842-F69D-4F1B-87E5-EB5A28BEB934}">
+					<ChildrenList>
+						<Action Name="Pause" ID="{318BBDC4-F6DE-4122-B7E2-7E7EA61A5BA5}" ShortID="1057420958" Type="Pause" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C57AEAC9-C03F-4834-A7FD-EC45637488B1}" Global="false">
+									<ObjectRef Name="Wind" ID="{7D6C4364-D4FB-4E66-B565-D32AAE7D4030}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_Wind" ID="{C51E32F4-6D66-4129-8FBF-565E897442EA}">
+					<ChildrenList>
+						<Action Name="Resume" ID="{97BAF2AF-2347-4E60-805F-26B91FB0FE7B}" ShortID="241758882" Type="Resume" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EB27FA31-F798-4483-808D-92461D32FA00}" Global="false">
+									<ObjectRef Name="Wind" ID="{7D6C4364-D4FB-4E66-B565-D32AAE7D4030}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
