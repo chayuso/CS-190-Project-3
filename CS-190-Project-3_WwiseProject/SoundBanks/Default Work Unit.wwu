@@ -103,6 +103,7 @@
 						<ObjectRef Name="Play_MetalSoundsReverb_J" ID="{BDFE381A-8C3D-4C44-9B68-C0A260A7FE24}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_RattlingDoor01" ID="{C973F78B-C820-4C59-859B-7E252F2BDE46}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_RattlingDoor01" ID="{84A67B75-5D6A-4C68-BD0D-5D1D8D1CE96C}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_LeafSteps" ID="{E12418FB-1975-4CF2-A5A8-A7FA93BEA042}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_FryingOil_J" ID="{212EC34B-4BE7-4CFD-AE31-9A7A79895510}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_TelevisionTurnOn" ID="{87BCCA43-F51B-4D21-B44E-FC1EE0B6B118}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_ConcreteSteps2_J" ID="{720E78A2-99D0-4D47-B585-E692744DB1F2}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>

@@ -1307,6 +1307,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_LeafSteps" ID="{E12418FB-1975-4CF2-A5A8-A7FA93BEA042}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B75EE65C-7BBF-4B10-AE95-9060FCED8B82}" ShortID="192611725" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C78DF8B3-306A-496E-ADD4-92B6FAC8EFF8}" Global="false">
+									<ObjectRef Name="LeafSteps" ID="{C072B185-6DA7-49D2-84E4-D487B2BDE50A}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -14,6 +14,7 @@ public class GameState : MonoBehaviour {
     public int keysPickedUp = 0;
     public bool isEnding = false;
     public bool windOn = true;
+    public bool inPark = false;
     private static Vector3 PlayerInitPos;
     private static Quaternion PlayerInitRot;
     private float lastX;
@@ -34,7 +35,11 @@ public class GameState : MonoBehaviour {
         {
             lastX = Player.transform.position.x;
             lastZ = Player.transform.position.z;
-            if (windOn)
+            if (inPark)
+            {
+                Player.gameObject.GetComponent<CustomTrigger>().Hit();
+            }
+            else if (windOn)
             {
                 Player.gameObject.GetComponent<LightOnTrigger>().Hit();
             }
@@ -46,7 +51,11 @@ public class GameState : MonoBehaviour {
         {
             lastX = Player.transform.position.x;
             lastZ = Player.transform.position.z;
-            if (windOn)
+            if (inPark)
+            {
+                Player.gameObject.GetComponent<CustomTrigger>().Hit();
+            }
+            else if (windOn)
             {
                 Player.gameObject.GetComponent<LightOnTrigger>().Hit();
             }
@@ -86,6 +95,8 @@ public class GameState : MonoBehaviour {
     }
     public void ResetPlayerPosition()
     {
+        inPark = false;
+        windOn = true;
         Player.transform.position = PlayerInitPos;
         Player.transform.rotation = PlayerInitRot;
     }
