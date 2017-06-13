@@ -30,6 +30,10 @@ public class GameState : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+        if (isEnding)
+        {
+            GetComponent<StopCustomTrigger>().Hit();
+        }
         textKeys.text = "Keys Collected: "+keysPickedUp.ToString()+"/6";
         //**************************Work In-Progress
         if ((lastX < Player.transform.position.x - 2.5 || lastX > Player.transform.position.x + 2.5))

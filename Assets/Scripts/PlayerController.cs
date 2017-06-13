@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
     private GameState GS;
     public GameObject FPC;
+    public GameObject FlashLight;
     public bool flashing = false;
     public int batteryPower = 5;
     public int lastBatteryPower = 5;
@@ -21,6 +22,7 @@ public class PlayerController : MonoBehaviour {
     // Use this for initialization
     void Start () {
         GS = GameObject.Find("GameState").GetComponent<GameState>();
+        
         StartCoroutine(TimeFlashingRate());
         StartCoroutine(TimeRechargedRate());
     }
@@ -33,6 +35,10 @@ public class PlayerController : MonoBehaviour {
             if (flashing)
             {
                 GetComponent<LightOnTrigger>().Hit();
+                if (FlashLight.GetComponent<FlashLight>().keyflash)
+                {
+                    FlashLight.GetComponent<FlashLight>().key.GetComponent<ChargingTrigger>().Hit();
+                }
             }
             else
             {
