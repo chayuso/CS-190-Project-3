@@ -5,7 +5,9 @@ using UnityEngine;
 public class FlashLight : MonoBehaviour {
     private GameState GS;
     public string colname = "";
+    public bool keyflash = false;
     private Follow Enemy = null;
+    public GameObject key = null;
     // Use this for initialization
     void Start () {
         GS = GameObject.Find("GameState").GetComponent<GameState>();
@@ -44,6 +46,18 @@ public class FlashLight : MonoBehaviour {
                     Enemy = col.gameObject.GetComponent<Follow>();
                 }
             }
+            if(col.name.Length >=14)
+            {
+                if (col.name.Substring(0, 14) == "KeyCollectable")
+                {
+                    keyflash = true;
+                    key = col.gameObject;
+                    if (GS.flashlightOn)
+                    {
+                        col.gameObject.GetComponent<ChargingTrigger>().Hit();
+                    }
+                }
+            }
         }
     }
     void OnTriggerExit(Collider col)
@@ -63,6 +77,14 @@ public class FlashLight : MonoBehaviour {
                             Enemy = null;
                         }
                     }
+                }
+            }
+            if (col.name.Length >= 14)
+            {
+                if (col.name.Substring(0, 14) == "KeyCollectable")
+                {
+                    keyflash = false;
+                    key = null;
                 }
             }
         }

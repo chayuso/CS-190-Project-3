@@ -52,10 +52,10 @@
 				<Event Id="2601501412" Name="Play_EnemyHum" ObjectPath="\Events\Default Work Unit\Play_EnemyHum" MaxAttenuation="20.000000"/>
 				<Event Id="1454224076" Name="Play_flashing" ObjectPath="\Events\Default Work Unit\Play_flashing"/>
 				<Event Id="1880094678" Name="Play_Followed" ObjectPath="\Events\Default Work Unit\Play_Followed" MaxAttenuation="20.000000"/>
-				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps"/>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" MaxAttenuation="20.000000"/>
 				<Event Id="3673804512" Name="Play_FryingOil_J" ObjectPath="\Events\Default Work Unit\Play_FryingOil_J"/>
-				<Event Id="131740649" Name="Play_GlassReverb_J" ObjectPath="\Events\Default Work Unit\Play_GlassReverb_J"/>
-				<Event Id="2024300869" Name="Play_GlassSmash_J" ObjectPath="\Events\Default Work Unit\Play_GlassSmash_J"/>
+				<Event Id="131740649" Name="Play_GlassReverb_J" ObjectPath="\Events\Default Work Unit\Play_GlassReverb_J" MaxAttenuation="20.000000"/>
+				<Event Id="2024300869" Name="Play_GlassSmash_J" ObjectPath="\Events\Default Work Unit\Play_GlassSmash_J" MaxAttenuation="20.000000"/>
 				<Event Id="3765695918" Name="Play_Heartbeat" ObjectPath="\Events\Default Work Unit\Play_Heartbeat"/>
 				<Event Id="1676504108" Name="Play_HitObject" ObjectPath="\Events\Default Work Unit\Play_HitObject" MaxAttenuation="20.000000"/>
 				<Event Id="3473712307" Name="Play_HitWood01" ObjectPath="\Events\Default Work Unit\Play_HitWood01"/>
@@ -70,7 +70,7 @@
 				<Event Id="3153972001" Name="Play_LightOn" ObjectPath="\Events\Default Work Unit\Play_LightOn"/>
 				<Event Id="3726416610" Name="Play_MachineHum_J" ObjectPath="\Events\Default Work Unit\Play_MachineHum_J" MaxAttenuation="20.000000"/>
 				<Event Id="3780762382" Name="Play_MetalHit" ObjectPath="\Events\Default Work Unit\Play_MetalHit" MaxAttenuation="20.000000"/>
-				<Event Id="3977687060" Name="Play_MetalSounds2_J" ObjectPath="\Events\Default Work Unit\Play_MetalSounds2_J"/>
+				<Event Id="3977687060" Name="Play_MetalSounds2_J" ObjectPath="\Events\Default Work Unit\Play_MetalSounds2_J" MaxAttenuation="20.000000"/>
 				<Event Id="1221971012" Name="Play_MetalSoundsReverb_J" ObjectPath="\Events\Default Work Unit\Play_MetalSoundsReverb_J" MaxAttenuation="20.000000"/>
 				<Event Id="520985213" Name="Play_Motor" ObjectPath="\Events\Default Work Unit\Play_Motor" MaxAttenuation="20.000000"/>
 				<Event Id="820030189" Name="Play_OminousNonDiagetic" ObjectPath="\Events\Default Work Unit\Play_OminousNonDiagetic"/>
@@ -86,7 +86,7 @@
 				<Event Id="675175233" Name="Play_sparkle1" ObjectPath="\Events\Default Work Unit\Play_sparkle1"/>
 				<Event Id="675175234" Name="Play_Sparkle2" ObjectPath="\Events\Default Work Unit\Play_Sparkle2"/>
 				<Event Id="2174132159" Name="Play_Sparkling4" ObjectPath="\Events\Default Work Unit\Play_Sparkling4" MaxAttenuation="20.000000"/>
-				<Event Id="944250951" Name="Play_StepReverb_J" ObjectPath="\Events\Default Work Unit\Play_StepReverb_J"/>
+				<Event Id="944250951" Name="Play_StepReverb_J" ObjectPath="\Events\Default Work Unit\Play_StepReverb_J" MaxAttenuation="20.000000"/>
 				<Event Id="3108789906" Name="Play_StreetlightHum_J" ObjectPath="\Events\Default Work Unit\Play_StreetlightHum_J"/>
 				<Event Id="1426838595" Name="Play_Stunned" ObjectPath="\Events\Default Work Unit\Play_Stunned"/>
 				<Event Id="3900134525" Name="Play_TelevisionStatic01" ObjectPath="\Events\Default Work Unit\Play_TelevisionStatic01" MaxAttenuation="7.000000"/>
@@ -100,7 +100,7 @@
 				<Event Id="2753449932" Name="Play_WareHouseSteps" ObjectPath="\Events\Default Work Unit\Play_WareHouseSteps" MaxAttenuation="20.000000"/>
 				<Event Id="2578124108" Name="Play_WaterDrip_6039_82" ObjectPath="\Events\Default Work Unit\Play_WaterDrip_6039_82" MaxAttenuation="30.000000"/>
 				<Event Id="1020223172" Name="Play_Wind" ObjectPath="\Events\Default Work Unit\Play_Wind"/>
-				<Event Id="511164180" Name="Play_WoodHitting" ObjectPath="\Events\Default Work Unit\Play_WoodHitting"/>
+				<Event Id="511164180" Name="Play_WoodHitting" ObjectPath="\Events\Default Work Unit\Play_WoodHitting" MaxAttenuation="20.000000"/>
 				<Event Id="1342489257" Name="Resume_Wind" ObjectPath="\Events\Default Work Unit\Resume_Wind" MaxAttenuation="0.000000"/>
 				<Event Id="2023652" Name="Stop_AlienChirp_J" ObjectPath="\Events\Default Work Unit\Stop_AlienChirp_J"/>
 				<Event Id="1605124826" Name="Stop_AlienHum_J" ObjectPath="\Events\Default Work Unit\Stop_AlienHum_J" MaxAttenuation="0.000000"/>
