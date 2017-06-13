@@ -1318,6 +1318,72 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SandSteps" ID="{D0710B9F-D435-4F9C-B193-641D7167C925}">
+					<ChildrenList>
+						<Action Name="Play" ID="{361A219D-ED35-4EF9-AE0C-C2D49CB1930D}" ShortID="193209772" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AEBF4D40-D18D-4AEF-B771-0CA3D12B8696}" Global="false">
+									<ObjectRef Name="SandSteps" ID="{73D32909-D957-46C8-926D-F4F8F9998A49}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WallHit" ID="{B4F82EC4-EDF8-49B0-9534-FB33BE160AC3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{062F5314-34C6-473F-97F1-93F3D22AA0AF}" ShortID="921646298" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A8526D97-5D57-4A61-B48F-2E07503B004C}" Global="false">
+									<ObjectRef Name="WallHit" ID="{8554194E-93CE-469B-99CE-FC2007376CCA}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Warehouse_Ambience_Horror_6084_44" ID="{D178507A-8907-404A-95E2-BA9CF7A02070}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B98F95DA-D2F4-4B33-8B9C-A62A1B4F4E81}" ShortID="659900372" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{14109F8C-2C80-4386-8CF8-F7411876AEB8}" Global="false">
+									<ObjectRef Name="Warehouse Ambience Horror 6084_44" ID="{A4A0877D-1E10-4C68-9062-92BA4C5378DF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Warehouse_Ambience_Horror_6084_44" ID="{DE61F8FC-7856-4D51-8F31-D6C0042C6B43}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{D79D7E7D-5CAB-4E10-A5CF-4C68352395A7}" ShortID="255009752" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3D48DB52-3137-40F7-97EA-058D310B272E}" Global="false">
+									<ObjectRef Name="Warehouse Ambience Horror 6084_44" ID="{A4A0877D-1E10-4C68-9062-92BA4C5378DF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BoilerHit" ID="{B065FD53-EB13-4C2C-80B9-9185614F7392}">
+					<ChildrenList>
+						<Action Name="Play" ID="{00564D81-9EC0-48C4-B4D6-5B40FBA1998F}" ShortID="875599261" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0395F55B-87BD-4F7D-8307-063E0E10C3AA}" Global="false">
+									<ObjectRef Name="BoilerHit" ID="{B7037094-A4C7-4477-9D36-E8B7EB56E6A7}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WaterDrip_6039_82" ID="{346EBA4B-70EF-459B-B96B-17641F5D417C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C15F344C-8A63-4701-B50E-68115170CA35}" ShortID="515103605" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{44575685-766B-4899-9299-0348387EAA21}" Global="false">
+									<ObjectRef Name="WaterDrip 6039_82" ID="{C9DDBAD5-E854-4742-B25E-AF5005E4D5CF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

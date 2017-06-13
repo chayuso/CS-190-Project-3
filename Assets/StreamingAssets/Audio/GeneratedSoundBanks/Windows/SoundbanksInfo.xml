@@ -28,6 +28,7 @@
 				<Event Id="2532343566" Name="Play_BedJump01" ObjectPath="\Events\Default Work Unit\Play_BedJump01"/>
 				<Event Id="2532343565" Name="Play_BedJump02" ObjectPath="\Events\Default Work Unit\Play_BedJump02"/>
 				<Event Id="2292063844" Name="Play_BigThudReverb_J" ObjectPath="\Events\Default Work Unit\Play_BigThudReverb_J"/>
+				<Event Id="3685534828" Name="Play_BoilerHit" ObjectPath="\Events\Default Work Unit\Play_BoilerHit"/>
 				<Event Id="643514549" Name="Play_bumpigGeneric" ObjectPath="\Events\Default Work Unit\Play_bumpigGeneric" MaxAttenuation="10.000000"/>
 				<Event Id="3875074487" Name="Play_Bumping_into_metal" ObjectPath="\Events\Default Work Unit\Play_Bumping_into_metal" MaxAttenuation="10.000000"/>
 				<Event Id="3664163537" Name="Play_Bumping_into_more_metal" ObjectPath="\Events\Default Work Unit\Play_Bumping_into_more_metal" MaxAttenuation="10.000000"/>
@@ -79,6 +80,7 @@
 				<Event Id="1006243799" Name="Play_RattlingDoor02" ObjectPath="\Events\Default Work Unit\Play_RattlingDoor02"/>
 				<Event Id="88869668" Name="Play_RefrigeratorDoorClose" ObjectPath="\Events\Default Work Unit\Play_RefrigeratorDoorClose"/>
 				<Event Id="237322144" Name="Play_RefrigeratorDoorOpen" ObjectPath="\Events\Default Work Unit\Play_RefrigeratorDoorOpen"/>
+				<Event Id="873042937" Name="Play_SandSteps" ObjectPath="\Events\Default Work Unit\Play_SandSteps" MaxAttenuation="20.000000"/>
 				<Event Id="4112791168" Name="Play_SlowShipHum_J" ObjectPath="\Events\Default Work Unit\Play_SlowShipHum_J"/>
 				<Event Id="4199659965" Name="Play_SodaFizz_J" ObjectPath="\Events\Default Work Unit\Play_SodaFizz_J"/>
 				<Event Id="675175233" Name="Play_sparkle1" ObjectPath="\Events\Default Work Unit\Play_sparkle1"/>
@@ -93,7 +95,10 @@
 				<Event Id="2671581025" Name="Play_TVStatic_J" ObjectPath="\Events\Default Work Unit\Play_TVStatic_J"/>
 				<Event Id="1173913055" Name="Play_UseKey_J" ObjectPath="\Events\Default Work Unit\Play_UseKey_J" MaxAttenuation="10.000000"/>
 				<Event Id="107445758" Name="Play_WalkthroughWater_J" ObjectPath="\Events\Default Work Unit\Play_WalkthroughWater_J"/>
+				<Event Id="543997165" Name="Play_WallHit" ObjectPath="\Events\Default Work Unit\Play_WallHit" MaxAttenuation="20.000000"/>
+				<Event Id="433394365" Name="Play_Warehouse_Ambience_Horror_6084_44" ObjectPath="\Events\Default Work Unit\Play_Warehouse_Ambience_Horror_6084_44"/>
 				<Event Id="2753449932" Name="Play_WareHouseSteps" ObjectPath="\Events\Default Work Unit\Play_WareHouseSteps" MaxAttenuation="20.000000"/>
+				<Event Id="2578124108" Name="Play_WaterDrip_6039_82" ObjectPath="\Events\Default Work Unit\Play_WaterDrip_6039_82" MaxAttenuation="30.000000"/>
 				<Event Id="1020223172" Name="Play_Wind" ObjectPath="\Events\Default Work Unit\Play_Wind"/>
 				<Event Id="511164180" Name="Play_WoodHitting" ObjectPath="\Events\Default Work Unit\Play_WoodHitting"/>
 				<Event Id="1342489257" Name="Resume_Wind" ObjectPath="\Events\Default Work Unit\Resume_Wind" MaxAttenuation="0.000000"/>
@@ -140,12 +145,17 @@
 				<Event Id="3828176734" Name="Stop_TelevisionTurnOn" ObjectPath="\Events\Default Work Unit\Stop_TelevisionTurnOn" MaxAttenuation="0.000000"/>
 				<Event Id="3566560555" Name="Stop_TVStatic_J" ObjectPath="\Events\Default Work Unit\Stop_TVStatic_J" MaxAttenuation="0.000000"/>
 				<Event Id="134794336" Name="Stop_WalkthroughWater_J" ObjectPath="\Events\Default Work Unit\Stop_WalkthroughWater_J" MaxAttenuation="0.000000"/>
+				<Event Id="2229566427" Name="Stop_Warehouse_Ambience_Horror_6084_44" ObjectPath="\Events\Default Work Unit\Stop_Warehouse_Ambience_Horror_6084_44" MaxAttenuation="0.000000"/>
 				<Event Id="3173136834" Name="Stop_Wind" ObjectPath="\Events\Default Work Unit\Stop_Wind" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="489690" Language="SFX">
 					<ShortName>WareHouseSteps\w30.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w30_9E69E797.wem</Path>
+				</File>
+				<File Id="2533696" Language="SFX">
+					<ShortName>Footsteps\sand footstep 5.wav</ShortName>
+					<Path>SFX\Footsteps\sand footstep 5_9E69E797.wem</Path>
 				</File>
 				<File Id="3020158" Language="SFX">
 					<ShortName>heartbeat.wav</ShortName>
@@ -186,6 +196,10 @@
 				<File Id="63695315" Language="SFX">
 					<ShortName>LeaveSteps\q10.wav</ShortName>
 					<Path>SFX\LeaveSteps\q10_9E69E797.wem</Path>
+				</File>
+				<File Id="64695757" Language="SFX">
+					<ShortName>Buildings\building_impact_2.wav</ShortName>
+					<Path>SFX\Buildings\building_impact_2_9E69E797.wem</Path>
 				</File>
 				<File Id="67596541" Language="SFX">
 					<ShortName>PulsingRoomAmbCycl MM040201.wav</ShortName>
@@ -275,6 +289,10 @@
 					<ShortName>WareHouseSteps\w22.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w22_9E69E797.wem</Path>
 				</File>
+				<File Id="235486856" Language="SFX">
+					<ShortName>Warehouse\Warehouse Ambience Horror 6084_44.wav</ShortName>
+					<Path>SFX\Warehouse\Warehouse Ambience Horror 6084_44_9E69E797.wem</Path>
+				</File>
 				<File Id="240437779" Language="SFX">
 					<ShortName>LeaveSteps\q5.wav</ShortName>
 					<Path>SFX\LeaveSteps\q5_9E69E797.wem</Path>
@@ -359,6 +377,10 @@
 					<ShortName>Sound Effect Folder\Shining Key.wav</ShortName>
 					<Path>SFX\Sound Effect Folder\Shining Key_9E69E797.wem</Path>
 				</File>
+				<File Id="320741549" Language="SFX">
+					<ShortName>Chair\HitWood 6060_84_1.wav</ShortName>
+					<Path>SFX\Chair\HitWood 6060_84_1_9E69E797.wem</Path>
+				</File>
 				<File Id="326222013" Language="SFX">
 					<ShortName>WareHouseSteps\w11.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w11_9E69E797.wem</Path>
@@ -418,6 +440,10 @@
 				<File Id="469391142" Language="SFX">
 					<ShortName>WareHouseSteps\w4.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w4_9E69E797.wem</Path>
+				</File>
+				<File Id="472373452" Language="SFX">
+					<ShortName>Chair\HitWood 6060_84_2.wav</ShortName>
+					<Path>SFX\Chair\HitWood 6060_84_2_9E69E797.wem</Path>
 				</File>
 				<File Id="474637246" Language="SFX">
 					<ShortName>LeaveSteps\q23.wav</ShortName>
@@ -491,6 +517,10 @@
 					<ShortName>Sound Effect Folder\Streetlight Hum.wav</ShortName>
 					<Path>SFX\Sound Effect Folder\Streetlight Hum_9E69E797.wem</Path>
 				</File>
+				<File Id="569574668" Language="SFX">
+					<ShortName>Warehouse\Boiler hit 2 IMPT_Metal, Hit_TCF06_68_01 (2).wav</ShortName>
+					<Path>SFX\Warehouse\Boiler hit 2 IMPT_Metal, Hit_TCF06_68_01 (2)_9E69E797.wem</Path>
+				</File>
 				<File Id="574535115" Language="SFX">
 					<ShortName>FootstepsDeck 6016_78_3.wav</ShortName>
 					<Path>SFX\FootstepsDeck 6016_78_3_9E69E797.wem</Path>
@@ -507,6 +537,14 @@
 					<ShortName>WareHouseSteps\w26.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w26_9E69E797.wem</Path>
 				</File>
+				<File Id="601126528" Language="SFX">
+					<ShortName>Footsteps\sand footstep 4.wav</ShortName>
+					<Path>SFX\Footsteps\sand footstep 4_9E69E797.wem</Path>
+				</File>
+				<File Id="605123038" Language="SFX">
+					<ShortName>Footsteps\sand footstep 3.wav</ShortName>
+					<Path>SFX\Footsteps\sand footstep 3_9E69E797.wem</Path>
+				</File>
 				<File Id="607919311" Language="SFX">
 					<ShortName>ME_-_calm_02.wav</ShortName>
 					<Path>SFX\ME_-_calm_02_4B8CC0C5.wem</Path>
@@ -522,6 +560,10 @@
 				<File Id="639452491" Language="SFX">
 					<ShortName>Tuning Fork.wav</ShortName>
 					<Path>SFX\Tuning Fork_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="644043907" Language="SFX">
+					<ShortName>Footsteps\sand footstep 2.wav</ShortName>
+					<Path>SFX\Footsteps\sand footstep 2_9E69E797.wem</Path>
 				</File>
 				<File Id="656500302" Language="SFX">
 					<ShortName>FootstepsDeck 6016_78_4.wav</ShortName>
@@ -591,9 +633,17 @@
 					<ShortName>LeaveSteps\q11.wav</ShortName>
 					<Path>SFX\LeaveSteps\q11_9E69E797.wem</Path>
 				</File>
+				<File Id="814607913" Language="SFX">
+					<ShortName>Warehouse\Boiler hit 1 IMPT_Metal, Hit_TCF06_68_01 (1).wav</ShortName>
+					<Path>SFX\Warehouse\Boiler hit 1 IMPT_Metal, Hit_TCF06_68_01 (1)_9E69E797.wem</Path>
+				</File>
 				<File Id="814810045" Language="SFX">
 					<ShortName>GlassSmash 6051_47_2.wav</ShortName>
 					<Path>SFX\GlassSmash 6051_47_2_9E69E797.wem</Path>
+				</File>
+				<File Id="850647235" Language="SFX">
+					<ShortName>Buildings\building_impact_1.wav</ShortName>
+					<Path>SFX\Buildings\building_impact_1_9E69E797.wem</Path>
 				</File>
 				<File Id="850773750" Language="SFX">
 					<ShortName>LeaveSteps\q4.wav</ShortName>
@@ -606,6 +656,10 @@
 				<File Id="857767508" Language="SFX">
 					<ShortName>LeaveSteps\q1.wav</ShortName>
 					<Path>SFX\LeaveSteps\q1_9E69E797.wem</Path>
+				</File>
+				<File Id="860452473" Language="SFX">
+					<ShortName>WaterDrip 6039_82.wav</ShortName>
+					<Path>SFX\WaterDrip 6039_82_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="864953331" Language="SFX">
 					<ShortName>LeaveSteps\q12.wav</ShortName>
@@ -630,6 +684,10 @@
 				<File Id="881892874" Language="SFX">
 					<ShortName>LeaveSteps\q6.wav</ShortName>
 					<Path>SFX\LeaveSteps\q6_9E69E797.wem</Path>
+				</File>
+				<File Id="883552713" Language="SFX">
+					<ShortName>Buildings\building_impact_3.wav</ShortName>
+					<Path>SFX\Buildings\building_impact_3_9E69E797.wem</Path>
 				</File>
 				<File Id="893891016" Language="SFX">
 					<ShortName>WareHouseSteps\w2.wav</ShortName>
@@ -707,6 +765,10 @@
 					<ShortName>LeaveSteps\q24.wav</ShortName>
 					<Path>SFX\LeaveSteps\q24_9E69E797.wem</Path>
 				</File>
+				<File Id="1046908528" Language="SFX">
+					<ShortName>Footsteps\sand footstep 1.wav</ShortName>
+					<Path>SFX\Footsteps\sand footstep 1_9E69E797.wem</Path>
+				</File>
 				<File Id="1052286171" Language="SFX">
 					<ShortName>WareHouseSteps\w35.wav</ShortName>
 					<Path>SFX\WareHouseSteps\w35_9E69E797.wem</Path>
@@ -730,6 +792,10 @@
 				<File Id="1061881025" Language="SFX">
 					<ShortName>FootstepsConcrete 6016_04_1.wav</ShortName>
 					<Path>SFX\FootstepsConcrete 6016_04_1_9E69E797.wem</Path>
+				</File>
+				<File Id="1063483587" Language="SFX">
+					<ShortName>Chair\HitWood 6060_84_3.wav</ShortName>
+					<Path>SFX\Chair\HitWood 6060_84_3_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

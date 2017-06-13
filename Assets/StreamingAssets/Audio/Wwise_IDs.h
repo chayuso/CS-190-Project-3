@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID PLAY_BEDJUMP01 = 2532343566U;
         static const AkUniqueID PLAY_BEDJUMP02 = 2532343565U;
         static const AkUniqueID PLAY_BIGTHUDREVERB_J = 2292063844U;
+        static const AkUniqueID PLAY_BOILERHIT = 3685534828U;
         static const AkUniqueID PLAY_BUMPIGGENERIC = 643514549U;
         static const AkUniqueID PLAY_BUMPING_INTO_METAL = 3875074487U;
         static const AkUniqueID PLAY_BUMPING_INTO_MORE_METAL = 3664163537U;
@@ -71,6 +72,7 @@ namespace AK
         static const AkUniqueID PLAY_RATTLINGDOOR02 = 1006243799U;
         static const AkUniqueID PLAY_REFRIGERATORDOORCLOSE = 88869668U;
         static const AkUniqueID PLAY_REFRIGERATORDOOROPEN = 237322144U;
+        static const AkUniqueID PLAY_SANDSTEPS = 873042937U;
         static const AkUniqueID PLAY_SLOWSHIPHUM_J = 4112791168U;
         static const AkUniqueID PLAY_SODAFIZZ_J = 4199659965U;
         static const AkUniqueID PLAY_SPARKLE1 = 675175233U;
@@ -85,7 +87,10 @@ namespace AK
         static const AkUniqueID PLAY_TVSTATIC_J = 2671581025U;
         static const AkUniqueID PLAY_USEKEY_J = 1173913055U;
         static const AkUniqueID PLAY_WALKTHROUGHWATER_J = 107445758U;
+        static const AkUniqueID PLAY_WALLHIT = 543997165U;
+        static const AkUniqueID PLAY_WAREHOUSE_AMBIENCE_HORROR_6084_44 = 433394365U;
         static const AkUniqueID PLAY_WAREHOUSESTEPS = 2753449932U;
+        static const AkUniqueID PLAY_WATERDRIP_6039_82 = 2578124108U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
         static const AkUniqueID PLAY_WOODHITTING = 511164180U;
         static const AkUniqueID RESUME_WIND = 1342489257U;
@@ -132,6 +137,7 @@ namespace AK
         static const AkUniqueID STOP_TELEVISIONTURNON = 3828176734U;
         static const AkUniqueID STOP_TVSTATIC_J = 3566560555U;
         static const AkUniqueID STOP_WALKTHROUGHWATER_J = 134794336U;
+        static const AkUniqueID STOP_WAREHOUSE_AMBIENCE_HORROR_6084_44 = 2229566427U;
         static const AkUniqueID STOP_WIND = 3173136834U;
     } // namespace EVENTS
 

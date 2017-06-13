@@ -15,6 +15,7 @@ public class GameState : MonoBehaviour {
     public bool isEnding = false;
     public bool windOn = true;
     public bool inPark = false;
+    public bool inJunkyard = false;
     private static Vector3 PlayerInitPos;
     private static Quaternion PlayerInitRot;
     private float lastX;
@@ -35,7 +36,11 @@ public class GameState : MonoBehaviour {
         {
             lastX = Player.transform.position.x;
             lastZ = Player.transform.position.z;
-            if (inPark)
+            if (inJunkyard)
+            {
+                Player.gameObject.GetComponent<ChargingTrigger>().Hit();
+            }
+            else if (inPark)
             {
                 Player.gameObject.GetComponent<CustomTrigger>().Hit();
             }
@@ -51,7 +56,11 @@ public class GameState : MonoBehaviour {
         {
             lastX = Player.transform.position.x;
             lastZ = Player.transform.position.z;
-            if (inPark)
+            if (inJunkyard)
+            {
+                Player.gameObject.GetComponent<ChargingTrigger>().Hit();
+            }
+            else if (inPark)
             {
                 Player.gameObject.GetComponent<CustomTrigger>().Hit();
             }
@@ -97,6 +106,7 @@ public class GameState : MonoBehaviour {
     {
         inPark = false;
         windOn = true;
+        inJunkyard = false;
         Player.transform.position = PlayerInitPos;
         Player.transform.rotation = PlayerInitRot;
     }
