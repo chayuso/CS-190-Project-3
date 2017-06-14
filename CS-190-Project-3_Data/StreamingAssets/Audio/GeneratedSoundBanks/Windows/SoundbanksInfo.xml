@@ -96,7 +96,7 @@
 				<Event Id="1173913055" Name="Play_UseKey_J" ObjectPath="\Events\Default Work Unit\Play_UseKey_J" MaxAttenuation="10.000000"/>
 				<Event Id="107445758" Name="Play_WalkthroughWater_J" ObjectPath="\Events\Default Work Unit\Play_WalkthroughWater_J"/>
 				<Event Id="543997165" Name="Play_WallHit" ObjectPath="\Events\Default Work Unit\Play_WallHit" MaxAttenuation="20.000000"/>
-				<Event Id="433394365" Name="Play_Warehouse_Ambience_Horror_6084_44" ObjectPath="\Events\Default Work Unit\Play_Warehouse_Ambience_Horror_6084_44"/>
+				<Event Id="411576232" Name="Play_Warehouse_Noise" ObjectPath="\Events\Default Work Unit\Play_Warehouse_Noise" MaxAttenuation="30.000000"/>
 				<Event Id="2753449932" Name="Play_WareHouseSteps" ObjectPath="\Events\Default Work Unit\Play_WareHouseSteps" MaxAttenuation="20.000000"/>
 				<Event Id="2578124108" Name="Play_WaterDrip_6039_82" ObjectPath="\Events\Default Work Unit\Play_WaterDrip_6039_82" MaxAttenuation="30.000000"/>
 				<Event Id="1020223172" Name="Play_Wind" ObjectPath="\Events\Default Work Unit\Play_Wind"/>
@@ -291,7 +291,7 @@
 				</File>
 				<File Id="235486856" Language="SFX">
 					<ShortName>Warehouse\Warehouse Ambience Horror 6084_44.wav</ShortName>
-					<Path>SFX\Warehouse\Warehouse Ambience Horror 6084_44_9E69E797.wem</Path>
+					<Path>SFX\Warehouse\Warehouse Ambience Horror 6084_44_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="240437779" Language="SFX">
 					<ShortName>LeaveSteps\q5.wav</ShortName>

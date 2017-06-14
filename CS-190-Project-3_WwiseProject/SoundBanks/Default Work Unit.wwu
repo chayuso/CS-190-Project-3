@@ -7,7 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Stop_MachineHum_J" ID="{D7E6E4FC-5CE2-401A-A4B9-A0E32630CA2F}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_AlienChirp_J" ID="{D4EB5AA0-8748-4041-85EA-B09C1B8CB6C1}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Warehouse_Ambience_Horror_6084_44" ID="{D178507A-8907-404A-95E2-BA9CF7A02070}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Warehouse_Noise" ID="{D178507A-8907-404A-95E2-BA9CF7A02070}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_SodaFizz_J" ID="{7B1FE504-EAEB-404B-892A-5C119AD818CC}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SodaFizz_J" ID="{FAAF4AE1-08AF-4089-A605-9EAAECEB2034}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Followed" ID="{15C3343B-95A6-40A4-A99A-7EBEDF651279}" WorkUnitID="{ED941E5B-A867-43F0-B815-810811E37529}" Filter="7" Origin="Manual"/>

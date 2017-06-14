@@ -10,8 +10,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	237322144	Play_RefrigeratorDoorOpen			\Default Work Unit\Play_RefrigeratorDoorOpen	
 	241029034	Pause_Wind			\Default Work Unit\Pause_Wind	
 	302992406	Play_TelevisionTurnOff			\Default Work Unit\Play_TelevisionTurnOff	
+	411576232	Play_Warehouse_Noise			\Default Work Unit\Play_Warehouse_Noise	
 	428265965	Play_LightOff			\Default Work Unit\Play_LightOff	
-	433394365	Play_Warehouse_Ambience_Horror_6084_44			\Default Work Unit\Play_Warehouse_Ambience_Horror_6084_44	
 	472866126	Play_BumpIntoMetal_J			\Default Work Unit\Play_BumpIntoMetal_J	
 	511164180	Play_WoodHitting			\Default Work Unit\Play_WoodHitting	
 	520985213	Play_Motor			\Default Work Unit\Play_Motor	
@@ -167,7 +167,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	222015285	TV Static	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\TV Static_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\TV Static		1732672
 	223497611	w40	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\WareHouseSteps\w40_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WareHouseSteps\WareHouseSteps\w40		124680
 	223582678	w22	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\WareHouseSteps\w22_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WareHouseSteps\WareHouseSteps\w22		119488
-	235486856	Warehouse Ambience Horror 6084_44	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Warehouse\Warehouse Ambience Horror 6084_44_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Warehouse\Warehouse Ambience Horror 6084_44		10704960
+	235486856	Warehouse Ambience Horror 6084_44	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\Warehouse\Warehouse Ambience Horror 6084_44_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Warehouse\Warehouse Ambience Horror 6084_44		10704960
 	240437779	q5	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\LeaveSteps\q5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeaveSteps\LeafSteps\q5		119708
 	240703807	219476__jarredgibb__button-05	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\219476__jarredgibb__button-05_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\219476__jarredgibb__button-05		133980
 	250323881	q35	C:\Users\Christopher\Documents\GitHub\CS-190-Project-3\CS-190-Project-3_WwiseProject\.cache\Windows\SFX\LeaveSteps\q35_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeaveSteps\LeafSteps\q35		104776

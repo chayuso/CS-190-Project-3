@@ -1340,7 +1340,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Warehouse_Ambience_Horror_6084_44" ID="{D178507A-8907-404A-95E2-BA9CF7A02070}">
+				<Event Name="Play_Warehouse_Noise" ID="{D178507A-8907-404A-95E2-BA9CF7A02070}">
 					<ChildrenList>
 						<Action Name="Play" ID="{B98F95DA-D2F4-4B33-8B9C-A62A1B4F4E81}" ShortID="659900372" Type="Play" Scope="One" Global="false">
 							<ElementList>
@@ -1379,6 +1379,17 @@
 							<ElementList>
 								<Element ID="{44575685-766B-4899-9299-0348387EAA21}" Global="false">
 									<ObjectRef Name="WaterDrip 6039_82" ID="{C9DDBAD5-E854-4742-B25E-AF5005E4D5CF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Warehouse_Ambience_Horror_6084_01" ID="{F8EC03B7-3095-416D-BCFE-BA1893DE7648}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FC0529D4-FEFF-4C15-B6FA-73B91472C5A7}" ShortID="620338887" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1BD697B9-1494-4518-8898-6AB5B56368E1}" Global="false">
+									<ObjectRef Name="Warehouse Ambience Horror 6084_44" ID="{A4A0877D-1E10-4C68-9062-92BA4C5378DF}" WorkUnitID="{3B27BF04-6D00-4DB4-83E1-98654B529A4D}"/>
 								</Element>
 							</ElementList>
 						</Action>
