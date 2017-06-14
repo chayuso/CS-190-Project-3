@@ -88,7 +88,7 @@ namespace AK
         static const AkUniqueID PLAY_USEKEY_J = 1173913055U;
         static const AkUniqueID PLAY_WALKTHROUGHWATER_J = 107445758U;
         static const AkUniqueID PLAY_WALLHIT = 543997165U;
-        static const AkUniqueID PLAY_WAREHOUSE_AMBIENCE_HORROR_6084_44 = 433394365U;
+        static const AkUniqueID PLAY_WAREHOUSE_NOISE = 411576232U;
         static const AkUniqueID PLAY_WAREHOUSESTEPS = 2753449932U;
         static const AkUniqueID PLAY_WATERDRIP_6039_82 = 2578124108U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
