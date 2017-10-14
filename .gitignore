@@ -36,3 +36,22 @@ sysinfo.txt
 # WWise
 *.validationcache
 *.wsettings
+*.svn
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.so
+*.o
+*.tmp
+*.json
+*.log
+*.pid
+*.backup
+wise/docs/_*
+wise/static/img/icons/*.png
+wise/static/admin
+wise/media/*
+wise/pure/pure.c
+wise/cache/*_cache
+wise/wise.db
