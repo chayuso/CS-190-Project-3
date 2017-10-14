@@ -55,3 +55,4 @@ wise/media/*
 wise/pure/pure.c
 wise/cache/*_cache
 wise/wise.db
+Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/Main.bnk
